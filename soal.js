@@ -80,31 +80,80 @@ const examData = {
     difficulty: "Medium" 
 },
             { 
-                text: "Listrik banyak digunakan orang untuk mendapatkan pencahayaan di dalam ruangan. Selain itu, listrik juga menjadi sarana untuk menggerakkan mesin di pabrik. Namun, penggunaan listrik yang berlebihan dapat menyebabkan dampak negatif bagi diri sendiri dan lingkungan. Penggunaan listrik yang berlebihan dapat membebani anggaran rumah tangga dan meningkatkan polusi udara. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?", 
-                options: ["Polusi udara meningkat karena penggunaan listrik yang berlebihan.", "Anggaran rumah tangga meningkat karena penggunaan listrik.", "Listrik dapat menyebabkan orang dapat mengatur suhu ruangan.", "Pengguna peralatan elektronik mungkin tidak menggunakan listrik.", "Penggunaan listrik berlebihan tidak menyebabkan polusi udara dan air."], 
-                answer: null, doubt: false, correctAnswer: 4, score: 20, difficulty: "Easy" 
-            },
-            { 
-                text: "Mengonsumsi sayuran mentah banyak dilakukan karena rasanya yang segar dan variasinya berbagai macam. Salah satu jenis sayuran mentah yang banyak dikonsumsi adalah sayuran jenis X yang warnanya yang cerah dan banyak mengandung air. Berdasarkan paparan tersebut, manakah simpulan yang PALING TEPAT?", 
-                options: ["Semua sayuran yang masih mentah banyak mengandung air.", "Sayuran mentah selain jenis X tidak memiliki warna yang cerah.", "Hanya sayuran mentah jenis X yang variasinya berbagai macam.", "Beberapa orang makan sayuran mentah jenis X karena menggugah selera.", "Sayuran mentah yang rasanya segar pasti warnanya cerah."], 
-                answer: null, doubt: false, correctAnswer: 3, score: 20, difficulty: "Easy" 
-            },
-            { 
-                text: "Saat ini hanya ada beberapa penjual asongan di stasiun kota karena stasiun kota sepi penumpang. Biasanya, jika jam kantor selesai, stasiun kota ramai dipenuhi penumpang. Berdasarkan pernyataan di atas, manakah simpulan yang BENAR?", 
-                options: ["Saat ini waktunya jam kantor selesai.", "Saat ini stasiun kota ramai oleh penumpang.", "Saat ini bukan waktunya jam kantor selesai.", "Saat ini stasiun kota ramai dengan pedagang asongan.", "Saat ini banyak penumpang kereta di stasiun kota."], 
-                answer: null, doubt: false, correctAnswer: 2, score: 20, difficulty: "Easy" 
-            },
-            { 
-                text: "Siswa X menjuarai olimpiade matematika berkat dukungan keluarga dan dorongan dalam dirinya. ... (teks disingkat). Jika siswa X merasa optimis saat mengikuti kejuaraan, manakah kesimpulan di bawah ini yang PALING MUNGKIN BENAR?", 
-                options: ["Keluarganya memberikan dukungan penuh kepada siswa tersebut.", "Siswa tersebut secara konsisten mengurangi waktu bermainnya.", "Siswa X memiliki dorongan yang sangat kuat untuk menjadi juara.", "Siswa tersebut mengikuti bimbingan belajar dengan konsentrasi yang tinggi.", "Siswa tersebut sering menjuarai perlombaan olimpiade matematika."], 
-                answer: null, doubt: false, correctAnswer: 0, score: 20, difficulty: "Easy" 
-            },
-            { 
-                text: "Taman bermain yang selalu ramai dihibahkan kepada warga setempat... (teks disingkat). Setelah dikelola selama satu tahun, jumlah pengunjung menurun dan banyak penjual makanan ringan yang tutup. Manakah pernyataan yang PALING MUNGKIN menjelaskan perbedaan kedua kondisi tersebut?", 
-                options: ["Warga setempat tidak melakukan penggantian fasilitas bermain yang sudah rusak.", "Setelah dikelola warga, tidak dilakukan perbaikan layanan pada taman bermain.", "Taman bermain sering digunakan untuk kegiatan lain yang dapat merusak fasilitas.", "Pada awal warga mengelola taman tersebut, taman bermain dirawat secara berkala.", "Taman tersebut tidak pernah mendapatkan pengarahan dari dinas pariwisata setempat."], 
-                answer: null, doubt: false, correctAnswer: 1, score: 20, difficulty: "Easy" 
-            },
-
+    text: "Susu mengandung kalsium yang tinggi dan bermanfaat untuk pertumbuhan tulang. Semakin banyak anak mengonsumsi kalsium, semakin baik perkembangan tulangnya.\nBerdasarkan informasi di atas, pernyataan sebab–akibat berikut yang PALING MUNGKIN BENAR adalah ….", 
+    options: [
+        "Anak–anak yang tidak minum susu tidak dapat tumbuh tinggi.", 
+        "Susu menjadi satu–satunya makanan yang wajib dikonsumsi anak–anak agar tulangnya kuat.", 
+        "Susu tidak dibutuhkan anak–anak untuk membantu pertumbuhan tulangnya.", 
+        "Anak–anak yang sering mengonsumsi susu cenderung memiliki pertumbuhan tulang yang baik.", 
+        "Makanan lain yang tidak mengandung kalsium tidak bermanfaat bagi anak–anak."
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+{ 
+    text: "Jika sebuah restoran dinobatkan sebagai restoran favorit pelanggan, maka restoran tersebut memiliki pelayanan yang ramah, harga yang sesuai, dan menu makanan yang enak.\nJika sebuah restoran pelayanannya kurang ramah, harga terlalu mahal, dan rasa makanan tidak enak, manakah simpulan yang BENAR?", 
+    options: [
+        "Restoran tersebut belum terkenal.", 
+        "Restoran tersebut tidak menjadi restoran favorit pelanggan.", 
+        "Restoran tersebut hanya menyediakan menu yang sedikit.", 
+        "Restoran tersebut memiliki banyak pesaing.", 
+        "Restoran tersebut sedang dalam masa promosi."
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 1, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+{ 
+    text: "Keberhasilan sebuah restoran dipengaruhi oleh kualitas masakan dan kenyamanan tempat makan. Kualitas masakan restoran dapat dilihat dari cita rasa dan penyajian yang menarik pelanggan. Kenyamanan tempat makan juga berkontribusi terhadap kepuasan pelanggan, yang tercermin dalam pelanggan betah berlama-lama di restoran dan memberikan ulasan positif setelah makan.\nJika pelanggan betah berlama-lama di restoran, manakah di bawah ini simpulan yang PALING MUNGKIN BENAR?", 
+    options: [
+        "Koki restoran memiliki keahlian memasak yang baik.", 
+        "Menu restoran sangat beragam.", 
+        "Restoran tersebut sukses menarik banyak pelanggan.", 
+        "Restoran memiliki tempat makan yang nyaman.", 
+        "Kualitas masakan restoran sangat tinggi."
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+{ 
+    text: "(1) Jumlah pengguna transportasi online semakin meningkat setiap tahun.\n(2) Perusahaan transportasi online menambah jumlah armada kendaraan yang beroperasi.\nManakah di bawah ini yang menggambarkan hubungan di antara kedua pernyataan?", 
+    options: [
+        "Pernyataan 1 adalah penyebab dan pernyataan 2 adalah akibat.", 
+        "Pernyataan 2 adalah penyebab dan pernyataan 1 adalah akibat.", 
+        "Pernyataan 1 dan 2 adalah penyebab, namun tidak saling berhubungan.", 
+        "Pernyataan 1 dan 2 adalah akibat dari dua penyebab yang tidak saling berhubungan.", 
+        "Pernyataan 1 dan 2 adalah akibat dari suatu penyebab yang sama."
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+{ 
+    text: "Vaksin merupakan zat yang digunakan untuk merangsang pembentukan kekebalan tubuh dan biasanya diberikan untuk mencegah penyakit tertentu. Setiap orang dapat memiliki reaksi yang berbeda terhadap vaksin. Sebagian orang tidak mendapatkan vaksin karena kondisi kesehatan tertentu.\nSimpulan berdasarkan informasi dalam teks tersebut adalah: setiap orang yang sehat pasti mendapatkan vaksin.\nManakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?", 
+    options: [
+        "Simpulan pasti benar.", 
+        "Simpulan mungkin benar.", 
+        "Simpulan pasti salah.", 
+        "Simpulan mungkin salah.", 
+        "Simpulan tidak dapat dinilai karena informasi tidak cukup."
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 1, 
+    score: 70, 
+    difficulty: "Hard" 
+},
             // --- LEVEL MEDIUM (Bobot 30) ---
             { 
                 text: "Warga remaja perkotaan mulai menyukai mengenakan pakaian unik dengan warna-warna yang kontras dan berkilau. ... Para pengamat melihat bahwa hal tersebut memengaruhi perkembangan bisnis dunia fesyen. Berdasarkan tulisan di atas, manakah yang PALING MUNGKIN mendasari argumen pengamat?", 
