@@ -186,7 +186,7 @@ const examData = {
 },
 { 
     text: "Diagram garis di bawah menunjukkan data peserta ujian pada Lembaga Kursus tahun 2019–2023. Berdasarkan data tersebut, selisih terbesar peserta yang lulus dengan semua peserta ada di tahun…", 
-    image: "13.png",
+    img: "13.png",
     options: [
         "2019", 
         "2020", 
@@ -217,7 +217,7 @@ const examData = {
 },
 { 
     text: "Keuntungan penjualan kue basah adalah ¼ dari keuntungan kue kering. Berikut data penjualan dari lima toko pada bulan ini.\nToko manakah yang memiliki keuntungan TERBESAR?", 
-    image: "15.png",
+    img: "15.png",
     options: [
         "Toko P", 
         "Toko Q", 
