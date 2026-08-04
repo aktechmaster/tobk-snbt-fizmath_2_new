@@ -1509,6 +1509,7 @@ for (let key in examData) {
 // ==========================================
 
 function processViolation() {
+    return; // ⛔ TAMBAHKAN BARIS INI (Sistem anti-cheat mati seketika)
 // 🔒 SUDAH BENAR: Kondisi ini memastikan TIDAK HITUNG saat belum mulai/selesai/blokir/pesan muncul
 if (!examStarted || isBlocked || isExamFinished || isWarningModalOpen) return;
 
