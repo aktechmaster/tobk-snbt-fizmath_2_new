@@ -154,112 +154,84 @@ const examData = {
     score: 70, 
     difficulty: "Hard" 
 },
-            // --- LEVEL MEDIUM (Bobot 30) ---
             { 
-                text: "Warga remaja perkotaan mulai menyukai mengenakan pakaian unik dengan warna-warna yang kontras dan berkilau. ... Para pengamat melihat bahwa hal tersebut memengaruhi perkembangan bisnis dunia fesyen. Berdasarkan tulisan di atas, manakah yang PALING MUNGKIN mendasari argumen pengamat?", 
-                options: ["Remaja kota menyalurkan ekspresinya melalui pakaian yang dikenakan.", "Pakaian dapat menjadi media peningkatan pengakuan terhadap remaja.", "Kegiatan remaja ibu kota tidak hanya dilakukan di pusat perbelanjaan.", "Para pengusaha di bidang fesyen mengamati kreasi pakaian remaja kota.", "Banyak toko yang menjual pakaian-pakaian unik khusus untuk remaja."], 
-                answer: null, doubt: false, correctAnswer: 3, score: 30, difficulty: "Medium" 
-            },
-            { 
-                text: "Ahli Pendidikan 1 menyatakan bahwa Sekolah O memiliki kualitas sebagai sekolah alam yang lebih baik dibandingkan dengan Sekolah P. Ahli Pendidikan 2 menyatakan bahwa Sekolah P menggunakan lebih banyak waktunya untuk belajar teori di ruangan kelas. Fakta menyatakan bahwa Sekolah P mendapat penghargaan adiwiyata (sekolah berwawasan lingkungan). Manakah pernyataan yang PALING TEPAT?", 
-                options: ["Memperkuat pernyataan Ahli Pendidikan 1.", "Memperlemah pernyataan Ahli Pendidikan 1.", "Memperkuat pernyataan Ahli Pendidikan 2.", "Memperlemah pernyataan Ahli Pendidikan 2.", "Tidak relevan dengan pernyataan Ahli Pendidikan 1 dan Ahli Pendidikan 2."], 
-                answer: null, doubt: false, correctAnswer: 3, score: 30, difficulty: "Medium" 
-            },
-            { 
-                text: "Melukis bermanfaat untuk meningkatkan kemampuan kecerdasan karena mengembangkan pemikiran abstrak... Meskipun demikian, terlalu lama melukis dapat berdampak negatif, seperti memunculkan rasa bosan... Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?", 
-                options: ["Beberapa orang yang memiliki minat belajar tinggi akan menyukai kegiatan melukis.", "Kegiatan melukis cenderung menurunkan minat belajar seseorang.", "Beberapa masalah terkait kejenuhan disebabkan melukis yang terlalu lama.", "Kurangnya daya kreativitas dapat diatasi dengan melakukan kegiatan melukis.", "Orang yang mengalami rasa bosan biasanya menghabiskan waktunya dengan melukis."], 
-                answer: null, doubt: false, correctAnswer: 2, score: 30, difficulty: "Medium" 
-            },
-            { 
-                text: "Kota ZZ dikenal sebagai kota hijau yang mengutamakan kesehatan lingkungan... Berdasarkan data yang tercatat, setidaknya setiap tahun ada lima RT yang mendapatkan penghargaan. Berdasarkan paragraf di atas manakah di bawah ini pernyataan yang PALING MUNGKIN BENAR mengenai Kota ZZ?", 
-                options: ["Jumlah RT yang mendapatkan penghargaan akan meningkat setiap tahun.", "Kota ZZ hanya memberikan insentif kepada warga menanam pohon di ruang umum.", "Setiap tahun ada RT yang akan mendapatkan insentif dari Pemerintah Kota ZZ.", "Pemerintah Kota ZZ tidak memberikan insentif sebelum ada program ramah lingkungan.", "Sebelum ada penghargaan, tidak ada RT ikut dalam program ramah lingkungan."], 
-                answer: null, doubt: false, correctAnswer: 2, score: 30, difficulty: "Medium" 
-            },
-            { 
-                text: "Seorang remaja hendak membeli sepatu yang nyaman untuk berlari. Sepatu X cocok dengan kebutuhannya, tetapi harganya mahal. Sepatu Y kurang cocok, tetapi harganya murah. Pelari tersebut akhirnya membeli sepatu X... Manakah yang PALING MEMPERKUAT keputusan remaja tersebut?", 
-                options: ["Remaja tersebut sering berolahraga dengan menggunakan sepatu tersebut.", "Remaja tersebut memiliki tabungan yang cukup untuk membeli sepatu.", "Kenyamanan sepatu bukan pertimbangan penting untuk berlari jarak jauh.", "Sepatu X banyak digunakan oleh para pelari jarak jauh profesional.", "Sepatu Y memiliki model yang menarik sehingga banyak dipakai remaja."], 
-                answer: null, doubt: false, correctAnswer: 0, score: 30, difficulty: "Medium" 
-            },
-            { 
-                text: "Kualitas suara gitar dinilai sebagai faktor yang paling dibutuhkan... Peneliti berpendapat bahwa suara gitar merek X kurang jernih dibandingkan merek Y. Manakah pernyataan di bawah ini yang PALING MEMPERLEMAH pendapat peneliti tersebut?", 
-                options: ["Gitar merek Y sering dipakai oleh pemusik konser-konser besar.", "Gitar merek X lebih jarang digunakan pemusik profesional.", "Gitar merek Y sudah terkenal kualitasnya di kalangan pemusik.", "Kualitas lagu ditentukan oleh kreativitas pemusik.", "Gitar merek X dibuat dari bahan pilihan yang berkualitas."], 
-                answer: null, doubt: false, correctAnswer: 4, score: 30, difficulty: "Medium" 
-            },
-            { 
-                text: "Manajer Keuangan PT X mengungkapkan bahwa tingkat pembelian bahan baku mengalami kenaikan yang berarti dalam dua semester ini. Hal ini disebabkan PT X berhasil menjalankan program promosi di akhir tahun. Manakah pernyataan berikut yang jika benar akan MEMPERKUAT pernyataan Manajer Keuangan PT X?", 
-                options: ["Jumlah peserta program promosi di akhir tahun belakangan ini lebih banyak.", "Perusahaan-perusahaan lain tidak menjalankan program promosi di akhir tahun.", "Tidak semua pelanggan memanfaatkan program promosi di akhir tahun.", "Sejak dulu, pelanggan tertarik mengikuti program promosi di akhir tahun.", "Program promosi di akhir tahun fokus pada penjualan produk baru."], 
-                answer: null, doubt: false, correctAnswer: 0, score: 30, difficulty: "Medium" 
-            },
-            { 
-                text: "Sejak dahulu, masyarakat Desa XY melestarikan tradisi tarian ritual sakral... Jika persatuan masyarakat memudar, rasa memiliki terhadap tradisi Desa XY akan berkurang dan kemungkinan konflik antarwarga akan meningkat. Jika tarian ritual disamakan dengan api unggun, manakah di bawah ini simpulan yang PALING MUNGKIN BENAR?", 
-                options: ["Tradisi api unggun yang tidak dilestarikan menurunkan rasa memiliki terhadap tradisi Desa XY.", "Jika tradisi tarian ritual sakral dilestarikan, konflik antarwarga dapat dicegah.", "Tingginya konflik antarwarga desa ditandai dengan seringnya terjadi ritual diadakan.", "Ikatan antargenerasi tidak akrab hanya jika tradisi tarian ritual tidak dilestarikan.", "Tradisi tarian ritual sakral seperti apu unggun yang menyatukan masyarakat desa."], 
-                answer: null, doubt: false, correctAnswer: 1, score: 30, difficulty: "Medium" 
-            },
-            { 
-                text: "Seorang atlet lari ingin meningkatkan performa tubuhnya... Jika memilih makanan tinggi protein, ia dapat menghasilkan otot yang lebih kuat. Jika makanan tinggi karbohidrat, ia memiliki lebih banyak energi. Manakah dari pernyataan berikut yang PALING TEPAT menggambarkan keputusan atlet lari tersebut?", 
-                options: ["Jika memilih makanan tinggi protein, ia akan memiliki otot yang kuat maupun memiliki lebih banyak energi.", "Jika keduanya, ia akan memiliki otot yang kuat atau memiliki lebih banyak energi.", "Jika memilih salah satu jenis makanan, ia akan memiliki otot yang kuat atau memiliki lebih banyak energi.", "Jika memilih makanan tinggi karbohidrat, ia tidak akan memiliki otot yang kuat.", "Jika memilih salah satu jenis makanan, ia tidak akan memiliki otot yang kuat dan memiliki lebih banyak energi."], 
-                answer: null, doubt: false, correctAnswer: 2, score: 30, difficulty: "Medium" 
-            },
-            { 
-                text: "Syarat konferensi: harus kirim abstrak DAN belum pernah dipublikasikan. Dosen X karya ilmiahnya sudah dipublikasikan di jurnal. Kesimpulannya: Dosen X pernah menjadi partisipan konferensi. Manakah pernyataan berikut yang menggambarkan kualitas kesimpulan tersebut?", 
-                options: ["Kesimpulan tidak relevan dengan informasi yang diberikan.", "Kesimpulan tersebut memiliki kemungkinan salah.", "Kesimpulan tersebut dapat dipastikan benar.", "Kesimpulan tersebut memiliki kemungkinan benar.", "Kesimpulan tersebut dapat dipastikan salah."], 
-                answer: null, doubt: false, correctAnswer: 4, score: 30, difficulty: "Medium" 
-            },
-
-            // --- LEVEL HARD (Bobot 50) ---
-            { 
-                text: "Suatu turnamen olahraga dilaksanakan selama seminggu. Jumlah penonton hari ke-3 sampai ke-7 adalah: 66, 73, 70, 77, 74. Jika tren konstan, jumlah penonton hari pertama adalah...", 
-                options: ["62", "63", "70", "72", "76"], 
-                answer: null, doubt: false, correctAnswer: 0, score: 50, difficulty: "Hard" 
-            },
-            { 
-                text: "Di koloni Mars tahun 2100, rasio Oksigen:Air:Makanan adalah 5:4:3. Jika Oksigen digunakan 50 liter, berapa liter makanan yang dibutuhkan?", 
-                options: ["20 liter", "25 liter", "30 liter", "35 liter", "40 liter"], 
-                answer: null, doubt: false, correctAnswer: 2, score: 50, difficulty: "Hard" 
-            },
-            { 
-                text: "Bilangan yang PALING MENDEKATI hasil pengurangan 7,79 - 87% adalah...", 
-                options: ["6,57", "6,18", "6,92", "7,79", "7,11"], 
-                answer: null, doubt: false, correctAnswer: 2, score: 50, difficulty: "Hard" 
-            },
-            { 
-                text: "Perhatikan grafik neraca keuangan berikut. Manakah pernyataan yang PALING TEPAT untuk tahun 2024?",
-                img: "neraca.jpg", 
-                options: ["Usaha dagang pecah belah mengalami kerugian.", "Besarnya kerugian sama dengan tahun sebelumnya.", "Usaha dagang pecah belah akan ditutup.", "Hasil usaha akan meningkat.", "Pedagang akan menambah modal usaha."], 
-                answer: null, doubt: false, correctAnswer: 0, score: 50, difficulty: "Hard" 
-            },
-            { 
-                text: "Perhatikan grafik rekrutmen berikut. Pada tahun berapa perusahaan menerima pelamar dengan persentase PALING KECIL?", 
-                img: "rekrutmen.jpg",
-                options: ["2019", "2020", "2021", "2022", "2023"], 
-                answer: null, doubt: false, correctAnswer: 3, score: 50, difficulty: "Hard" 
-            },
-            { 
-                text: "Perhatikan diagram lingkaran peserta lomba senam (Total 200 orang). Total jumlah peserta senam yang hadir kurang dari 20% adalah...",
-                img: "senam.jpg",
-                options: ["60", "72", "74", "98", "102"], 
-                answer: null, doubt: false, correctAnswer: 3, score: 50, difficulty: "Hard" 
-            },
-            { 
-                text: "Sebuah usaha pembuat roti membeli tepung selama 5 hari: 3, 5, 7, 9, 11 kg. Hasil roti: 5, 8, 9, 12, 13 kg. Jika tren konstan, berapa kg roti pada hari ke-6?", 
-                options: ["14", "15", "16", "17", "18"], 
-                answer: null, doubt: false, correctAnswer: 2, score: 50, difficulty: "Hard" 
-            },
-            { 
-                text: "Jumlah penggunaan pupuk tahun lalu 20% lebih sedikit dibandingkan tahun ini (240 kg). Berapakah jumlah pupuk tahun lalu?", 
-                options: ["180 kg", "185 kg", "190 kg", "192 kg", "200 kg"], 
-                answer: null, doubt: false, correctAnswer: 3, score: 50, difficulty: "Hard" 
-            },
-            { 
-                text: "Dari 1.500 siswa, 900 ikut ekskul. Pertanyaan: 'Apakah lebih dari setengah siswa mengikuti setidaknya satu kegiatan?' Manakah informasi yang cukup?", 
-                options: ["Cukup pernyataan (1) saja.", "Cukup pernyataan (2) saja.", "Pernyataan (1) dan (2) bersama-sama.", "Salah satu pernyataan saja cukup.", "Kedua pernyataan tidak cukup."], 
-                answer: null, doubt: false, correctAnswer: 0, score: 50, difficulty: "Hard" 
-            },
-            { 
-                text: "Keuntungan sayuran biasa 1/5 sayuran organik. Berdasarkan tabel penjualan, toko manakah yang memiliki keuntungan TERBESAR?", 
-                options: ["Toko I", "Toko II", "Toko III", "Toko IV", "Toko V"], 
-                answer: null, doubt: false, correctAnswer: 1, score: 50, difficulty: "Hard" 
-            }
+    text: "Suatu lomba bola volly dalam memepringati HUT RI ke-80 dilaksanakan selama seminggu. Penonton sangat antusias dengan lomba tersebut. Jumlah penonton dari hari ketiga sampai ke tujuh adalah 164, 160, 169, 165, 174. Jika jumlah penonton dalam lomba tersebut bersifat konstan sejak hari pertama, jumlah penonton turnamen di hari perdana lomba adalah …. orang.", 
+    options: [
+        "159", 
+        "160", 
+        "161", 
+        "162", 
+        "163"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 70, 
+    difficulty: "Hard" 
+},
+{ 
+    text: "Di sebuah stasiun luar angkasa tahun 2150, energi listrik, bahan bakar, dan pendingin disuplai dengan rasio 6 : 3 : 2 untuk menjaga sistem tetap berjalan. Jika kebutuhan energi listrik dalam satu hari adalah 120 kWh, pendingin yang dibutuhkan dalam sehari adalah …. liter.", 
+    options: [
+        "40", 
+        "50", 
+        "60", 
+        "70", 
+        "80"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 70, 
+    difficulty: "Hard" 
+},
+{ 
+    text: "Diagram garis di bawah menunjukkan data peserta ujian pada Lembaga Kursus tahun 2019–2023. Berdasarkan data tersebut, selisih terbesar peserta yang lulus dengan semua peserta ada di tahun…", 
+    imageg: "13.png",
+    options: [
+        "2019", 
+        "2020", 
+        "2021", 
+        "2022", 
+        "2023"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 2, 
+    score: 70, 
+    difficulty: "Hard" 
+},
+{ 
+    text: "Jumlah penjualan buku fiksi tahun lalu 15% lebih sedikit dibandingkan jumlah penjualan buku fiksi tahun ini. Jika jumlah penjualan buku fiksi tahun ini adalah 320 eksemplar. Berapa jumlah penjualan buku fiksi tahun lalu?", 
+    options: [
+        "262 eksemplar", 
+        "268 eksemplar", 
+        "272 eksemplar", 
+        "278 eksemplar", 
+        "280 eksemplar"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 2, 
+    score: 70, 
+    difficulty: "Hard" 
+},
+{ 
+    text: "Keuntungan penjualan kue basah adalah ¼ dari keuntungan kue kering. Berikut data penjualan dari lima toko pada bulan ini.\nToko manakah yang memiliki keuntungan TERBESAR?", 
+    image: "15.png",
+    options: [
+        "Toko P", 
+        "Toko Q", 
+        "Toko R", 
+        "Toko S", 
+        "Toko T"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 1, 
+    score: 75, 
+    difficulty: "Hard" 
+},
+            
         ]
     },
 
