@@ -4,32 +4,81 @@ const examData = {
         name: "Penalaran Umum",
         duration: 30 * 60, // 30 Menit
         questions: [
-            // --- LEVEL EASY (Bobot 20) ---
             { 
-                text: "Apabila tidak pernah menang dalam kompetisi tingkat daerah, atlet tidak boleh ikut audisi untuk pertandingan nasional. Hal ini berlaku bagi atlet badminton. Manakah simpulan berikut yang BENAR?", 
-                options: ["Atlet badminton diharapkan menang dalam kompetisi daerah agar dapat mengikuti kegiatan audisi nasional.", "Semua atlet boleh ikut audisi untuk pertandingan nasional jika pernah menang dalam kompetisi daerah.", "Para atlet boleh ikut audisi untuk pertandingan nasional meski tidak pernah menang di kompetisi daerah.", "Semua atlet pernah menang dalam kegiatan kompetisi di tingkat daerah, kecuali para pemain badminton.", "Atlet badminton tidak boleh mengikuti audisi pertandingan nasional jika tidak pernah menang di kompetisi daerah."], 
-                answer: null, doubt: false, correctAnswer: 4, score: 20, difficulty: "Easy" 
-            },
-            { 
-                text: "Siswa Sekolah JKH yang menjadi juara nasional paduan suara mampu membuat lagu. Sebagian dari mereka juga mampu bermain teater musikal lebih baik dari siswa sekolah lain. Berdasarkan informasi di atas, manakah simpulan yang PALING TEPAT?", 
-                options: ["Semua siswa Sekolah JKH yang menjadi juara nasional lomba paduan suara mampu bermain teater musikal.", "Sebagian siswa yang kurang mahir dalam bermain teater bukan merupakan siswa dari Sekolah JKH.", "Siswa Sekolah JKH yang memenangkan juara nasional lomba paduan suara mampu membuat lagu dan bermain teater.", "Beberapa siswa Sekolah JKH mampu membuat lagu, namun tidak bisa membuat teater musikal.", "Beberapa siswa Sekolah JKH yang dapat membuat lagu juga dapat bermain teater musikal lebih baik dari sekolah lain."], 
-                answer: null, doubt: false, correctAnswer: 4, score: 20, difficulty: "Easy" 
-            },
-            { 
-                text: "Pada akhir pekan, SR akan menemani ibu arisan atau mengantar kakak bertemu temannya. Adiknya mengajaknya mengunjungi pameran buku. Karena lokasi pameran terlalu jauh, keduanya tidak jadi pergi ke pameran buku. Apa yang PALING MUNGKIN dilakukan SR pada akhir pekan?", 
-                options: ["Menemani ibu arisan dan mengantar kakak bertemu temannya.", "Menikmati akhir minggu dengan bersantai bersama keluarga di rumah.", "Menemani ibu arisan atau mengantar kakak bertemu temannya.", "Menemani ibu arisan, tetapi tidak mengantar kakak bertemu temannya.", "Mengantar kakak bertemu temannya, tetapi tidak menemani ibu arisan."], 
-                answer: null, doubt: false, correctAnswer: 2, score: 20, difficulty: "Easy" 
-            },
-            { 
-                text: "Ketika festival seni tradisional diadakan di Pulau ABC, jumlah wisatawan meningkat dibandingkan ketika kegiatan tersebut tidak dilakukan. Hal serupa terjadi ketika pameran lukisan diadakan di Pulau ABC. Namun, ketika Pulau ABC mengadakan perayaan adat daerah, jumlah wisatawan yang datang tidak mengalami peningkatan. Berdasarkan informasi di atas manakah dari pernyataan berikut yang PALING MUNGKIN BENAR?", 
-                options: ["Meskipun pameran lukisan diadakan di pulau lain, jumlah kunjungan wisatawan ke Pulau ABC tetap meningkat.", "Jumlah wisatawan akan mengalami penurunan ketika tidak diadakan kegiatan pameran lukisan di Pulau ABC.", "Mengadakan festival seni tradisional atau pameran lukisan di pulau lain akan menurunkan jumlah wisatawan di Pulau ABC.", "Mengadakan perayaan adat meningkatkan jumlah wisatawan dibandingkan dengan tidak mengadakannya.", "Mengadakan festival seni tradisional atau pameran lukisan di Pulau ABC meningkatkan jumlah kunjungan wisatawan."], 
-                answer: null, doubt: false, correctAnswer: 4, score: 20, difficulty: "Easy" 
-            },
-            { 
-                text: "Banyaknya rumah kosong yang terbengkalai di suatu kampung menyebabkan rumah ditumbuhi tanaman liar. Banyaknya tanaman liar menyebabkan munculnya banyak nyamuk. Meskipun pengurus kampung telah melakukan sosialisasi pola hidup sehat, namun angka penyakit malaria tidak menurun karena banyaknya nyamuk di kampung tersebut. Berdasarkan informasi di atas, manakah pernyataan di bawah ini yang BENAR?", 
-                options: ["Meningkatnya kasus malaria disebabkan oleh banyaknya rumah kosong terbengkalai.", "Lebatnya tanaman liar disebabkan kurang tepatnya sosialisasi pola hidup sehat oleh pengurus kampung.", "Banyaknya nyamuk menyebabkan pengurus kampung melakukan sosialisasi pola hidup sehat.", "Adanya sosialisasi pola hidup sehat menjadikan banyak rumah kosong terbengkalai.", "Banyaknya nyamuk di kampung tersebut disebabkan oleh banyaknya rumah terbengkalai."], 
-                answer: null, doubt: false, correctAnswer: 4, score: 20, difficulty: "Easy" 
-            },
+    text: "Tanaman yang terkena hama ulat akan mengalami kerusakan pada daunnya. Untuk mengurangi serangan ulat tersebut dapat dilakukan penyemprotan pestisida. Jika serangan ulat pada tanaman berkurang maka kerusakan daun dapat dicegah.\nBerdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?", 
+    options: [
+        "Penyemprotan pestisida merupakan cara paling ampuh untuk mencegah kerusakan daun pada tanaman.", 
+        "Tanaman yang daunnya rusak tidak pernah disemprot pestisida.", 
+        "Risiko kerusakan daun pada tanaman berkurang jika dilakukan penyemprotan pestisida.", 
+        "Penyemprotan pestisida membuat tanaman bebas sepenuhnya dari kerusakan daun.", 
+        "Tanaman yang terkena ulat tidak pernah diberi pestisida."
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 2, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+{ 
+    text: "Banyak berbagai macam kerajinan tangan unik dengan kualitas tinggi yang dihasilkan oleh pengrajin di desa sehingga menarik perhatian wisatawan untuk membeli. Salah satunya adalah vas bunga yang dihasilkan oleh seorang pengrajin dengan bentuk menyerupai hewan, yang menunjukkan ide kreatif pengrajin tersebut.\nBerdasarkan informasi di atas, pernyataan berikut yang PASTI BENAR adalah ….", 
+    options: [
+        "Vas bunga adalah satu-satunya kerajinan yang menarik wisatawan untuk membeli.", 
+        "Kerajinan tangan selain vas bunga tidak menarik minat wisatawan untuk membeli.", 
+        "Kerajinan tangan tidak menarik ketika kurang memperlihatkan ide kreatif pengrajin.", 
+        "Makin banyak wisatawan yang membeli kerajinan jika semakin banyak pengrajin menghasilkan kerajinan unik dan berkualitas tinggi.", 
+        "Pengrajin selain pengrajin vas bunga tidak membuat wisatawan membeli kerajinan hasil karyanya."
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+{ 
+    text: "Minuman energi semakin diminati karena praktis dan mudah dikonsumsi. Namun, harganya relatif lebih mahal dan dapat menyebabkan gangguan tidur pada sebagian orang. Minuman energi mengandung kafein yang bisa membuat seseorang sulit tidur jika dikonsumsi berlebihan. Oleh karena itu, orang dewasa disarankan untuk berhati-hati dalam memilih jenis minuman energi agar tubuh tetap sehat dan bugar.\nBerdasarkan informasi tersebut, pernyataan berikut ini yang PASTI SALAH adalah ….", 
+    options: [
+        "Kafein pada minuman energi dapat mengakibatkan sulit tidur jika dikonsumsi berlebihan.", 
+        "Minuman energi mudah dikonsumsi dan harganya murah.", 
+        "Minuman energi setelah diminum tidak bisa digunakan kembali.", 
+        "Orang dewasa bisa mengalami gangguan tidur jika mengonsumsi minuman energi yang tidak tepat.", 
+        "Orang dewasa disarankan untuk memilih minuman energi dengan bijak."
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 1, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+{ 
+    text: "Semua peserta lomba menulis yang mengumpulkan naskah sebelum tanggal 10 Agustus diterima panitia. Semua peserta lomba menulis yang jumlah katanya lebih dari 1.000 juga diterima panitia. Rina mengumpulkan naskah pada tanggal 12 Agustus dengan jumlah kata 1.200.\nKesimpulan yang BENAR dari pernyataan di atas adalah ….", 
+    options: [
+        "Rina tidak diterima panitia lomba menulis.", 
+        "Ada peserta lomba menulis yang mengumpulkan naskah setelah tanggal 10 Agustus tetap diterima panitia.", 
+        "Semua peserta lomba menulis tidak diterima panitia.", 
+        "Semua peserta lomba menulis diterima panitia.", 
+        "Rina mungkin diterima panitia."
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 1, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+{ 
+    text: "Menggunakan layar gawai lebih dari delapan jam sehari terbukti dapat meningkatkan risiko gangguan mata seperti mata lelah, kering, hingga penurunan ketajaman penglihatan. Namun beberapa orang seperti desainer grafis dan programmer, tetap menggunakan layar gawai dalam waktu lama dan tidak mengalami gangguan mata karena menerapkan pola kerja yang sehat dan menjaga kesehatan mata.\nBerdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?", 
+    options: [
+        "Desainer grafis dan programmer dapat memiliki mata yang sehat.", 
+        "Orang yang menggunakan gawai lebih dari delapan jam sehari mungkin tetap memiliki mata yang sehat.", 
+        "Beberapa orang yang menggunakan gawai lebih dari delapan jam sehari mengalami gangguan mata.", 
+        "Menggunakan layar gawai lebih dari delapan jam sehari meningkatkan risiko gangguan mata.", 
+        "Orang yang sering menggunakan gawai dalam waktu lama tidak perlu khawatir tentang gangguan mata."
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 4, 
+    score: 50, 
+    difficulty: "Medium" 
+},
             { 
                 text: "Listrik banyak digunakan orang untuk mendapatkan pencahayaan di dalam ruangan. Selain itu, listrik juga menjadi sarana untuk menggerakkan mesin di pabrik. Namun, penggunaan listrik yang berlebihan dapat menyebabkan dampak negatif bagi diri sendiri dan lingkungan. Penggunaan listrik yang berlebihan dapat membebani anggaran rumah tangga dan meningkatkan polusi udara. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?", 
                 options: ["Polusi udara meningkat karena penggunaan listrik yang berlebihan.", "Anggaran rumah tangga meningkat karena penggunaan listrik.", "Listrik dapat menyebabkan orang dapat mengatur suhu ruangan.", "Pengguna peralatan elektronik mungkin tidak menggunakan listrik.", "Penggunaan listrik berlebihan tidak menyebabkan polusi udara dan air."], 
