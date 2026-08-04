@@ -186,7 +186,7 @@ const examData = {
 },
 { 
     text: "Diagram garis di bawah menunjukkan data peserta ujian pada Lembaga Kursus tahun 2019–2023. Berdasarkan data tersebut, selisih terbesar peserta yang lulus dengan semua peserta ada di tahun…", 
-    imageg: "13.png",
+    image: "13.png",
     options: [
         "2019", 
         "2020", 
