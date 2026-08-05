@@ -4,6 +4,10 @@ const examData = {
         name: "Penalaran Umum",
         duration: 30 * 60, // 30 Menit
         questions: [
+
+// ==========================================
+// SOAL 1
+// ==========================================
             { 
     text: "Tanaman yang terkena hama ulat akan mengalami kerusakan pada daunnya. Untuk mengurangi serangan ulat tersebut dapat dilakukan penyemprotan pestisida. Jika serangan ulat pada tanaman berkurang maka kerusakan daun dapat dicegah.\nBerdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR?", 
     options: [
@@ -19,6 +23,10 @@ const examData = {
     score: 35, 
     difficulty: "Easy" 
 },
+
+// ==========================================
+// SOAL 2
+// ==========================================
 { 
     text: "Banyak berbagai macam kerajinan tangan unik dengan kualitas tinggi yang dihasilkan oleh pengrajin di desa sehingga menarik perhatian wisatawan untuk membeli. Salah satunya adalah vas bunga yang dihasilkan oleh seorang pengrajin dengan bentuk menyerupai hewan, yang menunjukkan ide kreatif pengrajin tersebut.\nBerdasarkan informasi di atas, pernyataan berikut yang PASTI BENAR adalah ….", 
     options: [
@@ -34,6 +42,10 @@ const examData = {
     score: 35, 
     difficulty: "Easy" 
 },
+
+// ==========================================
+// SOAL 3
+// ==========================================
 { 
     text: "Minuman energi semakin diminati karena praktis dan mudah dikonsumsi. Namun, harganya relatif lebih mahal dan dapat menyebabkan gangguan tidur pada sebagian orang. Minuman energi mengandung kafein yang bisa membuat seseorang sulit tidur jika dikonsumsi berlebihan. Oleh karena itu, orang dewasa disarankan untuk berhati-hati dalam memilih jenis minuman energi agar tubuh tetap sehat dan bugar.\nBerdasarkan informasi tersebut, pernyataan berikut ini yang PASTI SALAH adalah ….", 
     options: [
@@ -49,6 +61,10 @@ const examData = {
     score: 35, 
     difficulty: "Easy" 
 },
+                
+// ==========================================
+// SOAL 4
+// ==========================================
 { 
     text: "Semua peserta lomba menulis yang mengumpulkan naskah sebelum tanggal 10 Agustus diterima panitia. Semua peserta lomba menulis yang jumlah katanya lebih dari 1.000 juga diterima panitia. Rina mengumpulkan naskah pada tanggal 12 Agustus dengan jumlah kata 1.200.\nKesimpulan yang BENAR dari pernyataan di atas adalah ….", 
     options: [
@@ -64,6 +80,10 @@ const examData = {
     score: 50, 
     difficulty: "Medium" 
 },
+
+// ==========================================
+// SOAL 5
+// ==========================================
 { 
     text: "Menggunakan layar gawai lebih dari delapan jam sehari terbukti dapat meningkatkan risiko gangguan mata seperti mata lelah, kering, hingga penurunan ketajaman penglihatan. Namun beberapa orang seperti desainer grafis dan programmer, tetap menggunakan layar gawai dalam waktu lama dan tidak mengalami gangguan mata karena menerapkan pola kerja yang sehat dan menjaga kesehatan mata.\nBerdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH?", 
     options: [
@@ -79,6 +99,10 @@ const examData = {
     score: 50, 
     difficulty: "Medium" 
 },
+
+// ==========================================
+// SOAL 6
+// ==========================================
             { 
     text: "Susu mengandung kalsium yang tinggi dan bermanfaat untuk pertumbuhan tulang. Semakin banyak anak mengonsumsi kalsium, semakin baik perkembangan tulangnya.\nBerdasarkan informasi di atas, pernyataan sebab–akibat berikut yang PALING MUNGKIN BENAR adalah ….", 
     options: [
@@ -94,6 +118,10 @@ const examData = {
     score: 35, 
     difficulty: "Easy" 
 },
+
+// ==========================================
+// SOAL 7
+// ==========================================
 { 
     text: "Jika sebuah restoran dinobatkan sebagai restoran favorit pelanggan, maka restoran tersebut memiliki pelayanan yang ramah, harga yang sesuai, dan menu makanan yang enak.\nJika sebuah restoran pelayanannya kurang ramah, harga terlalu mahal, dan rasa makanan tidak enak, manakah simpulan yang BENAR?", 
     options: [
@@ -109,6 +137,10 @@ const examData = {
     score: 35, 
     difficulty: "Easy" 
 },
+
+// ==========================================
+// SOAL 8
+// ==========================================
 { 
     text: "Keberhasilan sebuah restoran dipengaruhi oleh kualitas masakan dan kenyamanan tempat makan. Kualitas masakan restoran dapat dilihat dari cita rasa dan penyajian yang menarik pelanggan. Kenyamanan tempat makan juga berkontribusi terhadap kepuasan pelanggan, yang tercermin dalam pelanggan betah berlama-lama di restoran dan memberikan ulasan positif setelah makan.\nJika pelanggan betah berlama-lama di restoran, manakah di bawah ini simpulan yang PALING MUNGKIN BENAR?", 
     options: [
@@ -124,6 +156,10 @@ const examData = {
     score: 50, 
     difficulty: "Medium" 
 },
+
+// ==========================================
+// SOAL 9
+// ==========================================
 { 
     text: "(1) Jumlah pengguna transportasi online semakin meningkat setiap tahun.\n(2) Perusahaan transportasi online menambah jumlah armada kendaraan yang beroperasi.\nManakah di bawah ini yang menggambarkan hubungan di antara kedua pernyataan?", 
     options: [
@@ -139,6 +175,10 @@ const examData = {
     score: 50, 
     difficulty: "Medium" 
 },
+
+// ==========================================
+// SOAL 10
+// ==========================================
 { 
     text: "Vaksin merupakan zat yang digunakan untuk merangsang pembentukan kekebalan tubuh dan biasanya diberikan untuk mencegah penyakit tertentu. Setiap orang dapat memiliki reaksi yang berbeda terhadap vaksin. Sebagian orang tidak mendapatkan vaksin karena kondisi kesehatan tertentu.\nSimpulan berdasarkan informasi dalam teks tersebut adalah: setiap orang yang sehat pasti mendapatkan vaksin.\nManakah pernyataan berikut yang menggambarkan kualitas simpulan tersebut?", 
     options: [
@@ -154,6 +194,10 @@ const examData = {
     score: 70, 
     difficulty: "Hard" 
 },
+
+// ==========================================
+// SOAL 11
+// ==========================================
             { 
     text: "Suatu lomba bola volly dalam memepringati HUT RI ke-80 dilaksanakan selama seminggu. Penonton sangat antusias dengan lomba tersebut. Jumlah penonton dari hari ketiga sampai ke tujuh adalah 164, 160, 169, 165, 174. Jika jumlah penonton dalam lomba tersebut bersifat konstan sejak hari pertama, jumlah penonton turnamen di hari perdana lomba adalah …. orang.", 
     options: [
@@ -169,6 +213,10 @@ const examData = {
     score: 70, 
     difficulty: "Hard" 
 },
+
+// ==========================================
+// SOAL 12
+// ==========================================
 { 
     text: "Di sebuah stasiun luar angkasa tahun 2150, energi listrik, bahan bakar, dan pendingin disuplai dengan rasio 6 : 3 : 2 untuk menjaga sistem tetap berjalan. Jika kebutuhan energi listrik dalam satu hari adalah 120 kWh, pendingin yang dibutuhkan dalam sehari adalah …. liter.", 
     options: [
@@ -184,6 +232,10 @@ const examData = {
     score: 70, 
     difficulty: "Hard" 
 },
+
+// ==========================================
+// SOAL 13
+// ==========================================
 { 
     text: "Diagram garis di bawah menunjukkan data peserta ujian pada Lembaga Kursus tahun 2019–2023. Berdasarkan data tersebut, selisih terbesar peserta yang lulus dengan semua peserta ada di tahun…", 
     img: "13.png",
@@ -200,6 +252,10 @@ const examData = {
     score: 70, 
     difficulty: "Hard" 
 },
+
+// ==========================================
+// SOAL 14
+// ==========================================
 { 
     text: "Jumlah penjualan buku fiksi tahun lalu 15% lebih sedikit dibandingkan jumlah penjualan buku fiksi tahun ini. Jika jumlah penjualan buku fiksi tahun ini adalah 320 eksemplar. Berapa jumlah penjualan buku fiksi tahun lalu?", 
     options: [
@@ -215,6 +271,10 @@ const examData = {
     score: 70, 
     difficulty: "Hard" 
 },
+
+// ==========================================
+// SOAL 15
+// ==========================================
 { 
     text: "Keuntungan penjualan kue basah adalah ¼ dari keuntungan kue kering. Berikut data penjualan dari lima toko pada bulan ini.\nToko manakah yang memiliki keuntungan TERBESAR?", 
     img: "15.png",
@@ -239,138 +299,290 @@ const examData = {
     name: "Pengetahuan & Pemahaman Umum",
     duration: 15 * 60, // 15 Menit 
     questions: [
-        // === TEKS 1 ===
-        {
-            id: "ppu1_1",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 1-4!</b><br><br>(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.<br><br>(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.<br><br>Kelompok kata dalam bacaan tersebut yang memiliki pola makna sama dengan <i>bengkel mobil</i> adalah....",
-            options: ["kedai kopi (kalimat 1)", "desain interior (kalimat 2)", "kaum urban (kalimat 3)", "peran penting (kalimat 7)", "sejarah panjang (kalimat 9)"],
-            answer: null, doubt: false, correctAnswer: 0, score: 50, difficulty: "Medium"
-        },
-        {
-            id: "ppu1_2",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 1-4!</b><br><br>(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.<br><br>(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.<br><br>Fungsi kata penghubung <i>serta</i> dalam kalimat (2) adalah....",
-            options: ["menjelaskan hubungan sebab-akibat", "menunjukkan alasan", "memberikan informasi tambahan", "memerinci pernyataan", "menandai hubungan logis"],
-            answer: null, doubt: false, correctAnswer: 2, score: 40, difficulty: "Easy"
-        },
-        {
-            id: "ppu1_3",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 1-4!</b><br><br>(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.<br><br>(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.<br><br>Hubungan kata <i>kopi</i> dan kata <i>petani</i> sama dengan hubungan kata <i>emas</i> dan kata....",
-            options: ["perajin", "pedagang", "pengoleksi", "penambang", "pembeli"],
-            answer: null, doubt: false, correctAnswer: 3, score: 40, difficulty: "Easy"
-        },
-        {
-            id: "ppu1_4",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 1-4!</b><br><br>(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.<br><br>(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.<br><br>Kelompok kata <i>menyumbang devisa</i> dalam kalimat (6) memiliki makna paling dekat dengan kelompok kata.....",
-            options: ["memberikan keuntungan", "mendatangkan kebaikan", "membagikan laba", "mendukung pembangunan", "menyediakan kontribusi"],
-            answer: null, doubt: false, correctAnswer: 4, score: 50, difficulty: "Medium"
-        },
-
-        // === TEKS 2 ===
-        {
-            id: "ppu2_1",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 5-8!</b><br><br>(1) Sebuah studi terbaru mengungkapkan fakta mengejutkan bahwa kelelahan pada remaja memiliki dampak yang lebih luas dari sekadar kesulitan berkonsentrasi saat belajar. (2) Sekitar 40% remaja melaporkan bahwa mereka mengalami rasa kantuk yang cukup sering. (3) Kondisi ini tidak hanya mengganggu aktivitas belajar mereka di sekolah, tetapi juga berpotensi memicu perilaku yang tidak diinginkan. (4) Penelitian tersebut menunjukkan adanya hubungan antara kelelahan pada remaja dan peningkatan kecenderungan melakukan tindakan antisosial.<br><br>(5) Remaja yang sering merasa lelah akan cenderung lebih sering berbohong, menipu, mencuri, bahkan terlibat dalam perkelahian. (6) Meskipun banyak penelitian menyoroti kesulitan tidur pada remaja, studi ini memberikan pemahaman yang lebih mendalam dan menggali lebih jauh dampak kelelahan terhadap perilaku remaja. (7) Hasilnya sangat... dan menggarisbawahi ... mengatasi kondisi kelelahan pada remaja secara serius.<br><br>Kata yang memiliki makna lebih luas dari kata <i>remaja</i> dalam kalimat (2) adalah …",
-            options: ["Dewasa", "Anak", "Usia", "Manusia", "Masyarakat"],
-            answer: null, doubt: false, correctAnswer: 3, score: 50, difficulty: "Medium"
-        },
-        {
-            id: "ppu2_2",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 5-8!</b><br><br>(1) Sebuah studi terbaru mengungkapkan fakta mengejutkan bahwa kelelahan pada remaja memiliki dampak yang lebih luas dari sekadar kesulitan berkonsentrasi saat belajar. (2) Sekitar 40% remaja melaporkan bahwa mereka mengalami rasa kantuk yang cukup sering. (3) Kondisi ini tidak hanya mengganggu aktivitas belajar mereka di sekolah, tetapi juga berpotensi memicu perilaku yang tidak diinginkan. (4) Penelitian tersebut menunjukkan adanya hubungan antara kelelahan pada remaja dan peningkatan kecenderungan melakukan tindakan antisosial.<br><br>(5) Remaja yang sering merasa lelah akan cenderung lebih sering berbohong, menipu, mencuri, bahkan terlibat dalam perkelahian. (6) Meskipun banyak penelitian menyoroti kesulitan tidur pada remaja, studi ini memberikan pemahaman yang lebih mendalam dan menggali lebih jauh dampak kelelahan terhadap perilaku remaja. (7) Hasilnya sangat... dan menggarisbawahi ... mengatasi kondisi kelelahan pada remaja secara serius.<br><br>Kata <i>kesulitan</i> pada kalimat (1) dalam bacaan tersebut paling dekat maknanya dengan kata …",
-            options: ["Kekurangan", "Batasan", "Urusan", "Masalah", "Penyakit"],
-            answer: null, doubt: false, correctAnswer: 3, score: 40, difficulty: "Easy"
-        },
-        {
-            id: "ppu2_3",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 5-8!</b><br><br>(1) Sebuah studi terbaru mengungkapkan fakta mengejutkan bahwa kelelahan pada remaja memiliki dampak yang lebih luas dari sekadar kesulitan berkonsentrasi saat belajar. (2) Sekitar 40% remaja melaporkan bahwa mereka mengalami rasa kantuk yang cukup sering. (3) Kondisi ini tidak hanya mengganggu aktivitas belajar mereka di sekolah, tetapi juga berpotensi memicu perilaku yang tidak diinginkan. (4) Penelitian tersebut menunjukkan adanya hubungan antara kelelahan pada remaja dan peningkatan kecenderungan melakukan tindakan antisosial.<br><br>(5) Remaja yang sering merasa lelah akan cenderung lebih sering berbohong, menipu, mencuri, bahkan terlibat dalam perkelahian. (6) Meskipun banyak penelitian menyoroti kesulitan tidur pada remaja, studi ini memberikan pemahaman yang lebih mendalam dan menggali lebih jauh dampak kelelahan terhadap perilaku remaja. (7) Hasilnya sangat... dan menggarisbawahi ... mengatasi kondisi kelelahan pada remaja secara serius.<br><br>Perumpamaan pada bacaan tersebut dapat ditemukan pada kata …",
-            options: ["Berkonsentrasi (kalimat 1)", "Belajar (kalimat 3)", "Melakukan (kalimat 4)", "Mencuri (kalimat 5)", "Menggali (kalimat 6)"],
-            answer: null, doubt: false, correctAnswer: 4, score: 50, difficulty: "Medium"
-        },
-        {
-            id: "ppu2_4",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 5-8!</b><br><br>(1) Sebuah studi terbaru mengungkapkan fakta mengejutkan bahwa kelelahan pada remaja memiliki dampak yang lebih luas dari sekadar kesulitan berkonsentrasi saat belajar. (2) Sekitar 40% remaja melaporkan bahwa mereka mengalami rasa kantuk yang cukup sering. (3) Kondisi ini tidak hanya mengganggu aktivitas belajar mereka di sekolah, tetapi juga berpotensi memicu perilaku yang tidak diinginkan. (4) Penelitian tersebut menunjukkan adanya hubungan antara kelelahan pada remaja dan peningkatan kecenderungan melakukan tindakan antisosial.<br><br>(5) Remaja yang sering merasa lelah akan cenderung lebih sering berbohong, menipu, mencuri, bahkan terlibat dalam perkelahian. (6) Meskipun banyak penelitian menyoroti kesulitan tidur pada remaja, studi ini memberikan pemahaman yang lebih mendalam dan menggali lebih jauh dampak kelelahan terhadap perilaku remaja. (7) Hasilnya sangat... dan menggarisbawahi ... mengatasi kondisi kelelahan pada remaja secara serius.<br><br>Kalimat (7) dalam bacaan tersebut akan menjadi bermakna bila dilengkapi dengan kata-kata …",
-            options: ["Berdampak; keharusan", "Nyata; wajibnya", "Berarti; potensi", "Jelas; kemungkinan", "Signifikan; pentingnya"],
-            answer: null, doubt: false, correctAnswer: 4, score: 50, difficulty: "Medium"
-        },
-
-        // === TEKS 3 ===
-        {
-            id: "ppu3_1",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 9-12!</b><br><br>(1) Saat ini kecerdasan buatan atau <i>artificial intellijen</i> (AI) bukan hanya tentang robot atau sistem otomatisasi yang biasa digunakan dalam aktivitas sehari-hari. (2) AI juga menjadi sahabat terbaik dalam perawatan kulit. (3) Tren AI dalam industri kecantikan merupakan revolusi kecantikan yang menggabungkan kecerdasan buatan dengan ilmu perawatan kulit. (4) Melalui teknologi cerdas dalam pemrosesan data, AI mampu menganalisis kondisi kulit secara cepat (real-time), mengidentifikasi masalah kulit secara spesifik, dan memberikan rekomendasi perawatan yang disesuaikan dengan tipe kulit setiap individu.<br><br>(5) Tidak hanya itu, AI dalam dunia kecantikan juga membantu mengembangkan formula baru yang inovatif, memprediksi tren kecantikan, dan menyesuaikan pengalaman konsumen dengan kebutuhan kulit masing-masing. (6) Dengan demikian, tren AI tidak hanya mengubah cara pembuatan dan penjualan produk kecantikan, tetapi juga membangun interaksi konsumen dengan AI untuk perawatan kecantikan mereka sehari-hari.<br><br>Bentuk <i>pe-an</i> pada kata <i>perawatan</i> dalam kalimat (2) mempunyai makna yang sama dengan bentuk <i>pe-an</i> pada kalimat...",
-            options: ["Di pelabuhan itu, banyak kapal pesiar singgah dalam waktu yang cukup lama.", "Ikan-ikan yang ditangkap para nelayan dijual di pelelangan ikan.", "Para petani modern sudah menerapkan teknologi pembenihan.", "Perumahan yang ramah lingkungan harus disiapkan oleh pemerintah.", "Sebenarnya cerita pewayangan menggambarkan peristiwa dunia nyata."],
-            answer: null, doubt: false, correctAnswer: 2, score: 70, difficulty: "Hard"
-        },
-        {
-            id: "ppu3_2",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 9-12!</b><br><br>(1) Saat ini kecerdasan buatan atau <i>artificial intellijen</i> (AI) bukan hanya tentang robot atau sistem otomatisasi yang biasa digunakan dalam aktivitas sehari-hari. (2) AI juga menjadi sahabat terbaik dalam perawatan kulit. (3) Tren AI dalam industri kecantikan merupakan revolusi kecantikan yang menggabungkan kecerdasan buatan dengan ilmu perawatan kulit. (4) Melalui teknologi cerdas dalam pemrosesan data, AI mampu menganalisis kondisi kulit secara cepat (real-time), mengidentifikasi masalah kulit secara spesifik, dan memberikan rekomendasi perawatan yang disesuaikan dengan tipe kulit setiap individu.<br><br>(5) Tidak hanya itu, AI dalam dunia kecantikan juga membantu mengembangkan formula baru yang inovatif, memprediksi tren kecantikan, dan menyesuaikan pengalaman konsumen dengan kebutuhan kulit masing-masing. (6) Dengan demikian, tren AI tidak hanya mengubah cara pembuatan dan penjualan produk kecantikan, tetapi juga membangun interaksi konsumen dengan AI untuk perawatan kecantikan mereka sehari-hari.<br><br>Kelompok kata yang berpasangan tetap dalam bacaan tersebut adalah …",
-            options: ["Sahabat terbaik (kalimat 2)", "Kecerdasan buatan (kalimat 3)", "Tipe kulit (kalimat 4)", "Formula baru (kalimat 5)", "Produk kecantikan (kalimat 6)"],
-            answer: null, doubt: false, correctAnswer: 1, score: 40, difficulty: "Easy"
-        },
-        {
-            id: "ppu3_3",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 9-12!</b><br><br>(1) Saat ini kecerdasan buatan atau <i>artificial intellijen</i> (AI) bukan hanya tentang robot atau sistem otomatisasi yang biasa digunakan dalam aktivitas sehari-hari. (2) AI juga menjadi sahabat terbaik dalam perawatan kulit. (3) Tren AI dalam industri kecantikan merupakan revolusi kecantikan yang menggabungkan kecerdasan buatan dengan ilmu perawatan kulit. (4) Melalui teknologi cerdas dalam pemrosesan data, AI mampu menganalisis kondisi kulit secara cepat (real-time), mengidentifikasi masalah kulit secara spesifik, dan memberikan rekomendasi perawatan yang disesuaikan with tipe kulit setiap individu.<br><br>(5) Tidak hanya itu, AI dalam dunia kecantikan juga membantu mengembangkan formula baru yang inovatif, memprediksi tren kecantikan, dan menyesuaikan pengalaman konsumen dengan kebutuhan kulit masing-masing. (6) Dengan demikian, tren AI tidak hanya mengubah cara pembuatan dan penjualan produk kecantikan, tetapi juga membangun interaksi konsumen dengan AI untuk perawatan kecantikan mereka sehari-hari.<br><br>Sesuai dengan konteks dalam bacaan tersebut, kata <i>cerdas</i> (kalimat 4) memiliki makna yang berlawanan dengan kata …",
-            options: ["Bodoh", "Kolot", "Lambat", "Kuno", "Manual"],
-            answer: null, doubt: false, correctAnswer: 0, score: 40, difficulty: "Easy"
-        },
-        {
-            id: "ppu3_4",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 9-12!</b><br><br>(1) Saat ini kecerdasan buatan atau <i>artificial intellijen</i> (AI) bukan hanya tentang robot atau sistem otomatisasi yang biasa digunakan dalam aktivitas sehari-hari. (2) AI juga menjadi sahabat terbaik dalam perawatan kulit. (3) Tren AI dalam industri kecantikan merupakan revolusi kecantikan yang menggabungkan kecerdasan buatan dengan ilmu perawatan kulit. (4) Melalui teknologi cerdas dalam pemrosesan data, AI mampu menganalisis kondisi kulit secara cepat (real-time), mengidentifikasi masalah kulit secara spesifik, dan memberikan rekomendasi perawatan yang disesuaikan dengan tipe kulit setiap individu.<br><br>(5) Tidak hanya itu, AI dalam dunia kecantikan juga membantu mengembangkan formula baru yang inovatif, memprediksi tren kecantikan, dan menyesuaikan pengalaman konsumen dengan kebutuhan kulit masing-masing. (6) Dengan demikian, tren AI tidak hanya mengubah cara pembuatan dan penjualan produk kecantikan, tetapi juga membangun interaksi konsumen dengan AI untuk perawatan kecantikan mereka sehari-hari.<br><br>Kata dalam bacaan tersebut yang mengacu pada makna yang sebenarnya (bukan kiasan) adalah …",
-            options: ["Sahabat (kalimat 2)", "Revolusi (kalimat 3)", "Perawatan (kalimat 4)", "Dunia (kalimat 5)", "Membangun (kalimat 6)"],
-            answer: null, doubt: false, correctAnswer: 2, score: 40, difficulty: "Easy"
-        },
-
-        // === TEKS 4 ===
-        {
-            id: "ppu4_1",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 13-16!</b><br><br>(1) Awan terbentuk dari kristal udara dan air yang seharusnya lebih padat daripada udara. (2) Namun, awan terlihat melayang bebas, mengapung tinggi, dan perlawanan gravitasi. (3) Mengapa awan tidak jatuh? (4) Hal itu terjadi karena awan tersebut tenggelam di dalam udara sekitarnya. (5) Hanya saja awan tersebut tenggelam dengan kecepatan yang sangat lambat sehingga terlihat mengapung.<br><br>(6) Galileo galilei, jauh sebelum abad ke-16 menjelaskan bahwa semua benda jatuh bebas dengan kecepatan yang sama terlepas dari massanya. (7) Gaya gravitasi yang mendorong benda ke bawah dan memaksanya jatuh ke permukaan bumi. (8) Sebaliknya, penerjun payung dapat mendarat dengan aman karena parasut mendistribusikan massa ke area permukaan yang luas. (9) Karena tersebar di area yang luas, hambatan udaranya sangat besar pada awan.<br><br>Kata yang tepat di awal paragraf dua untuk menghubungkan kedua paragraf pada bacaan adalah …",
-            options: ["Sementara itu", "Lebih jauh lagi", "Oleh karena itu", "Berbeda dengan hal di atas", "Berkaitan dengan hal tersebut"],
-            answer: null, doubt: false, correctAnswer: 4, score: 40, difficulty: "Easy"
-        },
-        {
-            id: "ppu4_2",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 13-16!</b><br><br>(1) Awan terbentuk dari kristal udara dan air yang seharusnya lebih padat daripada udara. (2) Namun, awan terlihat melayang bebas, mengapung tinggi, dan perlawanan gravitasi. (3) Mengapa awan tidak jatuh? (4) Hal itu terjadi karena awan tersebut tenggelam di dalam udara sekitarnya. (5) Hanya saja awan tersebut tenggelam dengan kecepatan yang sangat lambat sehingga terlihat mengapung.<br><br>(6) Galileo galilei, jauh sebelum abad ke-16 menjelaskan bahwa semua benda jatuh bebas dengan kecepatan yang sama terlepas dari massanya. (7) Gaya gravitasi yang mendorong benda ke bawah dan memaksanya jatuh ke permukaan bumi. (8) Sebaliknya, penerjun payung dapat mendarat dengan aman karena parasut mendistribusikan massa ke area permukaan yang luas. (9) Karena tersebar di area yang luas, hambatan udaranya sangat besar pada awan.<br><br>Ungkapan <i>hambatan udaranya sangat besar pada awan</i> pada kalimat (9) dapat disempurnakan menjadi ....",
-            options: ["awan mendapat hambatan udara yang sangat besar", "udara yang sangat besar menghambat awan", "besarnya udara mendapat hambatan dari awan", "dari awan udara mendapat hambatan yang sangat besar", "yang sangat besar adalah hambatan udara"],
-            answer: null, doubt: false, correctAnswer: 0, score: 50, difficulty: "Medium"
-        },
-        {
-            id: "ppu4_3",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 13-16!</b><br><br>(1) Awan terbentuk dari kristal udara dan air yang seharusnya lebih padat daripada udara. (2) Namun, awan terlihat melayang bebas, mengapung tinggi, dan perlawanan gravitasi. (3) Mengapa awan tidak jatuh? (4) Hal itu terjadi karena awan tersebut tenggelam di dalam udara sekitarnya. (5) Hanya saja awan tersebut tenggelam dengan kecepatan yang sangat lambat sehingga terlihat mengapung.<br><br>(6) Galileo galilei, jauh sebelum abad ke-16 menjelaskan bahwa semua benda jatuh bebas dengan kecepatan yang sama terlepas dari massanya. (7) Gaya gravitasi yang mendorong benda ke bawah dan memaksanya jatuh ke permukaan bumi. (8) Sebaliknya, penerjun payung dapat mendarat dengan aman karena parasut mendistribusikan massa ke area permukaan yang luas. (9) Karena tersebar di area yang luas, hambatan udaranya sangat besar pada awan.<br><br>Frasa <i>melayang bebas, mengapung tinggi, dan perlawanan gravitasi</i> pada kalimat (2) dapat diperbaiki menjadi ....",
-            options: ["kata gravitasi seharusnya bergravitasi", "kata tinggi seharusnya ketinggian", "kata mengapung seharusnya terapung", "kata perlawanan seharusnya melawan", "kata melayang seharusnya layangan"],
-            answer: null, doubt: false, correctAnswer: 3, score: 50, difficulty: "Medium"
-        },
-        {
-            id: "ppu4_4",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 13-16!</b><br><br>(1) Awan terbentuk dari kristal udara dan air yang seharusnya lebih padat daripada udara. (2) Namun, awan terlihat melayang bebas, mengapung tinggi, dan perlawanan gravitasi. (3) Mengapa awan tidak jatuh? (4) Hal itu terjadi karena awan tersebut tenggelam di dalam udara sekitarnya. (5) Hanya saja awan tersebut tenggelam dengan kecepatan yang sangat lambat sehingga terlihat mengapung.<br><br>(6) Galileo galilei, jauh sebelum abad ke-16 menjelaskan bahwa semua benda jatuh bebas dengan kecepatan yang sama terlepas dari massanya. (7) Gaya gravitasi yang mendorong benda ke bawah dan memaksanya jatuh ke permukaan bumi. (8) Sebaliknya, penerjun payung dapat mendarat dengan aman karena parasut mendistribusikan massa ke area permukaan yang luas. (9) Karena tersebar di area yang luas, hambatan udaranya sangat besar pada awan.<br><br>Kalimat yang tidak logis dalam bacaan di atas adalah …",
-            options: ["Kalimat (1)", "Kalimat (3)", "Kalimat (4)", "Kalimat (7)", "Kalimat (8)"],
-            answer: null, doubt: false, correctAnswer: 3, score: 70, difficulty: "Hard"
-        },
-
-        // === TEKS 5 ===
-        {
-            id: "ppu5_1",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 17-20!</b><br><br>(1) Upaya penanaman lahan kering dengan tanaman hijau sangat menantang karena berhadapan dengan tiga masalah, yaitu kekurangan air, tanah yang tandus, dan perubahan iklim. (2) Tanah kurang air, layaknya spons yang haus, kesulitan menyerap dan menyimpan kelembapan. (3) Hal tersebut membuat vegetasi sulit bertahan hidup. (4) Kekurangan air bahkan dapat menghambat pertumbuhan akar sehingga mencegah tanaman untuk mencengkram tanah dengan kuat. (5) Selain itu, kondisi tanah yang miskin unsur hara makin memperburuk keadaan. (6) Tanah kering sering kekurangan nutrisi penting yang dibutuhkan tanaman untuk tumbuh. (7) Masalah lain yang dapat mengganjal upaya penghijauan adalah perubahan iklim. (8) Curah hujan yang tidak menentu dan kekeringan yang berkepanjangan menghambat tanaman untuk bertahan hidup di bawah kondisi yang tidak menguntungkan.<br><br>Kalimat <i>Rumah mungil tempat ibu pernah tinggal bersama adik perempuannya itu milik negara</i> memiliki pola kalimat yang sama dengan kalimat ....",
-            options: ["(1)", "(3)", "(4)", "(7)", "(8)"],
-            answer: null, doubt: false, correctAnswer: 3, score: 70, difficulty: "Hard"
-        },
-        {
-            id: "ppu5_2",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 17-20!</b><br><br>(1) Upaya penanaman lahan kering dengan tanaman hijau sangat menantang karena berhadapan dengan tiga masalah, yaitu kekurangan air, tanah yang tandus, dan perubahan iklim. (2) Tanah kurang air, layaknya spons yang haus, kesulitan menyerap dan menyimpan kelembapan. (3) Hal tersebut membuat vegetasi sulit bertahan hidup. (4) Kekurangan air bahkan dapat menghambat pertumbuhan akar sehingga mencegah tanaman untuk mencengkram tanah dengan kuat. (5) Selain itu, kondisi tanah yang miskin unsur hara makin memperburuk keadaan. (6) Tanah kering sering kekurangan nutrisi penting yang dibutuhkan tanaman untuk tumbuh. (7) Masalah lain yang dapat mengganjal upaya penghijauan adalah perubahan iklim. (8) Curah hujan yang tidak menentu dan kekeringan yang berkepanjangan menghambat tanaman untuk bertahan hidup di bawah kondisi yang tidak menguntungkan.<br><br>Tujuan penggunaan kata <i>dapat</i> pada kalimat (4) adalah …",
-            options: ["Mewajibkan", "Memungkinkan", "Membolehkan", "Memastikan", "Menganjurkan"],
-            answer: null, doubt: false, correctAnswer: 1, score: 40, difficulty: "Easy"
-        },
-        {
-            id: "ppu5_3",
-            text: "<b>Bacalah teks berikut untuk menjawab soal nomor 17-20!</b><br><br>(1) Upaya penanaman lahan kering dengan tanaman hijau sangat menantang karena berhadapan dengan tiga masalah, yaitu kekurangan air, tanah yang tandus, dan perubahan iklim. (2) Tanah kurang air, layaknya spons yang haus, kesulitan menyerap dan menyimpan kelembapan. (3) Hal tersebut membuat vegetasi sulit bertahan hidup. (4) Kekurangan air bahkan dapat menghambat pertumbuhan akar sehingga mencegah tanaman untuk mencengkram tanah dengan kuat. (5) Selain itu, kondisi tanah yang miskin unsur hara makin memperburuk keadaan. (6) Tanah kering sering kekurangan nutrisi penting yang dibutuhkan tanaman untuk tumbuh. (7) Masalah lain yang dapat mengganjal upaya penghijauan adalah perubahan iklim. (8) Curah hujan yang tidak menentu dan kekeringan yang berkepanjangan menghambat tanaman untuk bertahan hidup di bawah kondisi yang tidak menguntungkan.<br><br>Pandangan penulis terhadap penanaman lahan kering adalah …",
-            options: ["cukup khawatir", "cenderung apatis", "sangat menentang", "terlalu pesimis", "tidak berpihak"],
-            answer: null, doubt: false, correctAnswer: 0, score: 50, difficulty: "Medium"
-        },
-        {
-            id: "ppu5_4",
-            text: "<b>Perhatikan bahasa buatan berikut!</b><br><br>Truk mengangkut brangkas = “Tabila lam cenai mbosh”<br>Kereta menarik gerbong = “Grosean noy seano ndosh”<br>Brangkas ditarik kereta = “Tabila ndosh noy seano noy”<br><br><b>20. Bagaimana mengatakan “Gerbong diangkut truk” dengan Bahasa tersebut?",
-            options: ["Grosean mbosh lam cenai lam", "Grosean ndosh lam cenai lam", "Tabila mbosh lam cenai lam", "Tabila ndosh lam cenai lam", "Seano mbosh noy seano noy"],
-            answer: null, doubt: false, correctAnswer: 0, score: 70, difficulty: "Hard"
-        }
-    ]
+// ==========================================
+// SOAL 16
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 16—19.\n(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.\n\nKelompok kata dalam bacaan tersebut yang memiliki pola makna sama dengan bengkel mobil adalah ….", 
+    options: [
+        "kedai kopi (kalimat 1)", 
+        "desain interior (kalimat 2)", 
+        "kaum urban (kalimat 3)", 
+        "peran penting (kalimat 7)", 
+        "sejarah panjang (kalimat 9)"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 35, 
+    difficulty: "Easy" 
 },
 
+// ==========================================
+// SOAL 17
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 16—19.\n(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.\n\nFungsi kata penghubung serta dalam kalimat (2) adalah ….", 
+    options: [
+        "menjelaskan hubungan sebab-akibat", 
+        "menunjukkan alasan", 
+        "memberikan informasi tambahan", 
+        "memerinci pernyataan", 
+        "menandai hubungan logis"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 2, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 18
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 16—19.\n(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.\n\nHubungan kata kopi dan kata petani sama dengan hubungan kata emas dan kata ….", 
+    options: [
+        "perajin", 
+        "pedagang", 
+        "pengoleksi", 
+        "penambang", 
+        "pembeli"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 19
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 16—19.\n(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.\n\nKelompok kata menyumbang devisa dalam kalimat (6) memiliki makna paling dekat dengan kelompok kata ….", 
+    options: [
+        "memberikan keuntungan", 
+        "mendatangkan kebaikan", 
+        "membagikan laba", 
+        "mendukung pembangunan", 
+        "menyediakan kontribusi"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+        // ==========================================
+// SOAL 20
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 20—23.\n(1) Mengelola kadar kolesterol dan gula darah penting untuk menjaga kesehatan tubuh. (2) Kadar kolesterol dalam darah wajib dikelola dengan baik agar tidak memicu munculnya berbagai penyakit. (3) Kadar kolesterol yang tinggi dapat meningkatkan risiko penyakit jantung koroner, strok, dan penyakit pembuluh darah. (4) Selain itu, kondisi tersebut juga dapat menyebabkan hipertensi.\n(5) Kadar kolesterol yang tinggi disebabkan oleh berbagai faktor, misalnya gaya hidup yang tidak sehat dan pola makan yang tidak baik. (6) Dalam hal gaya hidup, merokok dan kurang berolahraga dapat memicu peningkatan kadar kolesterol dalam darah. (7) Sementara itu, dalam hal pola makan, mengkonsumsi makanan yang tinggi kolesterol dan lemak jenuh dapat menyebabkan kadar kolesterol naik.\n(8) Ada berbagai cara yang dapat dilakukan untuk menurunkan kadar kolesterol. (9) Pertama, terapkanlah gaya hidup sehat secara konsisten. (10) Kedua, batasilah asupan makanan yang mengandung lemak jenuh, seperti daging berlemak, daging asap, sosis, es krim, makanan bersantan, biskuit, dan kue kering. (11) Selain itu, konsumsilah suplemen yang mengandung kitosan untuk menurunkan dan mencegah kadar kolesterol tinggi.\n\nKalimat yang tidak diperlukan dalam teks tersebut adalah ….", 
+    options: [
+        "kalimat (1)", 
+        "kalimat (3)", 
+        "kalimat (5)", 
+        "kalimat (6)", 
+        "kalimat (8)"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 21
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 20—23.\n(1) Mengelola kadar kolesterol dan gula darah penting untuk menjaga kesehatan tubuh. (2) Kadar kolesterol dalam darah wajib dikelola dengan baik agar tidak memicu munculnya berbagai penyakit. (3) Kadar kolesterol yang tinggi dapat meningkatkan risiko penyakit jantung koroner, strok, dan penyakit pembuluh darah. (4) Selain itu, kondisi tersebut juga dapat menyebabkan hipertensi.\n(5) Kadar kolesterol yang tinggi disebabkan oleh berbagai faktor, misalnya gaya hidup yang tidak sehat dan pola makan yang tidak baik. (6) Dalam hal gaya hidup, merokok dan kurang berolahraga dapat memicu peningkatan kadar kolesterol dalam darah. (7) Sementara itu, dalam hal pola makan, mengkonsumsi makanan yang tinggi kolesterol dan lemak jenuh dapat menyebabkan kadar kolesterol naik.\n(8) Ada berbagai cara yang dapat dilakukan untuk menurunkan kadar kolesterol. (9) Pertama, terapkanlah gaya hidup sehat secara konsisten. (10) Kedua, batasilah asupan makanan yang mengandung lemak jenuh, seperti daging berlemak, daging asap, sosis, es krim, makanan bersantan, biskuit, dan kue kering. (11) Selain itu, konsumsilah suplemen yang mengandung kitosan untuk menurunkan dan mencegah kadar kolesterol tinggi.\n\nHubungan antarparagraf dalam bacaan tersebut adalah ….", 
+    options: [
+        "paragraf pertama adalah penyebab paragraf kedua", 
+        "paragraf kedua adalah pertentangan paragraf pertama", 
+        "paragraf kedua adalah akibat dari paragraf ketiga", 
+        "paragraf ketiga adalah dampak dari paragraf pertama", 
+        "paragraf ketiga adalah solusi untuk paragraf pertama"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 4, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 22
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 20—23.\n(1) Mengelola kadar kolesterol dan gula darah penting untuk menjaga kesehatan tubuh. (2) Kadar kolesterol dalam darah wajib dikelola dengan baik agar tidak memicu munculnya berbagai penyakit. (3) Kadar kolesterol yang tinggi dapat meningkatkan risiko penyakit jantung koroner, strok, dan penyakit pembuluh darah. (4) Selain itu, kondisi tersebut juga dapat menyebabkan hipertensi.\n(5) Kadar kolesterol yang tinggi disebabkan oleh berbagai faktor, misalnya gaya hidup yang tidak sehat dan pola makan yang tidak baik. (6) Dalam hal gaya hidup, merokok dan kurang berolahraga dapat memicu peningkatan kadar kolesterol dalam darah. (7) Sementara itu, dalam hal pola makan, mengkonsumsi makanan yang tinggi kolesterol dan lemak jenuh dapat menyebabkan kadar kolesterol naik.\n(8) Ada berbagai cara yang dapat dilakukan untuk menurunkan kadar kolesterol. (9) Pertama, terapkanlah gaya hidup sehat secara konsisten. (10) Kedua, batasilah asupan makanan yang mengandung lemak jenuh, seperti daging berlemak, daging asap, sosis, es krim, makanan bersantan, biskuit, dan kue kering. (11) Selain itu, konsumsilah suplemen yang mengandung kitosan untuk menurunkan dan mencegah kadar kolesterol tinggi.\n\nApa yang dimaksud dengan frasa kondisi tersebut dalam kalimat (4)?", 
+    options: [
+        "berbagai penyakit", 
+        "strok", 
+        "hipertensi", 
+        "penyakit jantung", 
+        "kadar kolesterol yang tinggi"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 4, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 23
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 20—23.\n(1) Mengelola kadar kolesterol dan gula darah penting untuk menjaga kesehatan tubuh. (2) Kadar kolesterol dalam darah wajib dikelola dengan baik agar tidak memicu munculnya berbagai penyakit. (3) Kadar kolesterol yang tinggi dapat meningkatkan risiko penyakit jantung koroner, strok, dan penyakit pembuluh darah. (4) Selain itu, kondisi tersebut juga dapat menyebabkan hipertensi.\n(5) Kadar kolesterol yang tinggi disebabkan oleh berbagai faktor, misalnya gaya hidup yang tidak sehat dan pola makan yang tidak baik. (6) Dalam hal gaya hidup, merokok dan kurang berolahraga dapat memicu peningkatan kadar kolesterol dalam darah. (7) Sementara itu, dalam hal pola makan, mengkonsumsi makanan yang tinggi kolesterol dan lemak jenuh dapat menyebabkan kadar kolesterol naik.\n(8) Ada berbagai cara yang dapat dilakukan untuk menurunkan kadar kolesterol. (9) Pertama, terapkanlah gaya hidup sehat secara konsisten. (10) Kedua, batasilah asupan makanan yang mengandung lemak jenuh, seperti daging berlemak, daging asap, sosis, es krim, makanan bersantan, biskuit, dan kue kering. (11) Selain itu, konsumsilah suplemen yang mengandung kitosan untuk menurunkan dan mencegah kadar kolesterol tinggi.\n\nPembentukan kata yang salah terdapat dalam ….", 
+    options: [
+        "kalimat (3)", 
+        "kalimat (6)", 
+        "kalimat (7)", 
+        "kalimat (9)", 
+        "kalimat (11)"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 2, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+        // ==========================================
+// SOAL 24
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 24—26.\n“Krisis Air Bersih dan Tantangan Kota Metropolitan”\n(1) Krisis air bersih menjadi persoalan serius yang dihadapi kota-kota besar di Indonesia, seperti Jakarta, Surabaya, dan Medan, terutama pada musim kemarau panjang. (2) Jumlah penduduk yang terus meningkat, pencemaran air tanah, serta eksploitasi air bawah tanah yang tidak terkendali memperparah kondisi tersebut. (3) Di sejumlah kawasan, warga terpaksa membeli air dari truk tangki swasta dengan harga mahal meskipun kualitasnya belum tentu layak konsumsi.\n(4) Pemerintah kota pun mulai menggencarkan program edukasi penghematan air dan pembangunan instalasi penjernihan air permukaan sebagai solusi jangka menengah. (5) (...) pasokan air bersih masih belum merata, dan sebagian besar masyarakat berpenghasilan rendah tetap kesulitan mendapatkan akses air layak. (6) Oleh karena itu, upaya bersama antara pemerintah, swasta, dan masyarakat menjadi kunci utama dalam mewujudkan ketahanan air di kota-kota besar Indonesia.\n\nIstilah khusus yang tepat untuk mengisi bagian rumpang pada kalimat (3) adalah ….", 
+    options: [
+        "ekskavasi", 
+        "distribusi", 
+        "komersialisasi", 
+        "evaporasi", 
+        "konservasi"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 2, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 25
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 24—26.\n“Krisis Air Bersih dan Tantangan Kota Metropolitan”\n(1) Krisis air bersih menjadi persoalan serius yang dihadapi kota-kota besar di Indonesia, seperti Jakarta, Surabaya, dan Medan, terutama pada musim kemarau panjang. (2) Jumlah penduduk yang terus meningkat, pencemaran air tanah, serta eksploitasi air bawah tanah yang tidak terkendali memperparah kondisi tersebut. (3) Di sejumlah kawasan, warga terpaksa membeli air dari truk tangki swasta dengan harga mahal meskipun kualitasnya belum tentu layak konsumsi.\n(4) Pemerintah kota pun mulai menggencarkan program edukasi penghematan air dan pembangunan instalasi penjernihan air permukaan sebagai solusi jangka menengah. (5) (...) pasokan air bersih masih belum merata, dan sebagian besar masyarakat berpenghasilan rendah tetap kesulitan mendapatkan akses air layak. (6) Oleh karena itu, upaya bersama antara pemerintah, swasta, dan masyarakat menjadi kunci utama dalam mewujudkan ketahanan air di kota-kota besar Indonesia.\n\nKonjungsi yang paling tepat untuk mengisi bagian rumpang pada kalimat (5) adalah ….", 
+    options: [
+        "Akibatnya", 
+        "Sebaliknya", 
+        "Padahal", 
+        "Karena itu", 
+        "Meskipun begitu"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 4, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 26
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 24—26.\n“Krisis Air Bersih dan Tantangan Kota Metropolitan”\n(1) Krisis air bersih menjadi persoalan serius yang dihadapi kota-kota besar di Indonesia, seperti Jakarta, Surabaya, dan Medan, terutama pada musim kemarau panjang. (2) Jumlah penduduk yang terus meningkat, pencemaran air tanah, serta eksploitasi air bawah tanah yang tidak terkendali memperparah kondisi tersebut. (3) Di sejumlah kawasan, warga terpaksa membeli air dari truk tangki swasta dengan harga mahal meskipun kualitasnya belum tentu layak konsumsi.\n(4) Pemerintah kota pun mulai menggencarkan program edukasi penghematan air dan pembangunan instalasi penjernihan air permukaan sebagai solusi jangka menengah. (5) (...) pasokan air bersih masih belum merata, dan sebagian besar masyarakat berpenghasilan rendah tetap kesulitan mendapatkan akses air layak. (6) Oleh karena itu, upaya bersama antara pemerintah, swasta, dan masyarakat menjadi kunci utama dalam mewujudkan ketahanan air di kota-kota besar Indonesia.\n\nKalimat (2) akan memiliki kesejajaran jika disusun sebagai ….", 
+    options: [
+        "Jumlah penduduk meningkat, pencemaran air tanah terjadi, dan eksploitasi air bawah tanah.", 
+        "Peningkatan jumlah penduduk, pencemaran air tanah, dan eksploitasi air bawah tanah semakin memburuk.", 
+        "Bertambahnya jumlah penduduk, tercemarnya air tanah, dan eksploitasi air bawah tanah yang tidak terkendali memperparah kondisi tersebut.", 
+        "Menambah jumlah penduduk, mencemari air tanah, serta eksploitasi air bawah tanah.", 
+        "Meningkatnya penduduk, pencemaran air tanah, dan air bawah tanah dieksploitasi."
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 1, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+        // ==========================================
+// SOAL 27
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 27—30.\n¹Suku Poombawo merupakan salah satu etnik yang mendiami bagian barat pulau Yapen diwilayah adat Saireri. ²Untuk menopang eksistensi hidupnya, interaksi simbolik dengan alam mereka bangun. ³Salah satu bentuk kegiatan ekowisata adalah pengamatan burung Cendrawasih di hutan sekitar kampung mereka. ⁴Berdasarkan survey, wilayah suku Poombawo yang mencakup Distrik Poom, secara ekologis, menjadi habitat alami burung Cendrawasih. ⁵Keberadaan burung Cendrawasih mendorong aktivitas pemanfaatanya melalui perburuan sekitar tahun 1995 sampai dengan 2000-an. ⁶Tahun 2000-an kegiatan perburuan tersebut berhenti. ⁷Selanjutnya, munculah sebuah kesadaran kembali pada beberapa marga pemilik hak atas tanah suku. ⁸Marga pemilik hak atas tanah suku ini diantaranya adalah Paririe dan Heipon. ⁹Marga suku ini mulai menjaga dan dilindungi hutan dan burung Cendrawasih. ¹⁰Kesadaran ini diduga terjadi sebagai wujud nilai dan kepercayaan pada suku Poombawo yang telah hilang beberapa generasi.\n\nApabila gagasan pada bacaan tersebut dipisahkan menjadi dua paragraf yang padu dan utuh, pengelompokan kalimatnya adalah ….", 
+    options: [
+        "(1-2-3) dan (4-5-6-7-8-9-10)", 
+        "(1-2-3-4) dan (5-6-7-8-9-10)", 
+        "(1-2-3-4-5) dan (6-7-8-9-10)", 
+        "(1-2-3-4-5-6) dan (7-8-9-10)", 
+        "(1-2-3-4-5-6-7) dan (8-9-10)"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 1, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 28
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 27—30.\n¹Suku Poombawo merupakan salah satu etnik yang mendiami bagian barat pulau Yapen diwilayah adat Saireri. ²Untuk menopang eksistensi hidupnya, interaksi simbolik dengan alam mereka bangun. ³Salah satu bentuk kegiatan ekowisata adalah pengamatan burung Cendrawasih di hutan sekitar kampung mereka. ⁴Berdasarkan survey, wilayah suku Poombawo yang mencakup Distrik Poom, secara ekologis, menjadi habitat alami burung Cendrawasih. ⁵Keberadaan burung Cendrawasih mendorong aktivitas pemanfaatanya melalui perburuan sekitar tahun 1995 sampai dengan 2000-an. ⁶Tahun 2000-an kegiatan perburuan tersebut berhenti. ⁷Selanjutnya, munculah sebuah kesadaran kembali pada beberapa marga pemilik hak atas tanah suku. ⁸Marga pemilik hak atas tanah suku ini diantaranya adalah Paririe dan Heipon. ⁹Marga suku ini mulai menjaga dan dilindungi hutan dan burung Cendrawasih. ¹⁰Kesadaran ini diduga terjadi sebagai wujud nilai dan kepercayaan pada suku Poombawo yang telah hilang beberapa generasi.\n\nBentuk ke-an pada kata kesadaran dalam kalimat (7) mempunyai kesamaan makna dengan bentuk ke-an pada ….", 
+    options: [
+        "Dia tidak berhasil menonton klub kesayanganya bertanding karena ketiduran.", 
+        "Pejabat itu mudah sekali ditemu di kediamannya.", 
+        "Kepergian mahasiswa itu ke Amerika adalah untuk melanjutkan studi.", 
+        "Dengan banyak aktivitas, dia bisa mengusir kesepian yang pernah dialaminya.", 
+        "Mereka membeli banyak pakaian karena kebanyakan pakaian yang lama kekecilan."
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 29
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 27—30.\n¹Suku Poombawo merupakan salah satu etnik yang mendiami bagian barat pulau Yapen diwilayah adat Saireri. ²Untuk menopang eksistensi hidupnya, interaksi simbolik dengan alam mereka bangun. ³Salah satu bentuk kegiatan ekowisata adalah pengamatan burung Cendrawasih di hutan sekitar kampung mereka. ⁴Berdasarkan survey, wilayah suku Poombawo yang mencakup Distrik Poom, secara ekologis, menjadi habitat alami burung Cendrawasih. ⁵Keberadaan burung Cendrawasih mendorong aktivitas pemanfaatanya melalui perburuan sekitar tahun 1995 sampai dengan 2000-an. ⁶Tahun 2000-an kegiatan perburuan tersebut berhenti. ⁷Selanjutnya, munculah sebuah kesadaran kembali pada beberapa marga pemilik hak atas tanah suku. ⁸Marga pemilik hak atas tanah suku ini diantaranya adalah Paririe dan Heipon. ⁹Marga suku ini mulai menjaga dan dilindungi hutan dan burung Cendrawasih. ¹⁰Kesadaran ini diduga terjadi sebagai wujud nilai dan kepercayaan pada suku Poombawo yang telah hilang beberapa generasi.\n\nUngkapan interaksi simbolik dengan alam mereka bangun pada kalimat (2) dapat disempurnakan menjadi ….", 
+    options: [
+        "interaksi dengan alam mereka bangun secara simbolik", 
+        "alam mereka bangun dengan interaksi yang simbolik", 
+        "interaksi mereka dengan alam dibangun secara simbolik", 
+        "mereka membangun interaksi simbolik dengan alam", 
+        "secara simbolik interaksi dengan alam dibangun mereka"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 30
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 27—30.\n¹Suku Poombawo merupakan salah satu etnik yang mendiami bagian barat pulau Yapen diwilayah adat Saireri. ²Untuk menopang eksistensi hidupnya, interaksi simbolik dengan alam mereka bangun. ³Salah satu bentuk kegiatan ekowisata adalah pengamatan burung Cendrawasih di hutan sekitar kampung mereka. ⁴Berdasarkan survey, wilayah suku Poombawo yang mencakup Distrik Poom, secara ekologis, menjadi habitat alami burung Cendrawasih. ⁵Keberadaan burung Cendrawasih mendorong aktivitas pemanfaatanya melalui perburuan sekitar tahun 1995 sampai dengan 2000-an. ⁶Tahun 2000-an kegiatan perburuan tersebut berhenti. ⁷Selanjutnya, munculah sebuah kesadaran kembali pada beberapa marga pemilik hak atas tanah suku. ⁸Marga pemilik hak atas tanah suku ini diantaranya adalah Paririe dan Heipon. ⁹Marga suku ini mulai menjaga dan dilindungi hutan dan burung Cendrawasih. ¹⁰Kesadaran ini diduga terjadi sebagai wujud nilai dan kepercayaan pada suku Poombawo yang telah hilang beberapa generasi.\n\nKelompok kata menjaga dan dilindunginya hutan dan burung cendrawasih pada kalimat (9) dapat diperbaiki menjadi ….", 
+    options: [
+        "penjagaan dan dilindunginya hutan dan burung cendrawasih", 
+        "menjaga dan dilindunginya hutan dan burung cendrawasih", 
+        "penjagaan dan melindungi hutan dan burung cendrawasih", 
+        "menjaga dan melindungi hutan dan burung cendrawasih", 
+        "terjaganya dan perlindungan hutan dan burung cendrawasih"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+        
     pbm: {
     name: "Pemahaman Bacaan & Menulis",
     duration: 25 * 60, // 25 Menit 
