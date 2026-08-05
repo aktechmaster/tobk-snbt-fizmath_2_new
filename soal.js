@@ -878,109 +878,291 @@ pk: {
     name: "Pengetahuan Kuantitatif",
     duration: 20 * 60, // 20 Menit
     questions: [
-        {
-            text: "Jika $4 \\div \\frac{1}{2} = \\sqrt{t}$, nilai $t$ sama dengan....",
-            options: ["4", "8", "16", "32", "64"],
-            answer: null, doubt: false, correctAnswer: 4, score: 30, difficulty: "Easy"
-        },
-        {
-            text: "Titik $T(2, 17)$ terletak pada grafik fungsi $f(x) = x^2 - rx + 33$. Nilai $r$ sama dengan....",
-            options: ["5", "10", "15", "20", "25"],
-            answer: null, doubt: false, correctAnswer: 1, score: 30, difficulty: "Easy"
-        },
-        {
-            text: "Sembilan bilangan, yaitu $2, 4, 8, 3, 6, 5, 7, 8, 4$, diurutkan dari yang terbesar hingga terkecil. Jika $u$ dan $t$ berturut-turut merepresentasikan bilangan pada posisi ke-3 dan ke-8 setelah diurutkan, nilai $(2 \\times u) - t$ sama dengan....",
-            options: ["14", "13", "12", "11", "10"],
-            answer: null, doubt: false, correctAnswer: 4, score: 40, difficulty: "Medium"
-        },
-        {
-            text: "Banyaknya persegi pada bangun datar di atas adalah....",
-            img: "persegi_koordinat.png",
-            options: ["8", "10", "12", "14", "20"],
-            answer: null, doubt: false, correctAnswer: 3, score: 40, difficulty: "Medium"
-        },
-        {
-            text: "Untuk setiap bilangan bulat $x$ didefinisikan:<br>$\\{x\\} = \\begin{cases} \\frac{x+3}{x-2}, & \\text{jika } x \\text{ ganjil} \\\\ \\frac{x^2+2}{2}, & \\text{jika } x \\text{ genap tak negatif} \\\\ 2x^2 + 1, & \\text{jika } x \\text{ genap negatif} \\end{cases}$<br>Nilai $[1 - \\{2\\}]$ sama dengan....",
-            options: ["-7", "3", "4", "8", "9"],
-            answer: null, doubt: false, correctAnswer: 1, score: 70, difficulty: "Hard"
-        },
-        {
-            text: "Grafik fungsi $f(x) = 2x^2 - x - 1$ dan $g(x) = x^2 - 3x + 7$ berpotongan di dua titik berbeda, yaitu $K(a, b)$ dan $L(c, d)$. Garis $m$ melalui kedua titik tersebut. Jika $b > d$, nilai $a$ sama dengan....",
-            options: ["-4", "-2", "0", "2", "4"],
-            answer: null, doubt: false, correctAnswer: 3, score: 60, difficulty: "Hard"
-        },
-        {
-            text: "Berdasarkan fungsi pada nomor sebelumnya, gradien garis $m$ sama dengan....",
-            options: ["-5", "$-\\frac{1}{5}$", "$\\frac{1}{5}$", "1", "5"],
-            answer: null, doubt: false, correctAnswer: 4, score: 40, difficulty: "Medium"
-        },
-        {
-            text: "Jika garis $y = px + q$ tegak lurus pada garis $m$ dan melalui titik $(1, 1)$, nilai $p + q$ sama dengan....",
-            options: ["-5", "-1", "$-\\frac{3}{5}$", "$\\frac{3}{5}$", "1"],
-            answer: null, doubt: false, correctAnswer: 3, score: 60, difficulty: "Hard"
-        },
-        {
-            text: "<b>TEKS 2</b><br>Suatu limas dengan volume 30 memiliki alas berupa daerah segitiga $KLM$. Koordinat titik-titik sudut segitiga tersebut disajikan pada gambar.<br><br>Jarak antara titik $M$ dan $\\overline{KL}$ sama dengan....",
-            img: "segitiga_klm.png",
-            options: ["$\\sqrt{41}$", "6", "$\\sqrt{29}$", "5", "3"],
-            answer: null, doubt: false, correctAnswer: 3, score: 40, difficulty: "Medium"
-        },
-        {
-            text: "Luas daerah segitiga $KLM$ sama dengan....",
-            options: ["9", "15", "$3\\sqrt{29}$", "18", "$3\\sqrt{41}$"],
-            answer: null, doubt: false, correctAnswer: 1, score: 40, difficulty: "Easy"
-        },
-        {
-            text: "Tinggi limas tersebut sama dengan....",
-            options: ["2", "$\\frac{30}{41}\\sqrt{41}$", "$\\frac{30}{29}\\sqrt{29}$", "6", "10"],
-            answer: null, doubt: false, correctAnswer: 3, score: 60, difficulty: "Hard"
-        },
-        {
-            text: "Di antara pilihan berikut yang merupakan faktor persekutuan dari $(49^2 + 49)$ dan $(12^2 - 2^2)$ adalah....<br>(1) 10<br>(2) 14<br>(3) 35<br>(4) 50",
-            options: ["(1), (2), dan (3) SAJA", "(1) dan (3) SAJA", "(2) dan (4) SAJA", "(4) SAJA", "SEMUA PILIHAN"],
-            answer: null, doubt: false, correctAnswer: 0, score: 40, difficulty: "Medium"
-        },
-        {
-            text: "Fungsi $f$ dengan variabel real $x$ memenuhi $3^{x-1} < f(x) < 3x^2 + 1$ untuk $x \\leq 4$. Di antara pilihan berikut, nilai $f$ di $x=3$ yang TIDAK MUNGKIN adalah....<br>(1) 7<br>(2) 12<br>(3) 9<br>(4) 24",
-            options: ["(1), (2), dan (3) SAJA", "(1) dan (3) SAJA", "(2) dan (4) SAJA", "(4) SAJA", "SEMUA PILIHAN"],
-            answer: null, doubt: false, correctAnswer: 2, score: 60, difficulty: "Medium"
-        },
-        {
-            text: "Jika $0^\\circ < \\alpha < 90^\\circ$ dan $\\cos(\\alpha) = \\frac{3}{4}$, di antara pilihan berikut yang benar adalah....<br>(1) $\\sin(\\alpha) = \\frac{4}{\\sqrt{7}}$<br>(2) $\\tan(90^\\circ - \\alpha) = \\frac{3}{\\sqrt{7}}$<br>(3) $\\cos(\\alpha) < \\sin(\\alpha)$<br>(4) $\\tan(\\alpha) = \\frac{\\sqrt{7}}{3}$",
-            options: ["(1), (2), dan (3) SAJA", "(1) dan (3) SAJA", "(2) dan (4) SAJA", "(4) SAJA", "SEMUA PILIHAN"],
-            answer: null, doubt: false, correctAnswer: 2, score: 70, difficulty: "Hard"
-        },
-        {
-            text: "Segitiga $ABC$ merupakan segitiga sama sisi dengan panjang sisi 4. Daerah segitiga $ABC$ memiliki luas $L_1$. Titik $D$ merupakan titik tengah sisi $\\overline{AB}$ dan titik $E$ berada di ruas garis $\\overline{CD}$ sehingga luas daerah segitiga $ABE$ adalah $L_2$. Manakah hubungan antara kuantitas $P$ dan $Q$ yang benar?<br><b>P:</b> $L_2 / L_1$<br><b>Q:</b> $1 / 3$",
-            options: ["Kuantitas P lebih dari Q", "Kuantitas P kurang dari Q", "Kuantitas P sama dengan Q", "Tidak dapat ditentukan hubungan P dan Q", "P = 2Q"],
-            answer: null, doubt: false, correctAnswer: 3, score: 70, difficulty: "Hard"
-        },
-        {
-            text: "Untuk setiap bilangan bulat $x, y, b, c, t,$ dan $u$ didefinisikan:<br>$\\begin{pmatrix} x & t & b \\\\ \\square & y & \\square \\\\ u & c & \\square \\end{pmatrix} = ((u \\times c \\times x) - (t \\times u) - u) \\times (b - y)$<br>Diketahui $a$ merupakan bilangan prima. Manakah hubungan $P$ dan $Q$ yang benar?<br><b>P:</b> Nilai matriks untuk $x=3, t=7, b=5, y=6, a, c=2$<br><b>Q:</b> 3",
-            options: ["Kuantitas P lebih dari Q", "Kuantitas P kurang dari Q", "Kuantitas P sama dengan Q", "Tidak dapat ditentukan hubungan P dan Q", "Kuantitas P adalah dua kali Q"],
-            answer: null, doubt: false, correctAnswer: 0, score: 80, difficulty: "Hard"
-        },
-        {
-            text: "Sistem persamaan linear dalam $d, e,$ dan $f$, yaitu:<br>$(4d + 10e - f = -12)$<br>$(2d + 5e = -4)$<br>$(2d + 5e + 2f = 4)$<br>Mempunyai solusi $d=x, e=y, f=z$. Manakah hubungan $P$ dan $Q$ yang benar?<br><b>P:</b> $x^2 - (x^2 + y^2)$<br><b>Q:</b> 17",
-            options: ["Kuantitas P lebih dari Q", "Kuantitas P kurang dari Q", "Kuantitas P sama dengan Q", "Tidak dapat ditentukan hubungan P dan Q", "Kuantitas P bernilai negatif"],
-            answer: null, doubt: false, correctAnswer: 1, score: 80, difficulty: "Hard"
-        },
-        {
-            text: "Enam bilangan bulat positif yaitu $1, 4, 7, 3, b, 8$ memiliki rata-rata $5\\frac{1}{3}$. Jika jangkauan dari keenam bilangan tersebut dikurangi rata-ratanya adalah $\\frac{Q}{15}$, nilai $Q$ sama dengan....",
-            options: ["30", "40", "50", "60", "70"],
-            answer: null, doubt: false, correctAnswer: 1, score: 50, difficulty: "Medium"
-        },
-        {
-            text: "Barisan aritmetika $a_1, a_2, a_3, \\dots$ yang semua sukunya bilangan bulat memiliki beda $-3$. Apakah $a_{2025}$ genap?<br>(1) $(a_1 + a_2)$ ganjil<br>(2) $(a_2 + a_3)$ ganjil",
-            options: ["Pernyataan (1) SAJA cukup", "Pernyataan (2) SAJA cukup", "DUA pernyataan BERSAMA-SAMA cukup", "Salah satu pernyataan SAJA cukup", "Pernyataan (1) dan (2) tidak cukup"],
-            answer: null, doubt: false, correctAnswer: 3, score: 50, difficulty: "Medium"
-        },
-        {
-            text: "Fungsi $f$ dan $g$ dengan variabel real didefinisikan sebagai berikut:<br>$f(x) = 2x^2 + bx$ dan $g(x) = x^2 - d$<br>Untuk bilangan asli $b$ dan $d$ tertentu. Apakah terdapat bilangan real $r$ sehingga $f(r) = g(r)$?<br>(1) $b - 5d = 0$<br>(2) $b > d + 1$",
-            options: ["Pernyataan (1) SAJA cukup", "Pernyataan (2) SAJA cukup", "DUA pernyataan BERSAMA-SAMA cukup", "Salah satu pernyataan SAJA cukup", "Pernyataan (1) dan (2) tidak cukup"],
-            answer: null, doubt: false, correctAnswer: 3, score: 50, difficulty: "Medium"
-        }
-    ]
+        // ==========================================
+// SOAL 46
+// ==========================================
+{ 
+    text: "Jika $\\sqrt[3]{b^2} = 10 \\times \\frac{2}{5}$, nilai $b > 0$ bernilai ….", 
+    options: [
+        "16", 
+        "8", 
+        "4", 
+        "2", 
+        "1"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 1, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 47
+// ==========================================
+{ 
+    text: "Titik $P(-1,5)$ terletak pada grafik fungsi $f(x) = ax^2 + x + 3$. Titik berikut yang TIDAK TERLETAK pada grafik fungsi tersebut adalah ….", 
+    options: [
+        "$K(1,7)$", 
+        "$M(-2,13)$", 
+        "$N(3,33)$", 
+        "$Q(2,-17)$", 
+        "$M(-3,27)$"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 48
+// ==========================================
+{ 
+    text: "<img src=\"48.png\" style=\"max-width:100%; height:auto; margin-bottom: 10px;\" /><br>\nBanyaknya segitiga pada gambar berikut adalah ….", 
+    options: [
+        "10", 
+        "11", 
+        "12", 
+        "13", 
+        "14"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 49
+// ==========================================
+{ 
+    text: "Sembilan bilangan $2, 3, 4, 2, 5, 8, 4, 9, 8$ diurutkan dari bilangan terkecil hingga terbesar. Jika $p$, $q$, dan $r$ menyatakan bilangan secara berurutan yaitu bilangan ke-3, bilangan ke-6, dan bilangan ke-7, maka nilai $p \\times r - (r + q)$ adalah ….", 
+    options: [
+        "24", 
+        "22", 
+        "13", 
+        "11", 
+        "9"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 50
+// ==========================================
+{ 
+    text: "Untuk setiap bilangan bulat $p$ didefinisikan:\n$$[p] = \\begin{cases} \\frac{p^2}{4} - 2, & \\text{jika } p \\text{ genap lebih dari } 1 \\\\ 4 - \\frac{p^2}{2}, & \\text{jika } p \\text{ genap kurang dari } 1 \\\\ \\frac{1-p^2}{4}, & \\text{jika } p \\text{ ganjil} \\end{cases}$$\n\nNilai $[1 - [-4]]$ sama dengan ….", 
+    options: [
+        "-6", 
+        "-2", 
+        "0", 
+        "2", 
+        "6"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+            
+// ==========================================
+// SOAL 51
+// ==========================================
+{ 
+    text: "Informasi berikut untuk menjawab soal nomor 51—53.\n\nGaris $h$ melalui titik $(1, -2)$ dan $(a, 4)$.\n\nNilai $a$ sama dengan ….", 
+    options: [
+        "-5", 
+        "-4", 
+        "4", 
+        "5", 
+        "7"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 2, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 52
+// ==========================================
+{ 
+    text: "Informasi berikut untuk menjawab soal nomor 51—53.\n\nGaris $h$ melalui titik $(1, -2)$ dan $(a, 4)$.\n\nGradien garis $h$ adalah ….", 
+    options: [
+        "-2", 
+        "-1", 
+        "0", 
+        "1", 
+        "2"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 4, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 53
+// ==========================================
+{ 
+    text: "Informasi berikut untuk menjawab soal nomor 51—53.\n\nGaris $h$ melalui titik $(1, -2)$ dan $(a, 4)$.\n\nPersamaan garis yang sejajar dengan garis $h$ dan melalui titik $(-1, 2)$ adalah ….", 
+    options: [
+        "$y = -2x + 4$", 
+        "$y = -2x - 4$", 
+        "$y = 2x + 4$", 
+        "$y = 2x - 4$", 
+        "$y = 2x + 2$"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 2, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+            
+// ==========================================
+// SOAL 54
+// ==========================================
+{ 
+    text: "<img src=\"54-57.png\" style=\"max-width:100%; height:auto; margin-bottom: 10px;\" /><br>\nSuatu prisma dengan volume 300 satuan volume memiliki alas berupa jajar genjang dengan koordinat titik-titik sudut disajikan pada gambar.\n\nKoordinat titik $S$ adalah ….", 
+    options: [
+        "$(7, 12)$", 
+        "$(6, 12)$", 
+        "$(4, 12)$", 
+        "$(6, 7)$", 
+        "$(5, 12)$"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 55
+// ==========================================
+{ 
+    text: "<img src=\"54-57.png\" style=\"max-width:100%; height:auto; margin-bottom: 10px;\" /><br>\nSuatu prisma dengan volume 300 satuan volume memiliki alas berupa jajar genjang dengan koordinat titik-titik sudut disajikan pada gambar.\n\nPanjang diagonal terpendek adalah ….", 
+    options: [
+        "$4\\sqrt{10}$", 
+        "$4\\sqrt{5}$", 
+        "$2\\sqrt{10}$", 
+        "$2\\sqrt{5}$", 
+        "$3\\sqrt{10}$"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 2, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 56
+// ==========================================
+{ 
+    text: "<img src=\"54-57.png\" style=\"max-width:100%; height:auto; margin-bottom: 10px;\" /><br>\nSuatu prisma dengan volume 300 satuan volume memiliki alas berupa jajar genjang dengan koordinat titik-titik sudut disajikan pada gambar.\n\nLuas jajar genjang tersebut adalah ….", 
+    options: [
+        "30 satuan luas", 
+        "50 satuan luas", 
+        "$30\\sqrt{2}$ satuan luas", 
+        "$50\\sqrt{2}$ satuan luas", 
+        "$30\\sqrt{6}$ satuan luas"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 57
+// ==========================================
+{ 
+    text: "<img src=\"54-57.png\" style=\"max-width:100%; height:auto; margin-bottom: 10px;\" /><br>\nSuatu prisma dengan volume 300 satuan volume memiliki alas berupa jajar genjang dengan koordinat titik-titik sudut disajikan pada gambar.\n\nTinggi prisma tersebut adalah ….", 
+    options: [
+        "$\\frac{5}{2}\\sqrt{6}$", 
+        "$3\\sqrt{2}$", 
+        "$5\\sqrt{2}$", 
+        "6", 
+        "10"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 4, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 58
+// ==========================================
+{ 
+    text: "Di antara pilihan berikut yang merupakan faktor persekutuan dari $(17^2 + 85)$ dan $(18^2 - 54)$ adalah ….\n(1) 42\n(2) 34\n(3) 12\n(4) 2", 
+    options: [
+        "(1), (2), dan (3) saja yang benar.", 
+        "(1) dan (3) saja yang benar.", 
+        "(2) dan (4) saja yang benar.", 
+        "hanya (4) yang benar.", 
+        "semua pilihan benar"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 2, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 59
+// ==========================================
+{ 
+    text: "Fungsi $f$ memenuhi $3x - 2 < f(x) < 3^x$ untuk $x > 1$.\n\nDi antara persamaan fungsi berikut yang memenuhi interval untuk nilai $f(x)$ di $x = 3$ adalah ….\n(1) $x + 5$\n(2) $x^2 + 12x + 2$\n(3) $-x^2 + 4x + 5$\n(4) $x + 1$", 
+    options: [
+        "(1), (2), dan (3) saja yang benar.", 
+        "(1) dan (3) saja yang benar.", 
+        "(2) dan (4) saja yang benar.", 
+        "hanya (4) yang benar.", 
+        "semua pilihan benar"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 1, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 60
+// ==========================================
+{ 
+    text: "Jika $0^\\circ < \\theta < 90^\\circ$ dan $\\cos\\theta = \\frac{3}{8}$, di antara pilihan berikut yang benar adalah ….\n(1) $\\frac{1}{\\sin\\theta} = \\frac{8}{\\sqrt{55}}$\n(2) $\\tan\\theta = \\frac{\\sqrt{55}}{3}$\n(3) $\\sin\\theta > \\cos\\theta$\n(4) $\\cos(90^\\circ - \\theta) = \\frac{\\sqrt{55}}{8}$", 
+    options: [
+        "(1), (2), dan (3) saja yang benar.", 
+        "(1) dan (3) saja yang benar.", 
+        "(1) dan (4) saja yang benar.", 
+        "hanya (4) yang benar.", 
+        "semua pilihan benar"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 4, 
+    score: 50, 
+    difficulty: "Medium" 
+}
+    ],
 },
 
 "bi": {
