@@ -303,7 +303,7 @@ const examData = {
 // SOAL 16
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 16—19.\n(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.\n\nKelompok kata dalam bacaan tersebut yang memiliki pola makna sama dengan bengkel mobil adalah ….", 
+    text: "Bacalah teks berikut.\n(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.\n\nKelompok kata dalam bacaan tersebut yang memiliki pola makna sama dengan bengkel mobil adalah ….", 
     options: [
         "kedai kopi (kalimat 1)", 
         "desain interior (kalimat 2)", 
@@ -322,7 +322,7 @@ const examData = {
 // SOAL 17
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 16—19.\n(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.\n\nFungsi kata penghubung serta dalam kalimat (2) adalah ….", 
+    text: "Bacalah teks berikut.\n(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.\n\nFungsi kata penghubung serta dalam kalimat (2) adalah ….", 
     options: [
         "menjelaskan hubungan sebab-akibat", 
         "menunjukkan alasan", 
@@ -341,7 +341,7 @@ const examData = {
 // SOAL 18
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 16—19.\n(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.\n\nHubungan kata kopi dan kata petani sama dengan hubungan kata emas dan kata ….", 
+    text: "Bacalah teks berikut.\n(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.\n\nHubungan kata kopi dan kata petani sama dengan hubungan kata emas dan kata ….", 
     options: [
         "perajin", 
         "pedagang", 
@@ -360,7 +360,7 @@ const examData = {
 // SOAL 19
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 16—19.\n(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.\n\nKelompok kata menyumbang devisa dalam kalimat (6) memiliki makna paling dekat dengan kelompok kata ….", 
+    text: "Bacalah teks berikut.\n(1) Perkembangan industri kopi di Indonesia ditandai dengan munculnya kedai kopi modern. (2) Kedai kopi ini menawarkan kopi berkualitas tinggi serta suasana nyaman dan desain interior yang menarik. (3) Kedai kopi modern menjadi tempat berkumpul, bekerja, dan bersosialisasi bagi kaum urban.\n(4) Saat ini industri kopi di Indonesia telah berkembang pesat. (5) Indonesia menjadi salah satu produsen kopi terbesar di dunia, bersama dengan Brasil, Vietnam, dan Kolombia. (6) Kopi Indonesia telah menjadi komoditas ekspor yang penting karena menyumbang devisa bagi negara. (7) Di balik kesuksesan industri kopi Indonesia, terdapat peran penting para petani kopi. (8) Perjalanan industri kopi di Indonesia adalah sebuah kisah panjang yang penuh lika-liku. (9) Ada jerih payah para petani kopi sekaligus sejarah panjang kopi di bumi pertiwi saat kita menikmati secangkir kopi.\n\nKelompok kata menyumbang devisa dalam kalimat (6) memiliki makna paling dekat dengan kelompok kata ….", 
     options: [
         "memberikan keuntungan", 
         "mendatangkan kebaikan", 
@@ -375,11 +375,11 @@ const examData = {
     difficulty: "Medium" 
 },
 
-        // ==========================================
+// ==========================================
 // SOAL 20
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 20—23.\n(1) Mengelola kadar kolesterol dan gula darah penting untuk menjaga kesehatan tubuh. (2) Kadar kolesterol dalam darah wajib dikelola dengan baik agar tidak memicu munculnya berbagai penyakit. (3) Kadar kolesterol yang tinggi dapat meningkatkan risiko penyakit jantung koroner, strok, dan penyakit pembuluh darah. (4) Selain itu, kondisi tersebut juga dapat menyebabkan hipertensi.\n(5) Kadar kolesterol yang tinggi disebabkan oleh berbagai faktor, misalnya gaya hidup yang tidak sehat dan pola makan yang tidak baik. (6) Dalam hal gaya hidup, merokok dan kurang berolahraga dapat memicu peningkatan kadar kolesterol dalam darah. (7) Sementara itu, dalam hal pola makan, mengkonsumsi makanan yang tinggi kolesterol dan lemak jenuh dapat menyebabkan kadar kolesterol naik.\n(8) Ada berbagai cara yang dapat dilakukan untuk menurunkan kadar kolesterol. (9) Pertama, terapkanlah gaya hidup sehat secara konsisten. (10) Kedua, batasilah asupan makanan yang mengandung lemak jenuh, seperti daging berlemak, daging asap, sosis, es krim, makanan bersantan, biskuit, dan kue kering. (11) Selain itu, konsumsilah suplemen yang mengandung kitosan untuk menurunkan dan mencegah kadar kolesterol tinggi.\n\nKalimat yang tidak diperlukan dalam teks tersebut adalah ….", 
+    text: "Bacalah teks berikut.\n(1) Mengelola kadar kolesterol dan gula darah penting untuk menjaga kesehatan tubuh. (2) Kadar kolesterol dalam darah wajib dikelola dengan baik agar tidak memicu munculnya berbagai penyakit. (3) Kadar kolesterol yang tinggi dapat meningkatkan risiko penyakit jantung koroner, strok, dan penyakit pembuluh darah. (4) Selain itu, kondisi tersebut juga dapat menyebabkan hipertensi.\n(5) Kadar kolesterol yang tinggi disebabkan oleh berbagai faktor, misalnya gaya hidup yang tidak sehat dan pola makan yang tidak baik. (6) Dalam hal gaya hidup, merokok dan kurang berolahraga dapat memicu peningkatan kadar kolesterol dalam darah. (7) Sementara itu, dalam hal pola makan, mengkonsumsi makanan yang tinggi kolesterol dan lemak jenuh dapat menyebabkan kadar kolesterol naik.\n(8) Ada berbagai cara yang dapat dilakukan untuk menurunkan kadar kolesterol. (9) Pertama, terapkanlah gaya hidup sehat secara konsisten. (10) Kedua, batasilah asupan makanan yang mengandung lemak jenuh, seperti daging berlemak, daging asap, sosis, es krim, makanan bersantan, biskuit, dan kue kering. (11) Selain itu, konsumsilah suplemen yang mengandung kitosan untuk menurunkan dan mencegah kadar kolesterol tinggi.\n\nKalimat yang tidak diperlukan dalam teks tersebut adalah ….", 
     options: [
         "kalimat (1)", 
         "kalimat (3)", 
@@ -398,7 +398,7 @@ const examData = {
 // SOAL 21
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 20—23.\n(1) Mengelola kadar kolesterol dan gula darah penting untuk menjaga kesehatan tubuh. (2) Kadar kolesterol dalam darah wajib dikelola dengan baik agar tidak memicu munculnya berbagai penyakit. (3) Kadar kolesterol yang tinggi dapat meningkatkan risiko penyakit jantung koroner, strok, dan penyakit pembuluh darah. (4) Selain itu, kondisi tersebut juga dapat menyebabkan hipertensi.\n(5) Kadar kolesterol yang tinggi disebabkan oleh berbagai faktor, misalnya gaya hidup yang tidak sehat dan pola makan yang tidak baik. (6) Dalam hal gaya hidup, merokok dan kurang berolahraga dapat memicu peningkatan kadar kolesterol dalam darah. (7) Sementara itu, dalam hal pola makan, mengkonsumsi makanan yang tinggi kolesterol dan lemak jenuh dapat menyebabkan kadar kolesterol naik.\n(8) Ada berbagai cara yang dapat dilakukan untuk menurunkan kadar kolesterol. (9) Pertama, terapkanlah gaya hidup sehat secara konsisten. (10) Kedua, batasilah asupan makanan yang mengandung lemak jenuh, seperti daging berlemak, daging asap, sosis, es krim, makanan bersantan, biskuit, dan kue kering. (11) Selain itu, konsumsilah suplemen yang mengandung kitosan untuk menurunkan dan mencegah kadar kolesterol tinggi.\n\nHubungan antarparagraf dalam bacaan tersebut adalah ….", 
+    text: "Bacalah teks berikut.\n(1) Mengelola kadar kolesterol dan gula darah penting untuk menjaga kesehatan tubuh. (2) Kadar kolesterol dalam darah wajib dikelola dengan baik agar tidak memicu munculnya berbagai penyakit. (3) Kadar kolesterol yang tinggi dapat meningkatkan risiko penyakit jantung koroner, strok, dan penyakit pembuluh darah. (4) Selain itu, kondisi tersebut juga dapat menyebabkan hipertensi.\n(5) Kadar kolesterol yang tinggi disebabkan oleh berbagai faktor, misalnya gaya hidup yang tidak sehat dan pola makan yang tidak baik. (6) Dalam hal gaya hidup, merokok dan kurang berolahraga dapat memicu peningkatan kadar kolesterol dalam darah. (7) Sementara itu, dalam hal pola makan, mengkonsumsi makanan yang tinggi kolesterol dan lemak jenuh dapat menyebabkan kadar kolesterol naik.\n(8) Ada berbagai cara yang dapat dilakukan untuk menurunkan kadar kolesterol. (9) Pertama, terapkanlah gaya hidup sehat secara konsisten. (10) Kedua, batasilah asupan makanan yang mengandung lemak jenuh, seperti daging berlemak, daging asap, sosis, es krim, makanan bersantan, biskuit, dan kue kering. (11) Selain itu, konsumsilah suplemen yang mengandung kitosan untuk menurunkan dan mencegah kadar kolesterol tinggi.\n\nHubungan antarparagraf dalam bacaan tersebut adalah ….", 
     options: [
         "paragraf pertama adalah penyebab paragraf kedua", 
         "paragraf kedua adalah pertentangan paragraf pertama", 
@@ -417,7 +417,7 @@ const examData = {
 // SOAL 22
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 20—23.\n(1) Mengelola kadar kolesterol dan gula darah penting untuk menjaga kesehatan tubuh. (2) Kadar kolesterol dalam darah wajib dikelola dengan baik agar tidak memicu munculnya berbagai penyakit. (3) Kadar kolesterol yang tinggi dapat meningkatkan risiko penyakit jantung koroner, strok, dan penyakit pembuluh darah. (4) Selain itu, kondisi tersebut juga dapat menyebabkan hipertensi.\n(5) Kadar kolesterol yang tinggi disebabkan oleh berbagai faktor, misalnya gaya hidup yang tidak sehat dan pola makan yang tidak baik. (6) Dalam hal gaya hidup, merokok dan kurang berolahraga dapat memicu peningkatan kadar kolesterol dalam darah. (7) Sementara itu, dalam hal pola makan, mengkonsumsi makanan yang tinggi kolesterol dan lemak jenuh dapat menyebabkan kadar kolesterol naik.\n(8) Ada berbagai cara yang dapat dilakukan untuk menurunkan kadar kolesterol. (9) Pertama, terapkanlah gaya hidup sehat secara konsisten. (10) Kedua, batasilah asupan makanan yang mengandung lemak jenuh, seperti daging berlemak, daging asap, sosis, es krim, makanan bersantan, biskuit, dan kue kering. (11) Selain itu, konsumsilah suplemen yang mengandung kitosan untuk menurunkan dan mencegah kadar kolesterol tinggi.\n\nApa yang dimaksud dengan frasa kondisi tersebut dalam kalimat (4)?", 
+    text: "Bacalah teks berikut.\n(1) Mengelola kadar kolesterol dan gula darah penting untuk menjaga kesehatan tubuh. (2) Kadar kolesterol dalam darah wajib dikelola dengan baik agar tidak memicu munculnya berbagai penyakit. (3) Kadar kolesterol yang tinggi dapat meningkatkan risiko penyakit jantung koroner, strok, dan penyakit pembuluh darah. (4) Selain itu, kondisi tersebut juga dapat menyebabkan hipertensi.\n(5) Kadar kolesterol yang tinggi disebabkan oleh berbagai faktor, misalnya gaya hidup yang tidak sehat dan pola makan yang tidak baik. (6) Dalam hal gaya hidup, merokok dan kurang berolahraga dapat memicu peningkatan kadar kolesterol dalam darah. (7) Sementara itu, dalam hal pola makan, mengkonsumsi makanan yang tinggi kolesterol dan lemak jenuh dapat menyebabkan kadar kolesterol naik.\n(8) Ada berbagai cara yang dapat dilakukan untuk menurunkan kadar kolesterol. (9) Pertama, terapkanlah gaya hidup sehat secara konsisten. (10) Kedua, batasilah asupan makanan yang mengandung lemak jenuh, seperti daging berlemak, daging asap, sosis, es krim, makanan bersantan, biskuit, dan kue kering. (11) Selain itu, konsumsilah suplemen yang mengandung kitosan untuk menurunkan dan mencegah kadar kolesterol tinggi.\n\nApa yang dimaksud dengan frasa kondisi tersebut dalam kalimat (4)?", 
     options: [
         "berbagai penyakit", 
         "strok", 
@@ -436,7 +436,7 @@ const examData = {
 // SOAL 23
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 20—23.\n(1) Mengelola kadar kolesterol dan gula darah penting untuk menjaga kesehatan tubuh. (2) Kadar kolesterol dalam darah wajib dikelola dengan baik agar tidak memicu munculnya berbagai penyakit. (3) Kadar kolesterol yang tinggi dapat meningkatkan risiko penyakit jantung koroner, strok, dan penyakit pembuluh darah. (4) Selain itu, kondisi tersebut juga dapat menyebabkan hipertensi.\n(5) Kadar kolesterol yang tinggi disebabkan oleh berbagai faktor, misalnya gaya hidup yang tidak sehat dan pola makan yang tidak baik. (6) Dalam hal gaya hidup, merokok dan kurang berolahraga dapat memicu peningkatan kadar kolesterol dalam darah. (7) Sementara itu, dalam hal pola makan, mengkonsumsi makanan yang tinggi kolesterol dan lemak jenuh dapat menyebabkan kadar kolesterol naik.\n(8) Ada berbagai cara yang dapat dilakukan untuk menurunkan kadar kolesterol. (9) Pertama, terapkanlah gaya hidup sehat secara konsisten. (10) Kedua, batasilah asupan makanan yang mengandung lemak jenuh, seperti daging berlemak, daging asap, sosis, es krim, makanan bersantan, biskuit, dan kue kering. (11) Selain itu, konsumsilah suplemen yang mengandung kitosan untuk menurunkan dan mencegah kadar kolesterol tinggi.\n\nPembentukan kata yang salah terdapat dalam ….", 
+    text: "Bacalah teks berikut.\n(1) Mengelola kadar kolesterol dan gula darah penting untuk menjaga kesehatan tubuh. (2) Kadar kolesterol dalam darah wajib dikelola dengan baik agar tidak memicu munculnya berbagai penyakit. (3) Kadar kolesterol yang tinggi dapat meningkatkan risiko penyakit jantung koroner, strok, dan penyakit pembuluh darah. (4) Selain itu, kondisi tersebut juga dapat menyebabkan hipertensi.\n(5) Kadar kolesterol yang tinggi disebabkan oleh berbagai faktor, misalnya gaya hidup yang tidak sehat dan pola makan yang tidak baik. (6) Dalam hal gaya hidup, merokok dan kurang berolahraga dapat memicu peningkatan kadar kolesterol dalam darah. (7) Sementara itu, dalam hal pola makan, mengkonsumsi makanan yang tinggi kolesterol dan lemak jenuh dapat menyebabkan kadar kolesterol naik.\n(8) Ada berbagai cara yang dapat dilakukan untuk menurunkan kadar kolesterol. (9) Pertama, terapkanlah gaya hidup sehat secara konsisten. (10) Kedua, batasilah asupan makanan yang mengandung lemak jenuh, seperti daging berlemak, daging asap, sosis, es krim, makanan bersantan, biskuit, dan kue kering. (11) Selain itu, konsumsilah suplemen yang mengandung kitosan untuk menurunkan dan mencegah kadar kolesterol tinggi.\n\nPembentukan kata yang salah terdapat dalam ….", 
     options: [
         "kalimat (3)", 
         "kalimat (6)", 
@@ -451,11 +451,11 @@ const examData = {
     difficulty: "Easy" 
 },
 
-        // ==========================================
+// ==========================================
 // SOAL 24
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 24—26.\n“Krisis Air Bersih dan Tantangan Kota Metropolitan”\n(1) Krisis air bersih menjadi persoalan serius yang dihadapi kota-kota besar di Indonesia, seperti Jakarta, Surabaya, dan Medan, terutama pada musim kemarau panjang. (2) Jumlah penduduk yang terus meningkat, pencemaran air tanah, serta eksploitasi air bawah tanah yang tidak terkendali memperparah kondisi tersebut. (3) Di sejumlah kawasan, warga terpaksa membeli air dari truk tangki swasta dengan harga mahal meskipun kualitasnya belum tentu layak konsumsi.\n(4) Pemerintah kota pun mulai menggencarkan program edukasi penghematan air dan pembangunan instalasi penjernihan air permukaan sebagai solusi jangka menengah. (5) (...) pasokan air bersih masih belum merata, dan sebagian besar masyarakat berpenghasilan rendah tetap kesulitan mendapatkan akses air layak. (6) Oleh karena itu, upaya bersama antara pemerintah, swasta, dan masyarakat menjadi kunci utama dalam mewujudkan ketahanan air di kota-kota besar Indonesia.\n\nIstilah khusus yang tepat untuk mengisi bagian rumpang pada kalimat (3) adalah ….", 
+    text: "Bacalah teks berikut.\n“Krisis Air Bersih dan Tantangan Kota Metropolitan”\n(1) Krisis air bersih menjadi persoalan serius yang dihadapi kota-kota besar di Indonesia, seperti Jakarta, Surabaya, dan Medan, terutama pada musim kemarau panjang. (2) Jumlah penduduk yang terus meningkat, pencemaran air tanah, serta eksploitasi air bawah tanah yang tidak terkendali memperparah kondisi tersebut. (3) Di sejumlah kawasan, warga terpaksa membeli air dari truk tangki swasta dengan harga mahal meskipun kualitasnya belum tentu layak konsumsi.\n(4) Pemerintah kota pun mulai menggencarkan program edukasi penghematan air dan pembangunan instalasi penjernihan air permukaan sebagai solusi jangka menengah. (5) (...) pasokan air bersih masih belum merata, dan sebagian besar masyarakat berpenghasilan rendah tetap kesulitan mendapatkan akses air layak. (6) Oleh karena itu, upaya bersama antara pemerintah, swasta, dan masyarakat menjadi kunci utama dalam mewujudkan ketahanan air di kota-kota besar Indonesia.\n\nIstilah khusus yang tepat untuk mengisi bagian rumpang pada kalimat (3) adalah ….", 
     options: [
         "ekskavasi", 
         "distribusi", 
@@ -474,7 +474,7 @@ const examData = {
 // SOAL 25
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 24—26.\n“Krisis Air Bersih dan Tantangan Kota Metropolitan”\n(1) Krisis air bersih menjadi persoalan serius yang dihadapi kota-kota besar di Indonesia, seperti Jakarta, Surabaya, dan Medan, terutama pada musim kemarau panjang. (2) Jumlah penduduk yang terus meningkat, pencemaran air tanah, serta eksploitasi air bawah tanah yang tidak terkendali memperparah kondisi tersebut. (3) Di sejumlah kawasan, warga terpaksa membeli air dari truk tangki swasta dengan harga mahal meskipun kualitasnya belum tentu layak konsumsi.\n(4) Pemerintah kota pun mulai menggencarkan program edukasi penghematan air dan pembangunan instalasi penjernihan air permukaan sebagai solusi jangka menengah. (5) (...) pasokan air bersih masih belum merata, dan sebagian besar masyarakat berpenghasilan rendah tetap kesulitan mendapatkan akses air layak. (6) Oleh karena itu, upaya bersama antara pemerintah, swasta, dan masyarakat menjadi kunci utama dalam mewujudkan ketahanan air di kota-kota besar Indonesia.\n\nKonjungsi yang paling tepat untuk mengisi bagian rumpang pada kalimat (5) adalah ….", 
+    text: "Bacalah teks berikut.\n“Krisis Air Bersih dan Tantangan Kota Metropolitan”\n(1) Krisis air bersih menjadi persoalan serius yang dihadapi kota-kota besar di Indonesia, seperti Jakarta, Surabaya, dan Medan, terutama pada musim kemarau panjang. (2) Jumlah penduduk yang terus meningkat, pencemaran air tanah, serta eksploitasi air bawah tanah yang tidak terkendali memperparah kondisi tersebut. (3) Di sejumlah kawasan, warga terpaksa membeli air dari truk tangki swasta dengan harga mahal meskipun kualitasnya belum tentu layak konsumsi.\n(4) Pemerintah kota pun mulai menggencarkan program edukasi penghematan air dan pembangunan instalasi penjernihan air permukaan sebagai solusi jangka menengah. (5) (...) pasokan air bersih masih belum merata, dan sebagian besar masyarakat berpenghasilan rendah tetap kesulitan mendapatkan akses air layak. (6) Oleh karena itu, upaya bersama antara pemerintah, swasta, dan masyarakat menjadi kunci utama dalam mewujudkan ketahanan air di kota-kota besar Indonesia.\n\nKonjungsi yang paling tepat untuk mengisi bagian rumpang pada kalimat (5) adalah ….", 
     options: [
         "Akibatnya", 
         "Sebaliknya", 
@@ -493,7 +493,7 @@ const examData = {
 // SOAL 26
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 24—26.\n“Krisis Air Bersih dan Tantangan Kota Metropolitan”\n(1) Krisis air bersih menjadi persoalan serius yang dihadapi kota-kota besar di Indonesia, seperti Jakarta, Surabaya, dan Medan, terutama pada musim kemarau panjang. (2) Jumlah penduduk yang terus meningkat, pencemaran air tanah, serta eksploitasi air bawah tanah yang tidak terkendali memperparah kondisi tersebut. (3) Di sejumlah kawasan, warga terpaksa membeli air dari truk tangki swasta dengan harga mahal meskipun kualitasnya belum tentu layak konsumsi.\n(4) Pemerintah kota pun mulai menggencarkan program edukasi penghematan air dan pembangunan instalasi penjernihan air permukaan sebagai solusi jangka menengah. (5) (...) pasokan air bersih masih belum merata, dan sebagian besar masyarakat berpenghasilan rendah tetap kesulitan mendapatkan akses air layak. (6) Oleh karena itu, upaya bersama antara pemerintah, swasta, dan masyarakat menjadi kunci utama dalam mewujudkan ketahanan air di kota-kota besar Indonesia.\n\nKalimat (2) akan memiliki kesejajaran jika disusun sebagai ….", 
+    text: "Bacalah teks berikut.\n“Krisis Air Bersih dan Tantangan Kota Metropolitan”\n(1) Krisis air bersih menjadi persoalan serius yang dihadapi kota-kota besar di Indonesia, seperti Jakarta, Surabaya, dan Medan, terutama pada musim kemarau panjang. (2) Jumlah penduduk yang terus meningkat, pencemaran air tanah, serta eksploitasi air bawah tanah yang tidak terkendali memperparah kondisi tersebut. (3) Di sejumlah kawasan, warga terpaksa membeli air dari truk tangki swasta dengan harga mahal meskipun kualitasnya belum tentu layak konsumsi.\n(4) Pemerintah kota pun mulai menggencarkan program edukasi penghematan air dan pembangunan instalasi penjernihan air permukaan sebagai solusi jangka menengah. (5) (...) pasokan air bersih masih belum merata, dan sebagian besar masyarakat berpenghasilan rendah tetap kesulitan mendapatkan akses air layak. (6) Oleh karena itu, upaya bersama antara pemerintah, swasta, dan masyarakat menjadi kunci utama dalam mewujudkan ketahanan air di kota-kota besar Indonesia.\n\nKalimat (2) akan memiliki kesejajaran jika disusun sebagai ….", 
     options: [
         "Jumlah penduduk meningkat, pencemaran air tanah terjadi, dan eksploitasi air bawah tanah.", 
         "Peningkatan jumlah penduduk, pencemaran air tanah, dan eksploitasi air bawah tanah semakin memburuk.", 
@@ -511,7 +511,7 @@ const examData = {
 // SOAL 27
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 27—30.\n¹Suku Poombawo merupakan salah satu etnik yang mendiami bagian barat pulau Yapen diwilayah adat Saireri. ²Untuk menopang eksistensi hidupnya, interaksi simbolik dengan alam mereka bangun. ³Salah satu bentuk kegiatan ekowisata adalah pengamatan burung Cendrawasih di hutan sekitar kampung mereka. ⁴Berdasarkan survey, wilayah suku Poombawo yang mencakup Distrik Poom, secara ekologis, menjadi habitat alami burung Cendrawasih. ⁵Keberadaan burung Cendrawasih mendorong aktivitas pemanfaatanya melalui perburuan sekitar tahun 1995 sampai dengan 2000-an. ⁶Tahun 2000-an kegiatan perburuan tersebut berhenti. ⁷Selanjutnya, munculah sebuah kesadaran kembali pada beberapa marga pemilik hak atas tanah suku. ⁸Marga pemilik hak atas tanah suku ini diantaranya adalah Paririe dan Heipon. ⁹Marga suku ini mulai menjaga dan dilindungi hutan dan burung Cendrawasih. ¹⁰Kesadaran ini diduga terjadi sebagai wujud nilai dan kepercayaan pada suku Poombawo yang telah hilang beberapa generasi.\n\nApabila gagasan pada bacaan tersebut dipisahkan menjadi dua paragraf yang padu dan utuh, pengelompokan kalimatnya adalah ….", 
+    text: "Bacalah teks berikut.\n¹Suku Poombawo merupakan salah satu etnik yang mendiami bagian barat pulau Yapen diwilayah adat Saireri. ²Untuk menopang eksistensi hidupnya, interaksi simbolik dengan alam mereka bangun. ³Salah satu bentuk kegiatan ekowisata adalah pengamatan burung Cendrawasih di hutan sekitar kampung mereka. ⁴Berdasarkan survey, wilayah suku Poombawo yang mencakup Distrik Poom, secara ekologis, menjadi habitat alami burung Cendrawasih. ⁵Keberadaan burung Cendrawasih mendorong aktivitas pemanfaatanya melalui perburuan sekitar tahun 1995 sampai dengan 2000-an. ⁶Tahun 2000-an kegiatan perburuan tersebut berhenti. ⁷Selanjutnya, munculah sebuah kesadaran kembali pada beberapa marga pemilik hak atas tanah suku. ⁸Marga pemilik hak atas tanah suku ini diantaranya adalah Paririe dan Heipon. ⁹Marga suku ini mulai menjaga dan dilindungi hutan dan burung Cendrawasih. ¹⁰Kesadaran ini diduga terjadi sebagai wujud nilai dan kepercayaan pada suku Poombawo yang telah hilang beberapa generasi.\n\nApabila gagasan pada bacaan tersebut dipisahkan menjadi dua paragraf yang padu dan utuh, pengelompokan kalimatnya adalah ….", 
     options: [
         "(1-2-3) dan (4-5-6-7-8-9-10)", 
         "(1-2-3-4) dan (5-6-7-8-9-10)", 
@@ -530,7 +530,7 @@ const examData = {
 // SOAL 28
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 27—30.\n¹Suku Poombawo merupakan salah satu etnik yang mendiami bagian barat pulau Yapen diwilayah adat Saireri. ²Untuk menopang eksistensi hidupnya, interaksi simbolik dengan alam mereka bangun. ³Salah satu bentuk kegiatan ekowisata adalah pengamatan burung Cendrawasih di hutan sekitar kampung mereka. ⁴Berdasarkan survey, wilayah suku Poombawo yang mencakup Distrik Poom, secara ekologis, menjadi habitat alami burung Cendrawasih. ⁵Keberadaan burung Cendrawasih mendorong aktivitas pemanfaatanya melalui perburuan sekitar tahun 1995 sampai dengan 2000-an. ⁶Tahun 2000-an kegiatan perburuan tersebut berhenti. ⁷Selanjutnya, munculah sebuah kesadaran kembali pada beberapa marga pemilik hak atas tanah suku. ⁸Marga pemilik hak atas tanah suku ini diantaranya adalah Paririe dan Heipon. ⁹Marga suku ini mulai menjaga dan dilindungi hutan dan burung Cendrawasih. ¹⁰Kesadaran ini diduga terjadi sebagai wujud nilai dan kepercayaan pada suku Poombawo yang telah hilang beberapa generasi.\n\nBentuk ke-an pada kata kesadaran dalam kalimat (7) mempunyai kesamaan makna dengan bentuk ke-an pada ….", 
+    text: "Bacalah teks berikut.\n¹Suku Poombawo merupakan salah satu etnik yang mendiami bagian barat pulau Yapen diwilayah adat Saireri. ²Untuk menopang eksistensi hidupnya, interaksi simbolik dengan alam mereka bangun. ³Salah satu bentuk kegiatan ekowisata adalah pengamatan burung Cendrawasih di hutan sekitar kampung mereka. ⁴Berdasarkan survey, wilayah suku Poombawo yang mencakup Distrik Poom, secara ekologis, menjadi habitat alami burung Cendrawasih. ⁵Keberadaan burung Cendrawasih mendorong aktivitas pemanfaatanya melalui perburuan sekitar tahun 1995 sampai dengan 2000-an. ⁶Tahun 2000-an kegiatan perburuan tersebut berhenti. ⁷Selanjutnya, munculah sebuah kesadaran kembali pada beberapa marga pemilik hak atas tanah suku. ⁸Marga pemilik hak atas tanah suku ini diantaranya adalah Paririe dan Heipon. ⁹Marga suku ini mulai menjaga dan dilindungi hutan dan burung Cendrawasih. ¹⁰Kesadaran ini diduga terjadi sebagai wujud nilai dan kepercayaan pada suku Poombawo yang telah hilang beberapa generasi.\n\nBentuk ke-an pada kata kesadaran dalam kalimat (7) mempunyai kesamaan makna dengan bentuk ke-an pada ….", 
     options: [
         "Dia tidak berhasil menonton klub kesayanganya bertanding karena ketiduran.", 
         "Pejabat itu mudah sekali ditemu di kediamannya.", 
@@ -549,7 +549,7 @@ const examData = {
 // SOAL 29
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 27—30.\n¹Suku Poombawo merupakan salah satu etnik yang mendiami bagian barat pulau Yapen diwilayah adat Saireri. ²Untuk menopang eksistensi hidupnya, interaksi simbolik dengan alam mereka bangun. ³Salah satu bentuk kegiatan ekowisata adalah pengamatan burung Cendrawasih di hutan sekitar kampung mereka. ⁴Berdasarkan survey, wilayah suku Poombawo yang mencakup Distrik Poom, secara ekologis, menjadi habitat alami burung Cendrawasih. ⁵Keberadaan burung Cendrawasih mendorong aktivitas pemanfaatanya melalui perburuan sekitar tahun 1995 sampai dengan 2000-an. ⁶Tahun 2000-an kegiatan perburuan tersebut berhenti. ⁷Selanjutnya, munculah sebuah kesadaran kembali pada beberapa marga pemilik hak atas tanah suku. ⁸Marga pemilik hak atas tanah suku ini diantaranya adalah Paririe dan Heipon. ⁹Marga suku ini mulai menjaga dan dilindungi hutan dan burung Cendrawasih. ¹⁰Kesadaran ini diduga terjadi sebagai wujud nilai dan kepercayaan pada suku Poombawo yang telah hilang beberapa generasi.\n\nUngkapan interaksi simbolik dengan alam mereka bangun pada kalimat (2) dapat disempurnakan menjadi ….", 
+    text: "Bacalah teks berikut.\n¹Suku Poombawo merupakan salah satu etnik yang mendiami bagian barat pulau Yapen diwilayah adat Saireri. ²Untuk menopang eksistensi hidupnya, interaksi simbolik dengan alam mereka bangun. ³Salah satu bentuk kegiatan ekowisata adalah pengamatan burung Cendrawasih di hutan sekitar kampung mereka. ⁴Berdasarkan survey, wilayah suku Poombawo yang mencakup Distrik Poom, secara ekologis, menjadi habitat alami burung Cendrawasih. ⁵Keberadaan burung Cendrawasih mendorong aktivitas pemanfaatanya melalui perburuan sekitar tahun 1995 sampai dengan 2000-an. ⁶Tahun 2000-an kegiatan perburuan tersebut berhenti. ⁷Selanjutnya, munculah sebuah kesadaran kembali pada beberapa marga pemilik hak atas tanah suku. ⁸Marga pemilik hak atas tanah suku ini diantaranya adalah Paririe dan Heipon. ⁹Marga suku ini mulai menjaga dan dilindungi hutan dan burung Cendrawasih. ¹⁰Kesadaran ini diduga terjadi sebagai wujud nilai dan kepercayaan pada suku Poombawo yang telah hilang beberapa generasi.\n\nUngkapan interaksi simbolik dengan alam mereka bangun pada kalimat (2) dapat disempurnakan menjadi ….", 
     options: [
         "interaksi dengan alam mereka bangun secara simbolik", 
         "alam mereka bangun dengan interaksi yang simbolik", 
@@ -568,7 +568,7 @@ const examData = {
 // SOAL 30
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 27—30.\n¹Suku Poombawo merupakan salah satu etnik yang mendiami bagian barat pulau Yapen diwilayah adat Saireri. ²Untuk menopang eksistensi hidupnya, interaksi simbolik dengan alam mereka bangun. ³Salah satu bentuk kegiatan ekowisata adalah pengamatan burung Cendrawasih di hutan sekitar kampung mereka. ⁴Berdasarkan survey, wilayah suku Poombawo yang mencakup Distrik Poom, secara ekologis, menjadi habitat alami burung Cendrawasih. ⁵Keberadaan burung Cendrawasih mendorong aktivitas pemanfaatanya melalui perburuan sekitar tahun 1995 sampai dengan 2000-an. ⁶Tahun 2000-an kegiatan perburuan tersebut berhenti. ⁷Selanjutnya, munculah sebuah kesadaran kembali pada beberapa marga pemilik hak atas tanah suku. ⁸Marga pemilik hak atas tanah suku ini diantaranya adalah Paririe dan Heipon. ⁹Marga suku ini mulai menjaga dan dilindungi hutan dan burung Cendrawasih. ¹⁰Kesadaran ini diduga terjadi sebagai wujud nilai dan kepercayaan pada suku Poombawo yang telah hilang beberapa generasi.\n\nKelompok kata menjaga dan dilindunginya hutan dan burung cendrawasih pada kalimat (9) dapat diperbaiki menjadi ….", 
+    text: "Bacalah teks berikut.\n¹Suku Poombawo merupakan salah satu etnik yang mendiami bagian barat pulau Yapen diwilayah adat Saireri. ²Untuk menopang eksistensi hidupnya, interaksi simbolik dengan alam mereka bangun. ³Salah satu bentuk kegiatan ekowisata adalah pengamatan burung Cendrawasih di hutan sekitar kampung mereka. ⁴Berdasarkan survey, wilayah suku Poombawo yang mencakup Distrik Poom, secara ekologis, menjadi habitat alami burung Cendrawasih. ⁵Keberadaan burung Cendrawasih mendorong aktivitas pemanfaatanya melalui perburuan sekitar tahun 1995 sampai dengan 2000-an. ⁶Tahun 2000-an kegiatan perburuan tersebut berhenti. ⁷Selanjutnya, munculah sebuah kesadaran kembali pada beberapa marga pemilik hak atas tanah suku. ⁸Marga pemilik hak atas tanah suku ini diantaranya adalah Paririe dan Heipon. ⁹Marga suku ini mulai menjaga dan dilindungi hutan dan burung Cendrawasih. ¹⁰Kesadaran ini diduga terjadi sebagai wujud nilai dan kepercayaan pada suku Poombawo yang telah hilang beberapa generasi.\n\nKelompok kata menjaga dan dilindunginya hutan dan burung cendrawasih pada kalimat (9) dapat diperbaiki menjadi ….", 
     options: [
         "penjagaan dan dilindunginya hutan dan burung cendrawasih", 
         "menjaga dan dilindunginya hutan dan burung cendrawasih", 
@@ -589,150 +589,288 @@ const examData = {
     name: "Pemahaman Bacaan & Menulis",
     duration: 25 * 60, // 25 Menit 
     questions: [
-    // === TEKS 1: DEFORESTASI & BIOFUEL ===
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 1-4!</b><br><br>(1) Lahan sawit menjadi satu dari banyak penyebab deforestasi (alih fungsi lahan dari hutan ke perkebunan). (2) Deforestasi berdampak negatif pada lingkungan, karena berkontribusi pada <b>pelepasan</b> emisi karbon. (3) Deforestasi juga menyebabkan degradasi tanah dan <b>pencemaran</b> air. (4) Meskipun minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, tetapi sisi negatifnya tidak dapat diabaikan. (5) Situasi itu menunjukkan perlu sinkronisasi antara mengembangkan energi terbarukan yang ramah lingkungan dan <b>dukungan</b> ketahanan pangan global. (6) Solusinya adalah <b>penemuan</b> alternatif bahan baku untuk produksi biodiesel yang tidak bersaing langsung dengan sektor pangan, misalnya penggunaan limbah. (7) Dengan berfokus pada penggunaan limbah, seperti minyak jelantah (minyak goreng sisa), biofuel menjadi solusi dalam mendukung kebutuhan energi tanpa merusak lingkungan. (8) Untuk itu, diperlukan pendekatan holistik agar <b>perumusan</b> kebijakan biofuel mempertimbangkan keselamatan lingkungan.<br><br>Penggunaan kata bercetak tebal yang tidak tepat terdapat pada kalimat nomor ...",
-        options: ["(2)", "(3)", "(5)", "(6)", "(8)"],
-        answer: null, doubt: false, correctAnswer: 2, score: 50, difficulty: "Medium"
-    },
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 1-4!</b><br><br>(1) Lahan sawit menjadi satu dari banyak penyebab deforestasi (alih fungsi lahan dari hutan ke perkebunan). (2) Deforestasi berdampak negatif pada lingkungan, karena berkontribusi pada <b>pelepasan</b> emisi karbon. (3) Deforestasi juga menyebabkan degradasi tanah dan <b>pencemaran</b> air. (4) Meskipun minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, tetapi sisi negatifnya tidak dapat diabaikan. (5) Situasi itu menunjukkan perlu sinkronisasi antara mengembangkan energi terbarukan yang ramah lingkungan dan <b>dukungan</b> ketahanan pangan global. (6) Solusinya adalah <b>penemuan</b> alternatif bahan baku untuk produksi biodiesel yang tidak bersaing langsung dengan sektor pangan, misalnya penggunaan limbah. (7) Dengan berfokus pada penggunaan limbah, seperti minyak jelantah (minyak goreng sisa), biofuel menjadi solusi dalam mendukung kebutuhan energi tanpa merusak lingkungan. (8) Untuk itu, diperlukan pendekatan holistik agar <b>perumusan</b> kebijakan biofuel mempertimbangkan keselamatan lingkungan.<br><br>Kalimat berikut perlu dimasukkan dalam bacaan tersebut:<br><i>'Pengembangan potensi biodiesel dengan menggunakan bahan baku limbah memerlukan dukungan investasi teknologi bioenergi.'</i><br>Kalimat tersebut paling tepat ditempatkan setelah kalimat nomor ....",
-        options: ["(2)", "(4)", "(6)", "(7)", "(8)"],
-        answer: null, doubt: false, correctAnswer: 2, score: 68, difficulty: "Hard"
-    },
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 1-4!</b><br><br>(1) Lahan sawit menjadi satu dari banyak penyebab deforestasi (alih fungsi lahan dari hutan ke perkebunan). (2) Deforestasi berdampak negatif pada lingkungan, karena berkontribusi pada <b>pelepasan</b> emisi karbon. (3) Deforestasi juga menyebabkan degradasi tanah dan <b>pencemaran</b> air. (4) Meskipun minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, tetapi sisi negatifnya tidak dapat diabaikan. (5) Situasi itu menunjukkan perlu sinkronisasi antara mengembangkan energi terbarukan yang ramah lingkungan dan <b>dukungan</b> ketahanan pangan global. (6) Solusinya adalah <b>penemuan</b> alternatif bahan baku untuk produksi biodiesel yang tidak bersaing langsung dengan sektor pangan, misalnya penggunaan limbah. (7) Dengan berfokus pada penggunaan limbah, seperti minyak jelantah (minyak goreng sisa), biofuel menjadi solusi dalam mendukung kebutuhan energi tanpa merusak lingkungan. (8) Untuk itu, diperlukan pendekatan holistik agar <b>perumusan</b> kebijakan biofuel mempertimbangkan keselamatan lingkungan.<br><br>Penggunaan tanda koma yang salah terdapat pada kalimat nomor ....",
-        options: ["(2)", "(4)", "(6)", "(7)", "(8)"],
-        answer: null, doubt: false, correctAnswer: 1, score: 50, difficulty: "Medium"
-    },
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 1-4!</b><br><br>(1) Lahan sawit menjadi satu dari banyak penyebab deforestasi (alih fungsi lahan dari hutan ke perkebunan). (2) Deforestasi berdampak negatif pada lingkungan, karena berkontribusi pada <b>pelepasan</b> emisi karbon. (3) Deforestasi juga menyebabkan degradasi tanah dan <b>pencemaran</b> air. (4) Meskipun minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, tetapi sisi negatifnya tidak dapat diabaikan. (5) Situasi itu menunjukkan perlu sinkronisasi antara mengembangkan energi terbarukan yang ramah lingkungan dan <b>dukungan</b> ketahanan pangan global. (6) Solusinya adalah <b>penemuan</b> alternatif bahan baku untuk produksi biodiesel yang tidak bersaing langsung dengan sektor pangan, misalnya penggunaan limbah. (7) Dengan berfokus pada penggunaan limbah, seperti minyak jelantah (minyak goreng sisa), biofuel menjadi solusi dalam mendukung kebutuhan energi tanpa merusak lingkungan. (8) Untuk itu, diperlukan pendekatan holistik agar <b>perumusan</b> kebijakan biofuel mempertimbangkan keselamatan lingkungan.<br><br>Kalimat manakah yang merupakan kalimat efektif dari kalimat (4)?",
-        options: [
-            "Meskipun minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, tetapi sisi negatifnya tidak dapat diabaikan.",
-            "Minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, meskipun sisi negatifnya tidak dapat diabaikan.",
-            "Minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, tetapi sisi negatifnya tidak dapat diabaikan.",
-            "Meskipun minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, sisi negatifnya juga tidak dapat diabaikan.",
-            "Meskipun minyak kelapa sawit berpotensi menjadi sumber bahan bakar ramah lingkungan, sisi negatifnya tidak dapat diabaikan."
-        ],
-        answer: null, doubt: false, correctAnswer: 4, score: 50, difficulty: "Medium"
-    },
-    {
-        text: "(1) Dalam rangka memperingati Hari Pahlawan, banyak kegiatan yang dilakukan. (2) Pemuda Kecamatan Jagir Surabaya mengadakan lokakarya yang diikuti pemuda dari dua puluh negara. (3) Kegiatan Lokakarya Internasional tersebut membahas peran pemuda dalam mencegah pencemaran. (4) Hadir dalam kegiatan tersebut Menteri Pemuda dan Olahraga Republik Indonesia. (5) Dalam sambutannya Menpora menegaskan pentingnya pemuda sebagai penggerak bangsa.<br><br>Penulisan huruf kapital yang salah terdapat pada kalimat nomor....",
-        options: ["(1)", "(2)", "(3)", "(4)", "(5)"],
-        answer: null, doubt: false, correctAnswer: 2, score: 35, difficulty: "Easy"
-    },
+    // ==========================================
+// SOAL 31
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 31—34.\n(1) Gerhana Matahari Hibrida adalah fenomena yang unik, karena bisa terlihat sebagai Gerhana Matahari Total maupun sebagai Gerhana Matahari Cincin tergantung dari lokasi pengamat. (2) Jarak antara Bumi dan Bulan yang berubah-ubah saat bayangan Bulan sampai ke permukaan Bumi membuat ada wilayah yang mengalami Gerhana Matahari Total dan wilayah lainnya mengalami Gerhana Matahari Cincin. (3) Sejak 2000 SM hingga 3000 M, terdapat 569 kali Gerhana Matahari Hibrida.\n(4) Lalu, seberapa sering Gerhana Matahari Hibrida melintasi Indonesia? (5) Gerhana jenis ini terakhir kali melintas Indonesia lima kali dalam satu abad dalam periode 1408–1507, yaitu pada 26 April 1408, 8 Juli 1423, 23 Januari 1441, 25 Februari 1495, dan 10 Juli 1507. (6) Di abad ke-21, Gerhana Matahari Hibrida akan melintasi Indonesia sebanyak dua kali, yaitu 20 April 2023 dan 25 November 2049. (7) Gerhana Matahari Hibrida berikutnya akan terjadi setelah 300 dan 478 tahun kemudian, yaitu 13 Oktober 2349 dan 17 Februari 2827.\n\nApa inti isi teks tersebut?", 
+    options: [
+        "Gerhana Matahari Hibrida adalah fenomena yang unik.", 
+        "Jarak antara Bumi dan Bulan yang berubah-ubah.", 
+        "Gerhana Matahari Hibrida sering terjadi dalam 5000 tahun terakhir.", 
+        "Gerhana Matahari Hibrida sering melintasi Indonesia.", 
+        "Tanggal-tanggal terjadinya Gerhana Matahari Hibrida berikutnya."
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 50, 
+    difficulty: "Medium" 
+},
 
-    // === TEKS 2: PENDIDIKAN & GENERASI Z ===
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 6-9!</b><br><br>(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya. (2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga. (3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan. (4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan. (5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja. (6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum....<br><br>Kata yang harus dihilangkan pada kalimat (5) adalah....",
-        options: ["dari", "dinilai", "dengan", "untuk", "secara"],
-        answer: null, doubt: false, correctAnswer: 0, score: 35, difficulty: "Easy"
-    },
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 6-9!</b><br><br>(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya. (2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga. (3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan. (4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan. (5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja. (6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum....<br><br>Kata 'daya' dalam kalimat (1) seharusnya....",
-        options: ["dihilangkan", "didahului kata semua", "diikuti kata upaya", "dibiarkan saja (sudah benar)", "diganti kata potensi"],
-        answer: null, doubt: false, correctAnswer: 4, score: 50, difficulty: "Medium"
-    },
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 6-9!</b><br><br>(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya. (2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga. (3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan. (4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan. (5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja. (6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum....<br><br>Kalimat (2) perlu disempurnakan dengan cara ....",
-        options: ["menambahkan kata pada sebelum saat", "menghilangkan kata yang", "mengganti kata dengan dengan secara", "menghilangkan kata pada", "menyingkat kata tidak menjadi tak"],
-        answer: null, doubt: false, correctAnswer: 3, score: 50, difficulty: "Medium"
-    },
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 6-9!</b><br><br>(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya. (2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga. (3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan. (4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan. (5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja. (6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum....<br><br>Agar sesuai dengan konteks bacaan, pernyataan yang paling tepat untuk melengkapi kalimat (6) adalah ....",
-        options: ["memungkinkan mengubah kurikulum", "cukup responsif terhadap tuntutan zaman", "adaptif sesuai dengan zaman sekarang", "siap menghadapi tuntutan era 4.0", "memasukkan kurikulum pendidikan keterampilan"],
-        answer: null, doubt: false, correctAnswer: 1, score: 68, difficulty: "Hard"
-    },
-    {
-        text: "(1) <b>Kerja sama</b> sekolah satu dengan sekolah lainnya menjadi hal yang sangat penting. (2) Apalagi untuk mengelola kegiatan <b>ekstra kurikuler</b> yang sangat beragam. (3) Sekolah harus menyiapkan <b>infrastruktur</b> yang sangat banyak karena banyaknya kegiatan. (4) Dengan cara itu, <b>tanggung jawab</b> pengadaannya menjadi lebih ringan. (5) Jadi, hubungan <b>antarsekolah</b> harus terjalin baik.<br><br>Penulisan kata bercetak tebal yang salah terdapat pada kalimat nomor....",
-        options: ["(1)", "(2)", "(3)", "(4)", "(5)"],
-        answer: null, doubt: false, correctAnswer: 1, score: 35, difficulty: "Easy"
-    },
+// ==========================================
+// SOAL 32
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 31—34.\n(1) Gerhana Matahari Hibrida adalah fenomena yang unik, karena bisa terlihat sebagai Gerhana Matahari Total maupun sebagai Gerhana Matahari Cincin tergantung dari lokasi pengamat. (2) Jarak antara Bumi dan Bulan yang berubah-ubah saat bayangan Bulan sampai ke permukaan Bumi membuat ada wilayah yang mengalami Gerhana Matahari Total dan wilayah lainnya mengalami Gerhana Matahari Cincin. (3) Sejak 2000 SM hingga 3000 M, terdapat 569 kali Gerhana Matahari Hibrida.\n(4) Lalu, seberapa sering Gerhana Matahari Hibrida melintasi Indonesia? (5) Gerhana jenis ini terakhir kali melintas Indonesia lima kali dalam satu abad dalam periode 1408–1507, yaitu pada 26 April 1408, 8 Juli 1423, 23 Januari 1441, 25 Februari 1495, dan 10 Juli 1507. (6) Di abad ke-21, Gerhana Matahari Hibrida akan melintasi Indonesia sebanyak dua kali, yaitu 20 April 2023 dan 25 November 2049. (7) Gerhana Matahari Hibrida berikutnya akan terjadi setelah 300 dan 478 tahun kemudian, yaitu 13 Oktober 2349 dan 17 Februari 2827.\n\nKata yang paling tepat menggantikan kata sampai dalam kalimat (2) adalah ….", 
+    options: [
+        "datang", 
+        "jatuh", 
+        "berhenti", 
+        "menjadi", 
+        "turun"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 1, 
+    score: 35, 
+    difficulty: "Easy" 
+},
 
-    // === TEKS 3: IKLIM & OTAK ===
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 11-15!</b><br><br>(1) Di tengah kekhawatiran global tentang dampak perubahan iklim terhadap lingkungan dan satwa liar, faktor yang sering kali terlupakan adalah bagaimana perubahan iklim memengaruhi otak manusia dan hewan. (2) Penelitian baru-baru ini menyoroti hubungan yang kompleks antara perubahan iklim dan fungsi otak. (3) Dalam penelitian tersebut diuraikan bagaimana [...], perubahan musim yang singkat, dan asam laut dapat memengaruhi perkembangan otak hewan dan reaksi terhadap lingkungan sekitarnya. (4) Suhu tinggi dapat memengaruhi perkembangan otak hewan. (5) Suhu tinggi dapat mengubah fitur sistem saraf, termasuk di dalamnya adalah efek pada ekspresi gen dalam neuron (sel saraf), struktur neuron, dan organisasi otak. (6) Selain itu, suhu juga dapat memengaruhi pembentukan neuron baru dalam otak hewan dewasa.<br><br>Kata yang paling tepat menggantikan 'faktor' dalam kalimat (1) adalah...",
-        options: ["unsur", "elemen", "aspek", "bagian", "sisi"],
-        answer: null, doubt: false, correctAnswer: 2, score: 50, difficulty: "Medium"
-    },
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 11-15!</b><br><br>(1) Di tengah kekhawatiran global tentang dampak perubahan iklim terhadap lingkungan dan satwa liar, faktor yang sering kali terlupakan adalah bagaimana perubahan iklim memengaruhi otak manusia dan hewan. (2) Penelitian baru-baru ini menyoroti hubungan yang kompleks antara perubahan iklim dan fungsi otak. (3) Dalam penelitian tersebut diuraikan bagaimana [...], perubahan musim yang singkat, dan asam laut dapat memengaruhi perkembangan otak hewan dan reaksi terhadap lingkungan sekitarnya. (4) Suhu tinggi dapat memengaruhi perkembangan otak hewan. (5) Suhu tinggi dapat mengubah fitur sistem saraf, termasuk di dalamnya adalah efek pada ekspresi gen dalam neuron (sel saraf), struktur neuron, dan organisasi otak. (6) Selain itu, suhu juga dapat memengaruhi pembentukan neuron baru dalam otak hewan dewasa.<br><br>Pernyataan yang paling tepat untuk melengkapi kalimat (3) adalah.....",
-        options: ["perubahan iklim", "peningkatan suhu", "sistem saraf", "ekspresi gen", "pembentukan neuron"],
-        answer: null, doubt: false, correctAnswer: 1, score: 50, difficulty: "Medium"
-    },
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 11-15!</b><br><br>(1) Di tengah kekhawatiran global tentang dampak perubahan iklim terhadap lingkungan dan satwa liar, faktor yang sering kali terlupakan adalah bagaimana perubahan iklim memengaruhi otak manusia dan hewan. (2) Penelitian baru-baru ini menyoroti hubungan yang kompleks antara perubahan iklim dan fungsi otak. (3) Dalam penelitian tersebut diuraikan bagaimana [...], perubahan musim yang singkat, dan asam laut dapat memengaruhi perkembangan otak hewan dan reaksi terhadap lingkungan sekitarnya. (4) Suhu tinggi dapat memengaruhi perkembangan otak hewan. (5) Suhu tinggi dapat mengubah fitur sistem saraf, termasuk di dalamnya adalah efek pada ekspresi gen dalam neuron (sel saraf), struktur neuron, dan organisasi otak. (6) Selain itu, suhu juga dapat memengaruhi pembentukan neuron baru dalam otak hewan dewasa.<br><br>Apa judul yang paling tepat untuk teks tersebut?",
-        options: [
-            "Pengaruh Perubahan Iklim terhadap Hewan",
-            "Pengaruh Iklim terhadap Otak Manusia dan Hewan",
-            "Dampak Iklim terhadap Otak Manusia dan Hewan",
-            "Dampak Perubahan Iklim terhadap Otak Hewan",
-            "Kerusakan Otak Hewan Akibat Perubahan Iklim"
-        ],
-        answer: null, doubt: false, correctAnswer: 3, score: 50, difficulty: "Medium"
-    },
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 11-15!</b><br><br>(1) Di tengah kekhawatiran global tentang dampak perubahan iklim terhadap lingkungan dan satwa liar, faktor yang sering kali terlupakan adalah bagaimana perubahan iklim memengaruhi otak manusia dan hewan. (2) Penelitian baru-baru ini menyoroti hubungan yang kompleks antara perubahan iklim dan fungsi otak. (3) Dalam penelitian tersebut diuraikan bagaimana [...], perubahan musim yang singkat, dan asam laut dapat memengaruhi perkembangan otak hewan dan reaksi terhadap lingkungan sekitarnya. (4) Suhu tinggi dapat memengaruhi perkembangan otak hewan. (5) Suhu tinggi dapat mengubah fitur sistem saraf, termasuk di dalamnya adalah efek pada ekspresi gen dalam neuron (sel saraf), struktur neuron, dan organisasi otak. (6) Selain itu, suhu juga dapat memengaruhi pembentukan neuron baru dalam otak hewan dewasa.<br><br>Kalimat manakah yang paling efektif sebagai hasil penggabungan kalimat (4) dan (5)?",
-        options: [
-            "Suhu tinggi dapat memengaruhi perkembangan otak hewan, seperti mengubah fitur sistem saraf, termasuk efek pada ekspresi gen dalam neuron.",
-            "Suhu tinggi dapat memengaruhi perkembangan otak hewan yang mengubah fitur sistem saraf, termasuk efek pada ekspresi gen dalam neuron.",
-            "Suhu tinggi dapat memengaruhi perkembangan otak hewan, khususnya mengubah fitur sistem saraf, termasuk efek pada ekspresi gen dalam neuron.",
-            "Suhu tinggi dapat memengaruhi perkembangan otak hewan sehingga mengubah fitur sistem saraf, termasuk efek pada ekspresi gen dalam neuron.",
-            "Suhu tinggi dapat memengaruhi perkembangan otak hewan untuk mengubah fitur sistem saraf, termasuk efek pada ekspresi gen dalam neuron."
-        ],
-        answer: null, doubt: false, correctAnswer: 0, score: 68, difficulty: "Hard"
-    },
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 11-15!</b><br><br>(1) Di tengah kekhawatiran global tentang dampak perubahan iklim terhadap lingkungan dan satwa liar, faktor yang sering kali terlupakan adalah bagaimana perubahan iklim memengaruhi otak manusia dan hewan. (2) Penelitian baru-baru ini menyoroti hubungan yang kompleks antara perubahan iklim dan fungsi otak. (3) Dalam penelitian tersebut diuraikan bagaimana [...], perubahan musim yang singkat, dan asam laut dapat memengaruhi perkembangan otak hewan dan reaksi terhadap lingkungan sekitarnya. (4) Suhu tinggi dapat memengaruhi perkembangan otak hewan. (5) Suhu tinggi dapat mengubah fitur sistem saraf, termasuk di dalamnya adalah efek pada ekspresi gen dalam neuron (sel saraf), struktur neuron, dan organisasi otak. (6) Selain itu, suhu juga dapat memengaruhi pembentukan neuron baru dalam otak hewan dewasa.<br><br>Apa informasi utama kalimat (6)?",
-        options: [
-            "Suhu dapat memengaruhi pembentukan neuron baru dalam otak.",
-            "Suhu memengaruhi pembentukan neuron baru dalam otak hewan.",
-            "Suhu dapat memengaruhi pembentukan neuron dalam otak.",
-            "Suhu memengaruhi pembentukan neuron baru.",
-            "Suhu memengaruhi pembentukan neuron."
-        ],
-        answer: null, doubt: false, correctAnswer: 1, score: 50, difficulty: "Medium"
-    },
+// ==========================================
+// SOAL 33
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 31—34.\n(1) Gerhana Matahari Hibrida adalah fenomena yang unik, karena bisa terlihat sebagai Gerhana Matahari Total maupun sebagai Gerhana Matahari Cincin tergantung dari lokasi pengamat. (2) Jarak antara Bumi dan Bulan yang berubah-ubah saat bayangan Bulan sampai ke permukaan Bumi membuat ada wilayah yang mengalami Gerhana Matahari Total dan wilayah lainnya mengalami Gerhana Matahari Cincin. (3) Sejak 2000 SM hingga 3000 M, terdapat 569 kali Gerhana Matahari Hibrida.\n(4) Lalu, seberapa sering Gerhana Matahari Hibrida melintasi Indonesia? (5) Gerhana jenis ini terakhir kali melintas Indonesia lima kali dalam satu abad dalam periode 1408–1507, yaitu pada 26 April 1408, 8 Juli 1423, 23 Januari 1441, 25 Februari 1495, dan 10 Juli 1507. (6) Di abad ke-21, Gerhana Matahari Hibrida akan melintasi Indonesia sebanyak dua kali, yaitu 20 April 2023 dan 25 November 2049. (7) Gerhana Matahari Hibrida berikutnya akan terjadi setelah 300 dan 478 tahun kemudian, yaitu 13 Oktober 2349 dan 17 Februari 2827.\n\nKalimat berikut perlu ditambahkan dalam bacaan tersebut.\n“Sepanjang abad ke-21 ini, Gerhana Matahari Hibrida akan terjadi tujuh kali saja.”\n\nKalimat tersebut paling tepat ditempatkan setelah kalimat ….", 
+    options: [
+        "(2)", 
+        "(3)", 
+        "(4)", 
+        "(5)", 
+        "(6)"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 1, 
+    score: 50, 
+    difficulty: "Medium" 
+},
 
-    // === TEKS 4: TEKNOLOGI PENDIDIKAN & SEJARAH TEKNOLOGI ===
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 16-19!</b><br><br>(1) Sekarang Pemerintah Indonesia menghadapi arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan pemantauan pendidikan global UNESCO. (2) Hasil pemantauan itu bertolak belakang dengan kebijakan <b>teknologis-sentris</b> pendidikan Indonesia. (3) Semua negara miskin di dunia, membutuhkan satu miliar dolar AS per hari untuk menjaga <b>konektivitas</b> jaringan internetnya. (4) Teknologi pendidikan telah berhasil <b>diakses</b> satu miliar anak selama pembelajaran online. (5)[...], pada saat yang sama teknologi juga gagal menjangkau setengah miliar anak di dunia. (6) Menurut laporan itu menunjukkan bahwa penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif karena lebih sering <b>mendistraksi</b> pembelajaran. (7) Di negara maju hanya sepuluh persen pelajar di bawah usia lima belas tahun menggunakan perangkat digital lebih dari satu jam per minggu di bidang matematika dan <b>sain</b>.<br><br>Penulisan kata bercetak tebal (sain) yang salah pada teks tersebut terdapat pada kalimat nomor ....",
-        options: ["(2)", "(3)", "(4)", "(6)", "(7)"],
-        answer: null, doubt: false, correctAnswer: 4, score: 35, difficulty: "Easy"
-    },
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 16-19!</b><br><br>(1) Sekarang Pemerintah Indonesia menghadapi arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan pemantauan pendidikan global UNESCO. (2) Hasil pemantauan itu bertolak belakang dengan kebijakan <b>teknologis-sentris</b> pendidikan Indonesia. (3) Semua negara miskin di dunia, membutuhkan satu miliar dolar AS per hari untuk menjaga <b>konektivitas</b> jaringan internetnya. (4) Teknologi pendidikan telah berhasil <b>diakses</b> satu miliar anak selama pembelajaran online. (5)[...], pada saat yang sama teknologi juga gagal menjangkau setengah miliar anak di dunia. (6) Menurut laporan itu menunjukkan bahwa penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif karena lebih sering <b>mendistraksi</b> pembelajaran. (7) Di negara maju hanya sepuluh persen pelajar di bawah usia lima belas tahun menggunakan perangkat digital lebih dari satu jam per minggu di bidang matematika dan <b>sain</b>.<br><br>Kata penghubung yang paling tepat untuk melengkapi kalimat (5) adalah.....",
-        options: ["selain itu", "selanjutnya", "bahkan", "untuk itu", "namun"],
-        answer: null, doubt: false, correctAnswer: 4, score: 35, difficulty: "Easy"
-    },
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 16-19!</b><br><br>(1) Sekarang Pemerintah Indonesia menghadapi arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan pemantauan pendidikan global UNESCO. (2) Hasil pemantauan itu bertolak belakang dengan kebijakan <b>teknologis-sentris</b> pendidikan Indonesia. (3) Semua negara miskin di dunia, membutuhkan satu miliar dolar AS per hari untuk menjaga <b>konektivitas</b> jaringan internetnya. (4) Teknologi pendidikan telah berhasil <b>diakses</b> satu miliar anak selama pembelajaran online. (5)[...], pada saat yang sama teknologi juga gagal menjangkau setengah miliar anak di dunia. (6) Menurut laporan itu menunjukkan bahwa penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif karena lebih sering <b>mendistraksi</b> pembelajaran. (7) Di negara maju hanya sepuluh persen pelajar di bawah usia lima belas tahun menggunakan perangkat digital lebih dari satu jam per minggu di bidang matematika dan <b>sain</b>.<br><br>Kalimat manakah yang merupakan perbaikan kalimat (6)?",
-        options: [
-            "Menurut laporan itu, bahwa penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif.",
-            "Menurut laporan itu menunjukkan penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif.",
-            "Laporan itu menunjukkan penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif.",
-            "Laporan itu menunjukkan bahwa penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif.",
-            "Menurut laporan itu menunjukkan bahwa penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif."
-        ],
-        answer: null, doubt: false, correctAnswer: 3, score: 50, difficulty: "Medium"
-    },
-    {
-        text: "<b>Bacalah teks berikut untuk menjawab soal nomor 16-19!</b><br><br>(1) Sekarang Pemerintah Indonesia menghadapi arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan pemantauan pendidikan global UNESCO. (2) Hasil pemantauan itu bertolak belakang dengan kebijakan <b>teknologis-sentris</b> pendidikan Indonesia. (3) Semua negara miskin di dunia, membutuhkan satu miliar dolar AS per hari untuk menjaga <b>konektivitas</b> jaringan internetnya. (4) Teknologi pendidikan telah berhasil <b>diakses</b> satu miliar anak selama pembelajaran online. (5)[...], pada saat yang sama teknologi juga gagal menjangkau setengah miliar anak di dunia. (6) Menurut laporan itu menunjukkan bahwa penggunaan gawai dalam belajar di empat belas negara cenderung memberikan dampak negatif karena lebih sering <b>mendistraksi</b> pembelajaran. (7) Di negara maju hanya sepuluh persen pelajar di bawah usia lima belas tahun menggunakan perangkat digital lebih dari satu jam per minggu di bidang matematika dan <b>sain</b>.<br><br>Kalimat manakah yang maknanya sama dengan kalimat (1)?",
-        options: [
-            "Pemerintah Indonesia yang sekarang menghadapi arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan UNESCO.",
-            "Dengan terbitnya laporan pemantauan pendidikan global UNESCO, sekarang Pemerintah Indonesia menghadapi arus balik kedua dalam badai teknologi pendidikan.",
-            "Arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan UNESCO dihadapi Pemerintah Indonesia sekarang.",
-            "Sekarang arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan UNESCO dihadapi Pemerintah Indonesia.",
-            "Arus balik kedua dalam badai teknologi pendidikan dengan terbitnya laporan UNESCO sekarang dihadapi Pemerintah Indonesia."
-        ],
-        answer: null, doubt: false, correctAnswer: 1, score: 50, difficulty: "Medium"
-    },
-    {
-        text: "<b>Susunlah kalimat berikut menjadi paragraf yang tepat!</b><br>(1) Penemuan antibiotik dan vaksin meningkatkan usia harapan hidup...<br>(2) Berkat teknologi, manusia meninggalkan cara hidup berburu-meramu...<br>(3) Tidak diragukan bahwa teknologi membuat manusia lebih sehat...<br>(4) Selanjutnya, teknologi pembuatan kapal membantu orang menjelajah samudra...<br>(5) Revolusi ini terjadi karena ada teknologi pengairan...",
-        options: ["3, 2, 5, 1, 4", "3, 2, 5, 4, 1", "3, 2, 4, 5, 1", "3, 2, 1, 4, 5", "3, 2, 4, 1, 5"],
-        answer: null, doubt: false, correctAnswer: 1, score: 71, difficulty: "Hard"
-    }
-]
+// ==========================================
+// SOAL 34
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 31—34.\n(1) Gerhana Matahari Hibrida adalah fenomena yang unik, karena bisa terlihat sebagai Gerhana Matahari Total maupun sebagai Gerhana Matahari Cincin tergantung dari lokasi pengamat. (2) Jarak antara Bumi dan Bulan yang berubah-ubah saat bayangan Bulan sampai ke permukaan Bumi membuat ada wilayah yang mengalami Gerhana Matahari Total dan wilayah lainnya mengalami Gerhana Matahari Cincin. (3) Sejak 2000 SM hingga 3000 M, terdapat 569 kali Gerhana Matahari Hibrida.\n(4) Lalu, seberapa sering Gerhana Matahari Hibrida melintasi Indonesia? (5) Gerhana jenis ini terakhir kali melintas Indonesia lima kali dalam satu abad dalam periode 1408–1507, yaitu pada 26 April 1408, 8 Juli 1423, 23 Januari 1441, 25 Februari 1495, dan 10 Juli 1507. (6) Di abad ke-21, Gerhana Matahari Hibrida akan melintasi Indonesia sebanyak dua kali, yaitu 20 April 2023 dan 25 November 2049. (7) Gerhana Matahari Hibrida berikutnya akan terjadi setelah 300 dan 478 tahun kemudian, yaitu 13 Oktober 2349 dan 17 Februari 2827.\n\nPenggunaan tanda koma yang salah terdapat pada kalimat ….", 
+    options: [
+        "(1)", 
+        "(3)", 
+        "(4)", 
+        "(5)", 
+        "(7)"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+    // ==========================================
+// SOAL 35
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 35—38.\n(1) Diabetes sesungguhnya sudah menjadi epidemi global. (2) Di seluruh dunia, jumlah penderita diabetes diproyeksikan meningkat menjadi 643 juta pada 2030 dan 783 juta pada 2045. (3) Dari sisi pendanaan, tahun lalu saja, diabetes menyedot anggaran kesehatan US$ 966 miliar atau 9% total pengeluaran kesehatan untuk orang dewasa di seluruh dunia.\n(4) Ada dua jenis diabetes: diabetes melitus (DM) tipe 1 dan DM tipe 2. (5) DM tipe 1 terjadi karena rusaknya sel beta pankreas sehingga tidak bisa memproduksi hormon insulin yang bertanggung jawab mencerna kadar gula dalam darah. (6) DM tipe 2 lebih disebabkan oleh kenaikan kadar gula karena menurunnya sekresi insulin yang rendah oleh kelenjar pankreas. (7) DM tipe 1 umumnya tidak bisa dicegah. (8) (...), DM tipe 2 terjadi akibat perilaku dan gaya hidup yang tidak sehat. (9) Berbagai studi menyarankan kombinasi aktifitas fisik dan diet sehat dapat menunda atau mencegah timbulnya diabetes tipe 2.\n\nHubungan antara kalimat (4) dengan kalimat (5) adalah ….", 
+    options: [
+        "perurutan", 
+        "pertentangan", 
+        "konsekuensi", 
+        "pemerian", 
+        "pembenaran"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 36
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 35—38.\n(1) Diabetes sesungguhnya sudah menjadi epidemi global. (2) Di seluruh dunia, jumlah penderita diabetes diproyeksikan meningkat menjadi 643 juta pada 2030 dan 783 juta pada 2045. (3) Dari sisi pendanaan, tahun lalu saja, diabetes menyedot anggaran kesehatan US$ 966 miliar atau 9% total pengeluaran kesehatan untuk orang dewasa di seluruh dunia.\n(4) Ada dua jenis diabetes: diabetes melitus (DM) tipe 1 dan DM tipe 2. (5) DM tipe 1 terjadi karena rusaknya sel beta pankreas sehingga tidak bisa memproduksi hormon insulin yang bertanggung jawab mencerna kadar gula dalam darah. (6) DM tipe 2 lebih disebabkan oleh kenaikan kadar gula karena menurunnya sekresi insulin yang rendah oleh kelenjar pankreas. (7) DM tipe 1 umumnya tidak bisa dicegah. (8) (...), DM tipe 2 terjadi akibat perilaku dan gaya hidup yang tidak sehat. (9) Berbagai studi menyarankan kombinasi aktifitas fisik dan diet sehat dapat menunda atau mencegah timbulnya diabetes tipe 2.\n\nKata sambung yang paling tepat melengkapi kalimat (8) adalah ….", 
+    options: [
+        "sementara itu", 
+        "sesungguhnya", 
+        "oleh sebab itu", 
+        "namun", 
+        "selain itu"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 37
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 35—38.\n(1) Diabetes sesungguhnya sudah menjadi epidemi global. (2) Di seluruh dunia, jumlah penderita diabetes diproyeksikan meningkat menjadi 643 juta pada 2030 dan 783 juta pada 2045. (3) Dari sisi pendanaan, tahun lalu saja, diabetes menyedot anggaran kesehatan US$ 966 miliar atau 9% total pengeluaran kesehatan untuk orang dewasa di seluruh dunia.\n(4) Ada dua jenis diabetes: diabetes melitus (DM) tipe 1 dan DM tipe 2. (5) DM tipe 1 terjadi karena rusaknya sel beta pankreas sehingga tidak bisa memproduksi hormon insulin yang bertanggung jawab mencerna kadar gula dalam darah. (6) DM tipe 2 lebih disebabkan oleh kenaikan kadar gula karena menurunnya sekresi insulin yang rendah oleh kelenjar pankreas. (7) DM tipe 1 umumnya tidak bisa dicegah. (8) (...), DM tipe 2 terjadi akibat perilaku dan gaya hidup yang tidak sehat. (9) Berbagai studi menyarankan kombinasi aktifitas fisik dan diet sehat dapat menunda atau mencegah timbulnya diabetes tipe 2.\n\nPenulisan kata yang salah pada teks tersebut terdapat pada kalimat ….", 
+    options: [
+        "(1)", 
+        "(3)", 
+        "(5)", 
+        "(6)", 
+        "(9)"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 4, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 38
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 35—38.\n(1) Diabetes sesungguhnya sudah menjadi epidemi global. (2) Di seluruh dunia, jumlah penderita diabetes diproyeksikan meningkat menjadi 643 juta pada 2030 dan 783 juta pada 2045. (3) Dari sisi pendanaan, tahun lalu saja, diabetes menyedot anggaran kesehatan US$ 966 miliar atau 9% total pengeluaran kesehatan untuk orang dewasa di seluruh dunia.\n(4) Ada dua jenis diabetes: diabetes melitus (DM) tipe 1 dan DM tipe 2. (5) DM tipe 1 terjadi karena rusaknya sel beta pankreas sehingga tidak bisa memproduksi hormon insulin yang bertanggung jawab mencerna kadar gula dalam darah. (6) DM tipe 2 lebih disebabkan oleh kenaikan kadar gula karena menurunnya sekresi insulin yang rendah oleh kelenjar pankreas. (7) DM tipe 1 umumnya tidak bisa dicegah. (8) (...), DM tipe 2 terjadi akibat perilaku dan gaya hidup yang tidak sehat. (9) Berbagai studi menyarankan kombinasi aktifitas fisik dan diet sehat dapat menunda atau mencegah timbulnya diabetes tipe 2.\n\nPernyataan yang benar berdasarkan teks di atas adalah ….", 
+    options: [
+        "Penderita diabetes melitus di Indonesia akan mencapai 643 juta pada 2030.", 
+        "Diabetes melitus disebabkan oleh kenaikan kadar gula darah.", 
+        "Diabetes melitus tidak bisa dicegah dan seringnya terlambat diketahui.", 
+        "Diabetes melitus terjadi karena perilaku dan gaya hidup yang tidak sehat.", 
+        "Diabetes melitus bisa dicegah dengan perubahan gaya hidup."
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 4, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+// ==========================================
+// SOAL 39
+// ==========================================
+{ 
+    text: "Langkah-langkah yang dapat diambil untuk meningkatkan keamanan data pribadi saat bekerja dari rumah:\n• Gunakan jaringan internet yang aman dan hindari membagikan akses WIFI kepada orang yang tidak dikenal.\n• Aktifkan fitur firewall pada komputer dan pastikan sistem operasi serta perangkat lunak selalu diperbarui.\n• Jangan membuka tautan atau lampiran mencurigakan pada email, terutama jika berasal dari pengirim yang tidak dikenal.\n• Hindari menyimpan data penting di perangkat yang digunakan bersama keluarga, terutama jika tidak memiliki pengaman.\n• Gunakan aplikasi penyimpanan cloud yang telah terenkripsi dan hanya bisa diakses dengan autentikasi ganda.\n\nBerdasarkan isi bacaan, data pribadi bisa rentan bocor saat bekerja dari rumah jika seseorang ….", 
+    options: [
+        "Menggunakan jaringan internet pribadi", 
+        "Memperbarui sistem operasi secara rutin", 
+        "Menyimpan data penting di perangkat bersama tanpa pengaman", 
+        "Menggunakan aplikasi cloud yang terenkripsi", 
+        "Mengaktifkan firewall pada perangkatnya"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 2, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 40
+// ==========================================
+{ 
+    text: "Langkah-langkah yang dapat diambil untuk meningkatkan keamanan data pribadi saat bekerja dari rumah:\n• Gunakan jaringan internet yang aman dan hindari membagikan akses WIFI kepada orang yang tidak dikenal.\n• Aktifkan fitur firewall pada komputer dan pastikan sistem operasi serta perangkat lunak selalu diperbarui.\n• Jangan membuka tautan atau lampiran mencurigakan pada email, terutama jika berasal dari pengirim yang tidak dikenal.\n• Hindari menyimpan data penting di perangkat yang digunakan bersama keluarga, terutama jika tidak memiliki pengaman.\n• Gunakan aplikasi penyimpanan cloud yang telah terenkripsi dan hanya bisa diakses dengan autentikasi ganda.\n\nPernyataan “Gunakan aplikasi penyimpanan cloud yang telah terenkripsi dan hanya bisa diakses dengan autentikasi ganda.” memiliki maksud bahwa ….", 
+    options: [
+        "Cloud adalah satu-satunya cara menyimpan data yang aman.", 
+        "Pengguna harus membuat dua akun berbeda untuk mengakses data.", 
+        "Aplikasi penyimpanan cloud bisa dibuka siapa saja asalkan memiliki akses internet.", 
+        "Penyimpanan data di cloud harus dilengkapi sistem keamanan berlapis.", 
+        "Aplikasi cloud dapat melindungi data dari semua bentuk peretasan."
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 41
+// ==========================================
+{ 
+    text: "Langkah-langkah yang dapat diambil untuk meningkatkan keamanan data pribadi saat bekerja dari rumah:\n• Gunakan jaringan internet yang aman dan hindari membagikan akses WIFI kepada orang yang tidak dikenal.\n• Aktifkan fitur firewall pada komputer dan pastikan sistem operasi serta perangkat lunak selalu diperbarui.\n• Jangan membuka tautan atau lampiran mencurigakan pada email, terutama jika berasal dari pengirim yang tidak dikenal.\n• Hindari menyimpan data penting di perangkat yang digunakan bersama keluarga, terutama jika tidak memiliki pengaman.\n• Gunakan aplikasi penyimpanan cloud yang telah terenkripsi dan hanya bisa diakses dengan autentikasi ganda.\n\nPenulisan kata WIFI pada bacaan bisa diperbaiki menjadi ….", 
+    options: [
+        "Wifi", 
+        "wi-fi", 
+        "‘Wi-Fi’", 
+        "“Wi-Fi”", 
+        "Wi-Fi"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 4, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 42
+// ==========================================
+{ 
+    text: "Langkah-langkah yang dapat diambil untuk meningkatkan keamanan data pribadi saat bekerja dari rumah:\n• Gunakan jaringan internet yang aman dan hindari membagikan akses WIFI kepada orang yang tidak dikenal.\n• Aktifkan fitur firewall pada komputer dan pastikan sistem operasi serta perangkat lunak selalu diperbarui.\n• Jangan membuka tautan atau lampiran mencurigakan pada email, terutama jika berasal dari pengirim yang tidak dikenal.\n• Hindari menyimpan data penting di perangkat yang digunakan bersama keluarga, terutama jika tidak memiliki pengaman.\n• Gunakan aplikasi penyimpanan cloud yang telah terenkripsi dan hanya bisa diakses dengan autentikasi ganda.\n\nKata yang ejaannya tidak tepat pada bacaan tersebut adalah ….", 
+    options: [
+        "autentikasi", 
+        "firewall", 
+        "perangkat", 
+        "terenkripsi", 
+        "memperbaharui"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 4, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+// ==========================================
+// SOAL 43
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 43—45.\n(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya. (2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga. (3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan. (4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan. (5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja. (6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum....\n\nKata yang harus dihilangkan pada kalimat (5) adalah ….", 
+    options: [
+        "Dari", 
+        "Dinilai", 
+        "Dengan", 
+        "Untuk", 
+        "Secara"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 44
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 43—45.\n(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya. (2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga. (3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan. (4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan. (5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja. (6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum....\n\nKalimat (2) perlu disempurnakan dengan cara ….", 
+    options: [
+        "menambahkan kata pada sebelum saat", 
+        "menghilangkan kata yang", 
+        "mengganti kata dengan dengan secara", 
+        "menghilangkan kata pada", 
+        "menshortcut/menyingkat kata tidak menjadi tak"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 45
+// ==========================================
+{ 
+    text: "Bacaan berikut untuk menjawab soal nomor 43—45.\n(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya. (2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga. (3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan. (4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan. (5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja. (6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum....\n\nAgar sesuai dengan konteks bacaan, pernyataan yang paling tepat untuk melengkapi kalimat (6) adalah ….", 
+    options: [
+        "memungkinkan mengubah kurikulum", 
+        "cukup responsif terhadap tuntutan zaman", 
+        "adaptif sesuai dengan zaman sekarang", 
+        "siap menghadapi tuntutan era 4.0", 
+        "memasukkan kurikulum pendidikan keterampilan"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 1, 
+    score: 50, 
+    difficulty: "Medium" 
+}
+],
 },
 
 
