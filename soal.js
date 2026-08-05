@@ -977,7 +977,7 @@ pk: {
 // SOAL 51
 // ==========================================
 { 
-    text: "Informasi berikut untuk menjawab soal nomor 51—53.\n\nGaris $h$ melalui titik $(1, -2)$ dan $(a, 4)$.\n\nNilai $a$ sama dengan ….", 
+    text: "Keterangan berikut untuk mengerjakan soal nomor 51—53!\nGrafik fungsi $g(x) = x^2 - 20$ dan garis $ax - 2y + 30 = 0$ berpotongan di dua titik berbeda yaitu $P(a, b)$ dan $D(-5, r)$.\n\nNilai $a$ sama dengan ….", 
     options: [
         "-5", 
         "-4", 
@@ -996,7 +996,7 @@ pk: {
 // SOAL 52
 // ==========================================
 { 
-    text: "Informasi berikut untuk menjawab soal nomor 51—53.\n\nGaris $h$ melalui titik $(1, -2)$ dan $(a, 4)$.\n\nGradien garis $h$ adalah ….", 
+    text: "Keterangan berikut untuk mengerjakan soal nomor 51—53!\nGrafik fungsi $g(x) = x^2 - 20$ dan garis $ax - 2y + 30 = 0$ berpotongan di dua titik berbeda yaitu $P(a, b)$ dan $D(-5, r)$.\n\nGradien garis tersebut adalah ….", 
     options: [
         "-2", 
         "-1", 
@@ -1015,7 +1015,7 @@ pk: {
 // SOAL 53
 // ==========================================
 { 
-    text: "Informasi berikut untuk menjawab soal nomor 51—53.\n\nGaris $h$ melalui titik $(1, -2)$ dan $(a, 4)$.\n\nPersamaan garis yang sejajar dengan garis $h$ dan melalui titik $(-1, 2)$ adalah ….", 
+    text: "Keterangan berikut untuk mengerjakan soal nomor 51—53!\nGrafik fungsi $g(x) = x^2 - 20$ dan garis $ax - 2y + 30 = 0$ berpotongan di dua titik berbeda yaitu $P(a, b)$ dan $D(-5, r)$.\n\nPersamaan garis yang sejajar dengan garis tersebut dan melalui titik $(-1, 2)$ adalah ….", 
     options: [
         "$y = -2x + 4$", 
         "$y = -2x - 4$", 
