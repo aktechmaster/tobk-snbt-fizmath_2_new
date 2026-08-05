@@ -581,6 +581,8 @@ const examData = {
     correctAnswer: 3, 
     score: 35, 
     difficulty: "Easy" 
+        }
+],
 },
         
     pbm: {
