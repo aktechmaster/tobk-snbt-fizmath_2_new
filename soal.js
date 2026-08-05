@@ -818,7 +818,7 @@ const examData = {
 // SOAL 43
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 43—45.\n(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya. (2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga. (3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan. (4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan. (5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja. (6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum....\n\nKata yang harus dihilangkan pada kalimat (5) adalah ….", 
+    text: "Bacalah teks berikut.\n(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya. (2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga. (3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan. (4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan. (5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja. (6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum....\n\nKata yang harus dihilangkan pada kalimat (5) adalah ….", 
     options: [
         "Dari", 
         "Dinilai", 
@@ -837,7 +837,7 @@ const examData = {
 // SOAL 44
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 43—45.\n(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya. (2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga. (3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan. (4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan. (5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja. (6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum....\n\nKalimat (2) perlu disempurnakan dengan cara ….", 
+    text: "Bacalah teks berikut.\n(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya. (2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga. (3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan. (4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan. (5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja. (6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum....\n\nKalimat (2) perlu disempurnakan dengan cara ….", 
     options: [
         "menambahkan kata pada sebelum saat", 
         "menghilangkan kata yang", 
@@ -856,7 +856,7 @@ const examData = {
 // SOAL 45
 // ==========================================
 { 
-    text: "Bacaan berikut untuk menjawab soal nomor 43—45.\n(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya. (2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga. (3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan. (4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan. (5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja. (6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum....\n\nAgar sesuai dengan konteks bacaan, pernyataan yang paling tepat untuk melengkapi kalimat (6) adalah ….", 
+    text: "Bacalah teks berikut.\n(1) Tujuan pendidikan adalah mengembangkan dan mengoptimalkan daya anak didik agar siap menyongsong masa depan sesuai dengan zamannya. (2) Saat ini teknologi yang berkembang dengan pesat memicu pada perubahan yang cepat pula, bahkan tidak terduga. (3) Laporan Dell Technology menyebutkan bahwa 85 persen pekerjaan pada 2030 yang akan dimasuki Generasi Z dan Alpha belum ditemukan. (4) Sementara itu, konsep otomasi di era 4.0 juga akan mengubah struktur dan lapangan pekerjaan. (5) Padahal, institusi dari pendidikan formal saat ini dinilai belum optimal membekali siswa dengan keterampilan praktis yang menjadi modal siswa untuk mengembangkan diri secara mandiri atau masuk dunia kerja. (6) Paradigma pendidikan sudah bergeser mengikuti perkembangan zaman, tetapi sistem pendidikan belum....\n\nAgar sesuai dengan konteks bacaan, pernyataan yang paling tepat untuk melengkapi kalimat (6) adalah ….", 
     options: [
         "memungkinkan mengubah kurikulum", 
         "cukup responsif terhadap tuntutan zaman", 
@@ -977,7 +977,7 @@ pk: {
 // SOAL 51
 // ==========================================
 { 
-    text: "Keterangan berikut untuk mengerjakan soal nomor 51—53!\nGrafik fungsi $g(x) = x^2 - 20$ dan garis $ax - 2y + 30 = 0$ berpotongan di dua titik berbeda yaitu $P(a, b)$ dan $D(-5, r)$.\n\nNilai $a$ sama dengan ….", 
+    text: "Bacalah keterangan berikut!\nGrafik fungsi $g(x) = x^2 - 20$ dan garis $ax - 2y + 30 = 0$ berpotongan di dua titik berbeda yaitu $P(a, b)$ dan $D(-5, r)$.\n\nNilai $a$ sama dengan ….", 
     options: [
         "-5", 
         "-4", 
@@ -996,7 +996,7 @@ pk: {
 // SOAL 52
 // ==========================================
 { 
-    text: "Keterangan berikut untuk mengerjakan soal nomor 51—53!\nGrafik fungsi $g(x) = x^2 - 20$ dan garis $ax - 2y + 30 = 0$ berpotongan di dua titik berbeda yaitu $P(a, b)$ dan $D(-5, r)$.\n\nGradien garis tersebut adalah ….", 
+    text: "Bacalah keterangan berikut!\nGrafik fungsi $g(x) = x^2 - 20$ dan garis $ax - 2y + 30 = 0$ berpotongan di dua titik berbeda yaitu $P(a, b)$ dan $D(-5, r)$.\n\nGradien garis tersebut adalah ….", 
     options: [
         "-2", 
         "-1", 
@@ -1015,7 +1015,7 @@ pk: {
 // SOAL 53
 // ==========================================
 { 
-    text: "Keterangan berikut untuk mengerjakan soal nomor 51—53!\nGrafik fungsi $g(x) = x^2 - 20$ dan garis $ax - 2y + 30 = 0$ berpotongan di dua titik berbeda yaitu $P(a, b)$ dan $D(-5, r)$.\n\nPersamaan garis yang sejajar dengan garis tersebut dan melalui titik $(-1, 2)$ adalah ….", 
+    text: "Bacalah keterangan berikut!\nGrafik fungsi $g(x) = x^2 - 20$ dan garis $ax - 2y + 30 = 0$ berpotongan di dua titik berbeda yaitu $P(a, b)$ dan $D(-5, r)$.\n\nPersamaan garis yang sejajar dengan garis tersebut dan melalui titik $(-1, 2)$ adalah ….", 
     options: [
         "$y = -2x + 4$", 
         "$y = -2x - 4$", 
