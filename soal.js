@@ -1322,63 +1322,6 @@ pk: {
 }, 
 
 // ==========================================
-// SOAL 66
-// ==========================================
-{
-    text: "Era digital telah membawa perubahan besar dalam cara masyarakat Indonesia berinteraksi dengan budaya lokal. Tradisi-tradisi seperti wayang, tari daerah, dan musik etnik kini tidak hanya tampil di panggung-panggung tradisional, tetapi juga diunggah dan disiarkan melalui berbagai platform digital. Fenomena ini memperluas jangkauan budaya lokal ke audiens global, sekaligus membuka peluang baru dalam bentuk ekonomi kreatif berbasis warisan budaya. Data Kementerian Pariwisata dan Ekonomi Kreatif tahun 2024 mencatat peningkatan $28\%$ jumlah konten budaya lokal yang diunggah ke platform seperti YouTube dan TikTok dibanding tahun sebelumnya.\n\nNamun, ekspansi budaya lokal di ruang digital juga menghadirkan tantangan baru. Dalam banyak kasus, nilai-nilai filosofis dan sakralitas budaya mulai tereduksi menjadi sekadar tontonan viral. Misalnya, tarian sakral yang semula hanya ditampilkan dalam upacara adat kini dikemas ulang untuk kepentingan komersial tanpa konteks budaya yang utuh. Praktik semacam ini menuai kritik dari budayawan karena berisiko menurunkan pemahaman masyarakat terhadap makna asli kebudayaan tersebut. Transformasi digital dianggap mempercepat proses komodifikasi budaya, yakni menjadikan budaya sebagai produk konsumsi massal.\n\nMeski demikian, tidak semua bentuk transformasi budaya bersifat negatif. Banyak komunitas adat dan seniman tradisional justru memanfaatkan media digital untuk mendokumentasikan pengetahuan budaya mereka yang selama ini diwariskan secara lisan. Platform seperti podcast dan vlog budaya digunakan sebagai sarana pendidikan lintas generasi. Beberapa inisiatif lokal bahkan mendapat dukungan dari UNESCO dalam upaya melestarikan bahasa daerah dan praktik budaya minoritas yang terancam punah. Dengan pendekatan yang sensitif terhadap konteks, digitalisasi justru dapat menjadi alat pelindung budaya.\n\nKe depan, tantangan utama dalam pelestarian budaya lokal bukan hanya pada teknologinya, tetapi pada etika pemanfaatannya. Pemerintah dan pelaku budaya perlu merumuskan pedoman yang memastikan bahwa pemanfaatan media digital tetap menghormati nilai-nilai budaya asli. Selain itu, edukasi masyarakat menjadi penting agar publik tidak hanya menjadi konsumen budaya, tetapi juga aktor yang turut menjaga kelestariannya. Dalam hal ini, transformasi digital budaya Indonesia dapat menjadi jembatan antara warisan tradisional dan masa depan, bukan sekadar panggung hiburan sesaat.\n\n66. Apa argumen utama penulis mengenai dampak digitalisasi terhadap budaya lokal Indonesia?",
-    options: [
-        "Digitalisasi menyebabkan hilangnya semua bentuk budaya tradisional milik bangsa Indonesia",
-        "Digitalisasi memperkuat budaya pop global di Indonesia yang telah berakulturasi sejak lama",
-        "Digitalisasi berpotensi menjadi alat pelestarian budaya jika digunakan secara etis",
-        "Digitalisasi hanya bermanfaat bagi komunitas urban yang cepat beradaptasi",
-        "Digitalisasi sepenuhnya mengomersialkan budaya lokal sebagai produk digital semata"
-    ],
-    answer: null,
-    doubt: false,
-    correctAnswer: 2,
-    score: 50,
-    difficulty: "Medium"
-},
-
-// ==========================================
-// SOAL 67
-// ==========================================
-{
-    text: "Era digital telah membawa perubahan besar dalam cara masyarakat Indonesia berinteraksi dengan budaya lokal. Tradisi-tradisi seperti wayang, tari daerah, dan musik etnik kini tidak hanya tampil di panggung-panggung tradisional, tetapi juga diunggah dan disiarkan melalui berbagai platform digital. Fenomena ini memperluas jangkauan budaya lokal ke audiens global, sekaligus membuka peluang baru dalam bentuk ekonomi kreatif berbasis warisan budaya. Data Kementerian Pariwisata dan Ekonomi Kreatif tahun 2024 mencatat peningkatan $28\%$ jumlah konten budaya lokal yang diunggah ke platform seperti YouTube dan TikTok dibanding tahun sebelumnya.\n\nNamun, ekspansi budaya lokal di ruang digital juga menghadirkan tantangan baru. Dalam banyak kasus, nilai-nilai filosofis dan sakralitas budaya mulai tereduksi menjadi sekadar tontonan viral. Misalnya, tarian sakral yang semula hanya ditampilkan dalam upacara adat kini dikemas ulang untuk kepentingan komersial tanpa konteks budaya yang utuh. Praktik semacam ini menuai kritik dari budayawan karena berisiko menurunkan pemahaman masyarakat terhadap makna asli kebudayaan tersebut. Transformasi digital dianggap mempercepat proses komodifikasi budaya, yakni menjadikan budaya sebagai produk konsumsi massal.\n\nMeski demikian, tidak semua bentuk transformasi budaya bersifat negatif. Banyak komunitas adat dan seniman tradisional justru memanfaatkan media digital untuk mendokumentasikan pengetahuan budaya mereka yang selama ini diwariskan secara lisan. Platform seperti podcast dan vlog budaya digunakan sebagai sarana pendidikan lintas generasi. Beberapa inisiatif lokal bahkan mendapat dukungan dari UNESCO dalam upaya melestarikan bahasa daerah dan praktik budaya minoritas yang terancam punah. Dengan pendekatan yang sensitif terhadap konteks, digitalisasi justru dapat menjadi alat pelindung budaya.\n\nKe depan, tantangan utama dalam pelestarian budaya lokal bukan hanya pada teknologinya, tetapi pada etika pemanfaatannya. Pemerintah dan pelaku budaya perlu merumuskan pedoman yang memastikan bahwa pemanfaatan media digital tetap menghormati nilai-nilai budaya asli. Selain itu, edukasi masyarakat menjadi penting agar publik tidak hanya menjadi konsumen budaya, tetapi juga aktor yang turut menjaga kelestariannya. Dalam hal ini, transformasi digital budaya Indonesia dapat menjadi jembatan antara warisan tradisional dan masa depan, bukan sekadar panggung hiburan sesaat.\n\n67. Mengapa digitalisasi budaya dikritik oleh budayawan menurut teks?",
-    options: [
-        "Karena digitalisasi pasti merusak pemahaman masyarakat terhadap keaslian budaya",
-        "Karena menghambat proses komodifikasi budaya yang menjadikannya produk konsumsi massal",
-        "Karena digitalisasi mereduksi makna filosofis budaya menjadi sekadar tontonan",
-        "Karena ada peningkatan $28\%$ jumlah konten budaya lokal yang diunggah",
-        "Karena tidak semua bentuk transformasi budaya bersifat negatif"
-    ],
-    answer: null,
-    doubt: false,
-    correctAnswer: 2,
-    score: 35,
-    difficulty: "Easy"
-},
-
-// ==========================================
-// SOAL 68
-// ==========================================
-{
-    text: "Era digital telah membawa perubahan besar dalam cara masyarakat Indonesia berinteraksi dengan budaya lokal. Tradisi-tradisi seperti wayang, tari daerah, dan musik etnik kini tidak hanya tampil di panggung-panggung tradisional, tetapi juga diunggah dan disiarkan melalui berbagai platform digital. Fenomena ini memperluas jangkauan budaya lokal ke audiens global, sekaligus membuka peluang baru dalam bentuk ekonomi kreatif berbasis warisan budaya. Data Kementerian Pariwisata dan Ekonomi Kreatif tahun 2024 mencatat peningkatan $28\%$ jumlah konten budaya lokal yang diunggah ke platform seperti YouTube dan TikTok dibanding tahun sebelumnya.\n\nNamun, ekspansi budaya lokal di ruang digital juga menghadirkan tantangan baru. Dalam banyak kasus, nilai-nilai filosofis dan sakralitas budaya mulai tereduksi menjadi sekadar tontonan viral. Misalnya, tarian sakral yang semula hanya ditampilkan dalam upacara adat kini dikemas ulang untuk kepentingan komersial tanpa konteks budaya yang utuh. Praktik semacam ini menuai kritik dari budayawan karena berisiko menurunkan pemahaman masyarakat terhadap makna asli kebudayaan tersebut. Transformasi digital dianggap mempercepat proses komodifikasi budaya, yakni menjadikan budaya sebagai produk konsumsi massal.\n\nMeski demikian, tidak semua bentuk transformasi budaya bersifat negatif. Banyak komunitas adat dan seniman tradisional justru memanfaatkan media digital untuk mendokumentasikan pengetahuan budaya mereka yang selama ini diwariskan secara lisan. Platform seperti podcast dan vlog budaya digunakan sebagai sarana pendidikan lintas generasi. Beberapa inisiatif lokal bahkan mendapat dukungan dari UNESCO dalam upaya melestarikan bahasa daerah dan praktik budaya minoritas yang terancam punah. Dengan pendekatan yang sensitif terhadap konteks, digitalisasi justru dapat menjadi alat pelindung budaya.\n\nKe depan, tantangan utama dalam pelestarian budaya lokal bukan hanya pada teknologinya, tetapi pada etika pemanfaatannya. Pemerintah dan pelaku budaya perlu merumuskan pedoman yang memastikan bahwa pemanfaatan media digital tetap menghormati nilai-nilai budaya asli. Selain itu, edukasi masyarakat menjadi penting agar publik tidak hanya menjadi konsumen budaya, tetapi juga aktor yang turut menjaga kelestariannya. Dalam hal ini, transformasi digital budaya Indonesia dapat menjadi jembatan antara warisan tradisional dan masa depan, bukan sekadar panggung hiburan sesaat.\n\n68. Apa yang dapat disimpulkan dari paragraf ketiga tentang inisiatif pelestarian budaya melalui media digital?",
-    options: [
-        "Pelestarian budaya sangat memerlukan dukungan dari lembaga internasional",
-        "Komunitas adat sangat sensitif dan menolak teknologi sebagai sarana pewarisan budaya secara lisan",
-        "Dokumentasi budaya secara digital hanya berlaku pada budaya mayoritas agar terlindung dari budaya asing",
-        "Digitalisasi dapat digunakan sebagai sarana edukasi lintas generasi dan pelestarian bahasa daerah",
-        "Transformasi budaya digital tidak relevan dengan kebutuhan generasi muda yang terbiasa membuat podcast dan vlog"
-    ],
-    answer: null,
-    doubt: false,
-    correctAnswer: 3,
-    score: 35,
-    difficulty: "Easy"
-},
-
-// ==========================================
 // SOAL 69
 // ==========================================
 {
@@ -1517,267 +1460,440 @@ pk: {
     name: "Literasi Bahasa Inggris",
     duration: 30 * 60,
     questions: [
-        // BAGIAN 1: SOCIAL MEDIA THREAD (Soal 1-7)
-        {
-            text: `<table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; margin-bottom: 10px;">
-                    <tr><td style="padding:8px; font-weight:bold; width:25%;">Stormy<br>04-08-2024</td><td style="padding:8px;">Social media can be a tempting distraction. It’s a pretty common experience to want to pick up your phone whenever you can’t focus or need a quick break. But you <b>may</b> find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Dewgong<br>05-08-2024</td><td style="padding:8px;">This is a great question! I’m going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Lightning<br>07-08-2024</td><td style="padding:8px;">I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I’m not bombarded with information.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Infinity<br>16-08-2024</td><td style="padding:8px;">For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Ironman<br>20-08-2024</td><td style="padding:8px;">Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven’t found time for myself during the day. It definitely has had impacts on my sleep schedule and I’m not proud of it, but I have been able to reduce the use of social media in the past few months.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Golden<br>28-08-2024</td><td style="padding:8px;">This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress.</td></tr>
-                  </table><br>Who posted the negative effect of social media on their lives?`,
-            options: ["Dewgong and Golden", "Lightning and Ironman", "Lightning and Dewgong", "Infinity and Golden", "Ironman and Golden"],
-            answer: null, doubt: false, correctAnswer: 1, score: 40, difficulty: "Medium"
-        },
-        {
-            text: `<table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; margin-bottom: 10px;">
-                    <tr><td style="padding:8px; font-weight:bold; width:25%;">Stormy<br>04-08-2024</td><td style="padding:8px;">Social media can be a tempting distraction. It’s a pretty common experience to want to pick up your phone whenever you can’t focus or need a quick break. But you <b>may</b> find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Dewgong<br>05-08-2024</td><td style="padding:8px;">This is a great question! I’m going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Lightning<br>07-08-2024</td><td style="padding:8px;">I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I’m not bombarded with information.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Infinity<br>16-08-2024</td><td style="padding:8px;">For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Ironman<br>20-08-2024</td><td style="padding:8px;">Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven’t found time for myself during the day. It definitely has had impacts on my sleep schedule and I’m not proud of it, but I have been able to reduce the use of social media in the past few months.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Golden<br>28-08-2024</td><td style="padding:8px;">This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress.</td></tr>
-                  </table><br>The word <b>may</b> in Stormy’s post is used to express a …`,
-            options: ["Possibility", "Permission", "Wish", "Suggestion", "Request"],
-            answer: null, doubt: false, correctAnswer: 0, score: 30, difficulty: "Easy"
-        },
-        {
-            text: `<table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; margin-bottom: 10px;">
-                    <tr><td style="padding:8px; font-weight:bold; width:25%;">Stormy<br>04-08-2024</td><td style="padding:8px;">Social media can be a tempting distraction. It’s a pretty common experience to want to pick up your phone whenever you can’t focus or need a quick break. But you <b>may</b> find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Dewgong<br>05-08-2024</td><td style="padding:8px;">This is a great question! I’m going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Lightning<br>07-08-2024</td><td style="padding:8px;">I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I’m not bombarded with information.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Infinity<br>16-08-2024</td><td style="padding:8px;">For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Ironman<br>20-08-2024</td><td style="padding:8px;">Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven’t found time for myself during the day. It definitely has had impacts on my sleep schedule and I’m not proud of it, but I have been able to reduce the use of social media in the past few months.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Golden<br>28-08-2024</td><td style="padding:8px;">This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress.</td></tr>
-                  </table><br>Which of the following issues is stated at the beginning of the thread?`,
-            options: ["Talking about experiences on handling distractions", "Asking for a suggestion to focus on work", "Finding a solution for not comparing oneself to others", "Sharing tips on limiting the use of social media", "Discussing issues related to the use of social media"],
-            answer: null, doubt: false, correctAnswer: 4, score: 40, difficulty: "Medium"
-        },
-        {
-            text: `<table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; margin-bottom: 10px;">
-                    <tr><td style="padding:8px; font-weight:bold; width:25%;">Stormy<br>04-08-2024</td><td style="padding:8px;">Social media can be a tempting distraction. It’s a pretty common experience to want to pick up your phone whenever you can’t focus or need a quick break. But you <b>may</b> find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Dewgong<br>05-08-2024</td><td style="padding:8px;">This is a great question! I’m going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Lightning<br>07-08-2024</td><td style="padding:8px;">I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I’m not bombarded with information.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Infinity<br>16-08-2024</td><td style="padding:8px;">For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Ironman<br>20-08-2024</td><td style="padding:8px;">Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven’t found time for myself during the day. It definitely has had impacts on my sleep schedule and I’m not proud of it, but I have been able to reduce the use of social media in the past few months.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Golden<br>28-08-2024</td><td style="padding:8px;">This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress.</td></tr>
-                  </table><br>Who shared the positive impact of disconnecting from social media by giving evidence?`,
-            options: ["Dewgong", "Lightning", "Infinity", "Ironman", "Golden"],
-            answer: null, doubt: false, correctAnswer: 1, score: 40, difficulty: "Medium"
-        },
-        {
-            text: `<table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; margin-bottom: 10px;">
-                    <tr><td style="padding:8px; font-weight:bold; width:25%;">Stormy<br>04-08-2024</td><td style="padding:8px;">Social media can be a tempting distraction. It’s a pretty common experience to want to pick up your phone whenever you can’t focus or need a quick break. But you <b>may</b> find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Dewgong<br>05-08-2024</td><td style="padding:8px;">This is a great question! I’m going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Lightning<br>07-08-2024</td><td style="padding:8px;">I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I’m not bombarded with information.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Infinity<br>16-08-2024</td><td style="padding:8px;">For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Ironman<br>20-08-2024</td><td style="padding:8px;">Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven’t found time for myself during the day. It definitely has had impacts on my sleep schedule and I’m not proud of it, but I have been able to reduce the use of social media in the past few months.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Golden<br>28-08-2024</td><td style="padding:8px;">This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress.</td></tr>
-                  </table><br>The aim of Golden’s response to Stormy’s post is to …`,
-            options: ["Find other solutions to disconnect from social media", "Talk about his/her experience in using social media", "Share one effective way to limit social media use", "Introduce an app to maximize social media use", "Show how to create a social media apps"],
-            answer: null, doubt: false, correctAnswer: 2, score: 40, difficulty: "Medium"
-        },
-        {
-            text: `<table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; margin-bottom: 10px;">
-                    <tr><td style="padding:8px; font-weight:bold; width:25%;">Stormy<br>04-08-2024</td><td style="padding:8px;">Social media can be a tempting distraction. It’s a pretty common experience to want to pick up your phone whenever you can’t focus or need a quick break. But you <b>may</b> find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Dewgong<br>05-08-2024</td><td style="padding:8px;">This is a great question! I’m going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Lightning<br>07-08-2024</td><td style="padding:8px;">I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I’m not bombarded with information.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Infinity<br>16-08-2024</td><td style="padding:8px;">For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Ironman<br>20-08-2024</td><td style="padding:8px;">Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven’t found time for myself during the day. It definitely has had impacts on my sleep schedule and I’m not proud of it, but I have been able to reduce the use of social media in the past few months.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Golden<br>28-08-2024</td><td style="padding:8px;">This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress.</td></tr>
-                  </table><br>Who posted the most relevant answer to Stormy’s question?`,
-            options: ["Dewgong and Lightning", "Dewgong and Infinity", "Lightning and Golden", "Infinity and Ironman", "Ironman and Golden"],
-            answer: null, doubt: false, correctAnswer: 2, score: 60, difficulty: "Hard"
-        },
-        {
-            text: `<table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; margin-bottom: 10px;">
-                    <tr><td style="padding:8px; font-weight:bold; width:25%;">Stormy<br>04-08-2024</td><td style="padding:8px;">Social media can be a tempting distraction. It’s a pretty common experience to want to pick up your phone whenever you can’t focus or need a quick break. But you <b>may</b> find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Dewgong<br>05-08-2024</td><td style="padding:8px;">This is a great question! I’m going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Lightning<br>07-08-2024</td><td style="padding:8px;">I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I’m not bombarded with information.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Infinity<br>16-08-2024</td><td style="padding:8px;">For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Ironman<br>20-08-2024</td><td style="padding:8px;">Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven’t found time for myself during the day. It definitely has had impacts on my sleep schedule and I’m not proud of it, but I have been able to reduce the use of social media in the past few months.</td></tr>
-                    <tr><td style="padding:8px; font-weight:bold;">Golden<br>28-08-2024</td><td style="padding:8px;">This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress.</td></tr>
-                  </table><br>What is the tone of the thread?`,
-            options: ["Professional", "Emotional", "Sarcastic", "Provocative", "Introspective"],
-            answer: null, doubt: false, correctAnswer: 4, score: 60, difficulty: "Hard"
-        },
+        // ==========================================
+// SOAL 76
+// ==========================================
+{
+    text: `<table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; margin-bottom: 10px;">
+  <tr><td style="padding:8px; font-weight:bold; width:25%;">Stormy<br>04-08-2024</td><td style="padding:8px;">Social media can be a tempting distraction. It’s a pretty common experience to want to pick up your phone whenever you can’t focus or need a quick break. But you <b>may</b> find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Dewgong<br>05-08-2024</td><td style="padding:8px;">This is a great question! I’m going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Lightning<br>07-08-2024</td><td style="padding:8px;">I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I’m not bombarded with information.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Infinity<br>16-08-2024</td><td style="padding:8px;">For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Ironman<br>20-08-2024</td><td style="padding:8px;">Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven’t found time for myself during the day. It definitely has had impacts on my sleep schedule and I’m not proud of it, but I have been able to reduce the use of social media in the past few months.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Golden<br>28-08-2024</td><td style="padding:8px;">This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress.</td></tr>
+</table><br>76. Who posted the negative effect of social media on their lives?`,
+    options: [
+        "Dewgong and Golden",
+        "Lightning and Ironman",
+        "Lightning and Dewgong",
+        "Infinity and Golden",
+        "Ironman and Golden"
+    ],
+    answer: null,
+    doubt: false,
+    correctAnswer: 1,
+    score: 35,
+    difficulty: "Easy"
+},
 
-        // BAGIAN 2: ART & MATERIALS (Soal 8-14)
-        {
-            text: `<b>Text 1</b><br>At Frieze London this year, three large artworks by the artist Nengi Omuku were hung away from the walls so viewers could walk around them. With each work, one side offered a vibrant nature-filled painting. The other presented strips of sanyan, a thick traditional Nigerian fabric that Omuku uses to replace the usual canvas fabric painters often used as their base. 'The fact I'm painting on a vintage surface gives soul to my work,' Omuku said over Zoom two days before the fair opened. For the 37-year-old, the fabric she works on has become as crucial as her paintings themselves. 'Even when it's not a vintage surface, it is a surface that has been made collaboratively with craftsmen from Nigeria.'
-    <br><br>
-    Omuku's reason to use sanyan initially came from a place of necessity, but has now become an integral part of her practice. 'I worked on canvas for a little while, but eventually shifted to working on sanyan, which is a pre-colonial Yoruba textile,' she told CNN in a video call, adding that she 'made the switch' after eight years of studying in the UK. 'I was trying to rediscover myself and my identity,' she said. 'When I moved back to Nigeria, I couldn't find high-quality canvas, and I was also really fascinated by how, as Nigerians, we identify ourselves through our clothes.' However, she found sanyan more appealing than other more contemporary fabrics. 'I'd never seen a pre-colonial Nigerian textile before, and it looked quite similar to linen.'
-    <br><br>
-    <b>Text 2</b><br>When a banana duct-taped to a wall sold for <b>USD 120,000</b> in 2019, social media uproar and an age-old debate about the meaning of art ensued. However, artist Maurizio Cattelan's surreal creation, titled 'Comedian', may yet prove a sound investment. On Friday, auction house Sotheby's announced it could fetch <b>USD 1 million to USD 1.5 million</b>. I doubt that it will be sold at this high price.
-    <br><br>
-    For their money, the winning bidder will receive a roll of duct tape and one banana. They will also receive a certificate of authenticity and official instructions for installing the work. Sotheby's confirmed to CNN that neither the tape nor the banana are the originals. 'Comedian' is a conceptual artwork, and the physical materials are replaced with every installation,' an auction spokesperson said via email.
-    <br><br>
-    Cattelan and French art gallery Perrotin made headlines around the world five years ago when they displayed 'Comedian' with a six-figure asking price at the Art Basel Miami Beach fair. The original was created using a banana bought in a Miami grocery store, though the gallery said it could be replaced, as per the artist's instruction's.
-    <br><br>According to Text 1, which of the following is NOT the reason why sanyan is used by Nengi Omuku? It …`,
-            options: ["is a high-quality canvas", "is a thick Nigerian fabric", "gives soul to the painting", "is a pre-colonial textile from Nigeria", "has a better quality compared to linen"],
-            answer: null, doubt: false, correctAnswer: 0, score: 30, difficulty: "Easy"
-        },
-        {
-            text: `<b>Text 1</b><br>At Frieze London this year, three large artworks by the artist Nengi Omuku were hung away from the walls so viewers could walk around them. With each work, one side offered a vibrant nature-filled painting. The other presented strips of sanyan, a thick traditional Nigerian fabric that Omuku uses to replace the usual canvas fabric painters often used as their base. 'The fact I'm painting on a vintage surface gives soul to my work,' Omuku said over Zoom two days before the fair opened. For the 37-year-old, the fabric she works on has become as crucial as her paintings themselves. 'Even when it's not a vintage surface, it is a surface that has been made collaboratively with craftsmen from Nigeria.'
-    <br><br>
-    Omuku's reason to use sanyan initially came from a place of necessity, but has now become an integral part of her practice. 'I worked on canvas for a little while, but eventually shifted to working on sanyan, which is a pre-colonial Yoruba textile,' she told CNN in a video call, adding that she 'made the switch' after eight years of studying in the UK. 'I was trying to rediscover myself and my identity,' she said. 'When I moved back to Nigeria, I couldn't find high-quality canvas, and I was also really fascinated by how, as Nigerians, we identify ourselves through our clothes.' However, she found sanyan more appealing than other more contemporary fabrics. 'I'd never seen a pre-colonial Nigerian textile before, and it looked quite similar to linen.'
-    <br><br>
-    <b>Text 2</b><br>When a banana duct-taped to a wall sold for <b>USD 120,000</b> in 2019, social media uproar and an age-old debate about the meaning of art ensued. However, artist Maurizio Cattelan's surreal creation, titled 'Comedian', may yet prove a sound investment. On Friday, auction house Sotheby's announced it could fetch <b>USD 1 million to USD 1.5 million</b>. I doubt that it will be sold at this high price.
-    <br><br>
-    For their money, the winning bidder will receive a roll of duct tape and one banana. They will also receive a certificate of authenticity and official instructions for installing the work. Sotheby's confirmed to CNN that neither the tape nor the banana are the originals. 'Comedian' is a conceptual artwork, and the physical materials are replaced with every installation,' an auction spokesperson said via email.
-    <br><br>
-    Cattelan and French art gallery Perrotin made headlines around the world five years ago when they displayed 'Comedian' with a six-figure asking price at the Art Basel Miami Beach fair. The original was created using a banana bought in a Miami grocery store, though the gallery said it could be replaced, as per the artist's instruction's.
-    <br><br>The phrase <i>a place of necessity</i> in Text 1 Paragraph 2 is closest in meaning to … an urgent need.`,
-            options: ["A practical", "A long-term", "A high-quality", "A possible", "An urgent"],
-            answer: null, doubt: false, correctAnswer: 0, score: 40, difficulty: "Medium"
-        },
-        {
-            text: `<b>Text 1</b><br>At Frieze London this year, three large artworks by the artist Nengi Omuku were hung away from the walls so viewers could walk around them. With each work, one side offered a vibrant nature-filled painting. The other presented strips of sanyan, a thick traditional Nigerian fabric that Omuku uses to replace the usual canvas fabric painters often used as their base. 'The fact I'm painting on a vintage surface gives soul to my work,' Omuku said over Zoom two days before the fair opened. For the 37-year-old, the fabric she works on has become as crucial as her paintings themselves. 'Even when it's not a vintage surface, it is a surface that has been made collaboratively with craftsmen from Nigeria.'
-    <br><br>
-    Omuku's reason to use sanyan initially came from a place of necessity, but has now become an integral part of her practice. 'I worked on canvas for a little while, but eventually shifted to working on sanyan, which is a pre-colonial Yoruba textile,' she told CNN in a video call, adding that she 'made the switch' after eight years of studying in the UK. 'I was trying to rediscover myself and my identity,' she said. 'When I moved back to Nigeria, I couldn't find high-quality canvas, and I was also really fascinated by how, as Nigerians, we identify ourselves through our clothes.' However, she found sanyan more appealing than other more contemporary fabrics. 'I'd never seen a pre-colonial Nigerian textile before, and it looked quite similar to linen.'
-    <br><br>
-    <b>Text 2</b><br>When a banana duct-taped to a wall sold for <b>USD 120,000</b> in 2019, social media uproar and an age-old debate about the meaning of art ensued. However, artist Maurizio Cattelan's surreal creation, titled 'Comedian', may yet prove a sound investment. On Friday, auction house Sotheby's announced it could fetch <b>USD 1 million to USD 1.5 million</b>. I doubt that it will be sold at this high price.
-    <br><br>
-    For their money, the winning bidder will receive a roll of duct tape and one banana. They will also receive a certificate of authenticity and official instructions for installing the work. Sotheby's confirmed to CNN that neither the tape nor the banana are the originals. 'Comedian' is a conceptual artwork, and the physical materials are replaced with every installation,' an auction spokesperson said via email.
-    <br><br>
-    Cattelan and French art gallery Perrotin made headlines around the world five years ago when they displayed 'Comedian' with a six-figure asking price at the Art Basel Miami Beach fair. The original was created using a banana bought in a Miami grocery store, though the gallery said it could be replaced, as per the artist's instruction's.
-    <br><br>Which of the following is the best main idea of Text 1?`,
-            options: ["There are some reasons why sanyan is selected by Nengi Omuku", "The artist Nengi Omuku prefers to use materials from her own country", "For Nengi Omuku, the fabric chosen is less important", "The use of sanyan by Nengi Omuku is meant to popularize it", "Sanyan is as good as canvas to be used as the base"],
-            answer: null, doubt: false, correctAnswer: 0, score: 40, difficulty: "Medium"
-        },
-        {
-            text: `<b>Text 1</b><br>At Frieze London this year, three large artworks by the artist Nengi Omuku were hung away from the walls so viewers could walk around them. With each work, one side offered a vibrant nature-filled painting. The other presented strips of sanyan, a thick traditional Nigerian fabric that Omuku uses to replace the usual canvas fabric painters often used as their base. 'The fact I'm painting on a vintage surface gives soul to my work,' Omuku said over Zoom two days before the fair opened. For the 37-year-old, the fabric she works on has become as crucial as her paintings themselves. 'Even when it's not a vintage surface, it is a surface that has been made collaboratively with craftsmen from Nigeria.'
-    <br><br>
-    Omuku's reason to use sanyan initially came from a place of necessity, but has now become an integral part of her practice. 'I worked on canvas for a little while, but eventually shifted to working on sanyan, which is a pre-colonial Yoruba textile,' she told CNN in a video call, adding that she 'made the switch' after eight years of studying in the UK. 'I was trying to rediscover myself and my identity,' she said. 'When I moved back to Nigeria, I couldn't find high-quality canvas, and I was also really fascinated by how, as Nigerians, we identify ourselves through our clothes.' However, she found sanyan more appealing than other more contemporary fabrics. 'I'd never seen a pre-colonial Nigerian textile before, and it looked quite similar to linen.'
-    <br><br>
-    <b>Text 2</b><br>When a banana duct-taped to a wall sold for <b>USD 120,000</b> in 2019, social media uproar and an age-old debate about the meaning of art ensued. However, artist Maurizio Cattelan's surreal creation, titled 'Comedian', may yet prove a sound investment. On Friday, auction house Sotheby's announced it could fetch <b>USD 1 million to USD 1.5 million</b>. I doubt that it will be sold at this high price.
-    <br><br>
-    For their money, the winning bidder will receive a roll of duct tape and one banana. They will also receive a certificate of authenticity and official instructions for installing the work. Sotheby's confirmed to CNN that neither the tape nor the banana are the originals. 'Comedian' is a conceptual artwork, and the physical materials are replaced with every installation,' an auction spokesperson said via email.
-    <br><br>
-    Cattelan and French art gallery Perrotin made headlines around the world five years ago when they displayed 'Comedian' with a six-figure asking price at the Art Basel Miami Beach fair. The original was created using a banana bought in a Miami grocery store, though the gallery said it could be replaced, as per the artist's instruction's.
-    <br><br>Which of the following best restates the statement “They will also receive a certificate of authority and official instructions for installing the work.” in Text 2 Paragraph 2?`,
-            options: ["The work should be installed by paying attention to original guidelines", "A certificate of authenticity will also be given, and ask the official", "A document of originality and authorized directions will be given", "A letter of originality that contains formal directions", "To set the work in place, formal instructions and license provided"],
-            answer: null, doubt: false, correctAnswer: 2, score: 70, difficulty: "Hard"
-        },
-        {
-            text: `<b>Text 1</b><br>At Frieze London this year, three large artworks by the artist Nengi Omuku were hung away from the walls so viewers could walk around them. With each work, one side offered a vibrant nature-filled painting. The other presented strips of sanyan, a thick traditional Nigerian fabric that Omuku uses to replace the usual canvas fabric painters often used as their base. 'The fact I'm painting on a vintage surface gives soul to my work,' Omuku said over Zoom two days before the fair opened. For the 37-year-old, the fabric she works on has become as crucial as her paintings themselves. 'Even when it's not a vintage surface, it is a surface that has been made collaboratively with craftsmen from Nigeria.'
-    <br><br>
-    Omuku's reason to use sanyan initially came from a place of necessity, but has now become an integral part of her practice. 'I worked on canvas for a little while, but eventually shifted to working on sanyan, which is a pre-colonial Yoruba textile,' she told CNN in a video call, adding that she 'made the switch' after eight years of studying in the UK. 'I was trying to rediscover myself and my identity,' she said. 'When I moved back to Nigeria, I couldn't find high-quality canvas, and I was also really fascinated by how, as Nigerians, we identify ourselves through our clothes.' However, she found sanyan more appealing than other more contemporary fabrics. 'I'd never seen a pre-colonial Nigerian textile before, and it looked quite similar to linen.'
-    <br><br>
-    <b>Text 2</b><br>When a banana duct-taped to a wall sold for <b>USD 120,000</b> in 2019, social media uproar and an age-old debate about the meaning of art ensued. However, artist Maurizio Cattelan's surreal creation, titled 'Comedian', may yet prove a sound investment. On Friday, auction house Sotheby's announced it could fetch <b>USD 1 million to USD 1.5 million</b>. I doubt that it will be sold at this high price.
-    <br><br>
-    For their money, the winning bidder will receive a roll of duct tape and one banana. They will also receive a certificate of authenticity and official instructions for installing the work. Sotheby's confirmed to CNN that neither the tape nor the banana are the originals. 'Comedian' is a conceptual artwork, and the physical materials are replaced with every installation,' an auction spokesperson said via email.
-    <br><br>
-    Cattelan and French art gallery Perrotin made headlines around the world five years ago when they displayed 'Comedian' with a six-figure asking price at the Art Basel Miami Beach fair. The original was created using a banana bought in a Miami grocery store, though the gallery said it could be replaced, as per the artist's instruction's.
-    <br><br>According to Text 2, the purpose of providing a certificate of authenticity is to …`,
-            options: ["State that the artwork is genuine", "Provide directions to install the artwork", "Inform that the artwork uses real materials", "Help the owner get a new buyer", "Explain that “Comedy” is a conceptual artwork"],
-            answer: null, doubt: false, correctAnswer: 0, score: 30, difficulty: "Easy"
-        },
-        {
-            text: `<b>Text 1</b><br>At Frieze London this year, three large artworks by the artist Nengi Omuku were hung away from the walls so viewers could walk around them. With each work, one side offered a vibrant nature-filled painting. The other presented strips of sanyan, a thick traditional Nigerian fabric that Omuku uses to replace the usual canvas fabric painters often used as their base. 'The fact I'm painting on a vintage surface gives soul to my work,' Omuku said over Zoom two days before the fair opened. For the 37-year-old, the fabric she works on has become as crucial as her paintings themselves. 'Even when it's not a vintage surface, it is a surface that has been made collaboratively with craftsmen from Nigeria.'
-    <br><br>
-    Omuku's reason to use sanyan initially came from a place of necessity, but has now become an integral part of her practice. 'I worked on canvas for a little while, but eventually shifted to working on sanyan, which is a pre-colonial Yoruba textile,' she told CNN in a video call, adding that she 'made the switch' after eight years of studying in the UK. 'I was trying to rediscover myself and my identity,' she said. 'When I moved back to Nigeria, I couldn't find high-quality canvas, and I was also really fascinated by how, as Nigerians, we identify ourselves through our clothes.' However, she found sanyan more appealing than other more contemporary fabrics. 'I'd never seen a pre-colonial Nigerian textile before, and it looked quite similar to linen.'
-    <br><br>
-    <b>Text 2</b><br>When a banana duct-taped to a wall sold for <b>USD 120,000</b> in 2019, social media uproar and an age-old debate about the meaning of art ensued. However, artist Maurizio Cattelan's surreal creation, titled 'Comedian', may yet prove a sound investment. On Friday, auction house Sotheby's announced it could fetch <b>USD 1 million to USD 1.5 million</b>. I doubt that it will be sold at this high price.
-    <br><br>
-    For their money, the winning bidder will receive a roll of duct tape and one banana. They will also receive a certificate of authenticity and official instructions for installing the work. Sotheby's confirmed to CNN that neither the tape nor the banana are the originals. 'Comedian' is a conceptual artwork, and the physical materials are replaced with every installation,' an auction spokesperson said via email.
-    <br><br>
-    Cattelan and French art gallery Perrotin made headlines around the world five years ago when they displayed 'Comedian' with a six-figure asking price at the Art Basel Miami Beach fair. The original was created using a banana bought in a Miami grocery store, though the gallery said it could be replaced, as per the artist's instruction's.
-    <br><br>Which of the following statements from Text 2 shows the author’s negative attitude toward the value of the artwork?`,
-            options: ["When a banana duct-taped to a wall sold for $120,000", "I doubt that it will be sold at this high price", "For their money, the winning bidder will receive a roll of duct tape", "Sotheby’s confirmed that neither the tape nor the banana are originals", "Cattelan and French art gallery made headlines around the world"],
-            answer: null, doubt: false, correctAnswer: 1, score: 60, difficulty: "Hard"
-        },
-        {
-            text: `<b>Text 1</b><br>At Frieze London this year, three large artworks by the artist Nengi Omuku were hung away from the walls so viewers could walk around them. With each work, one side offered a vibrant nature-filled painting. The other presented strips of sanyan, a thick traditional Nigerian fabric that Omuku uses to replace the usual canvas fabric painters often used as their base. 'The fact I'm painting on a vintage surface gives soul to my work,' Omuku said over Zoom two days before the fair opened. For the 37-year-old, the fabric she works on has become as crucial as her paintings themselves. 'Even when it's not a vintage surface, it is a surface that has been made collaboratively with craftsmen from Nigeria.'
-    <br><br>
-    Omuku's reason to use sanyan initially came from a place of necessity, but has now become an integral part of her practice. 'I worked on canvas for a little while, but eventually shifted to working on sanyan, which is a pre-colonial Yoruba textile,' she told CNN in a video call, adding that she 'made the switch' after eight years of studying in the UK. 'I was trying to rediscover myself and my identity,' she said. 'When I moved back to Nigeria, I couldn't find high-quality canvas, and I was also really fascinated by how, as Nigerians, we identify ourselves through our clothes.' However, she found sanyan more appealing than other more contemporary fabrics. 'I'd never seen a pre-colonial Nigerian textile before, and it looked quite similar to linen.'
-    <br><br>
-    <b>Text 2</b><br>When a banana duct-taped to a wall sold for <b>USD 120,000</b> in 2019, social media uproar and an age-old debate about the meaning of art ensued. However, artist Maurizio Cattelan's surreal creation, titled 'Comedian', may yet prove a sound investment. On Friday, auction house Sotheby's announced it could fetch <b>USD 1 million to USD 1.5 million</b>. I doubt that it will be sold at this high price.
-    <br><br>
-    For their money, the winning bidder will receive a roll of duct tape and one banana. They will also receive a certificate of authenticity and official instructions for installing the work. Sotheby's confirmed to CNN that neither the tape nor the banana are the originals. 'Comedian' is a conceptual artwork, and the physical materials are replaced with every installation,' an auction spokesperson said via email.
-    <br><br>
-    Cattelan and French art gallery Perrotin made headlines around the world five years ago when they displayed 'Comedian' with a six-figure asking price at the Art Basel Miami Beach fair. The original was created using a banana bought in a Miami grocery store, though the gallery said it could be replaced, as per the artist's instruction's.
-    <br><br>Which of the following is the best synthesis of the two texts?`,
-            options: ["Materials can be important in artworks like Nengi Omuku’s, but in “Comedian”, it can be replaced", "Nengi Omuku spent a lot of time looking for fabric while Maurizio Cattelan did not", "Nengi Omuku and Maurizio Cattelan believe materials should always be high-quality", "Nengi Omuku and Maurizio Cattelan used different tools but share ethnic identities", "Both Text 1 and Text 2 discuss integrating excellent physical materials"],
-            answer: null, doubt: false, correctAnswer: 0, score: 70, difficulty: "Hard"
-        },
+// ==========================================
+// SOAL 77
+// ==========================================
+{
+    text: `<table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; margin-bottom: 10px;">
+  <tr><td style="padding:8px; font-weight:bold; width:25%;">Stormy<br>04-08-2024</td><td style="padding:8px;">Social media can be a tempting distraction. It’s a pretty common experience to want to pick up your phone whenever you can’t focus or need a quick break. But you <b>may</b> find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Dewgong<br>05-08-2024</td><td style="padding:8px;">This is a great question! I’m going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Lightning<br>07-08-2024</td><td style="padding:8px;">I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I’m not bombarded with information.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Infinity<br>16-08-2024</td><td style="padding:8px;">For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Ironman<br>20-08-2024</td><td style="padding:8px;">Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven’t found time for myself during the day. It definitely has had impacts on my sleep schedule and I’m not proud of it, but I have been able to reduce the use of social media in the past few months.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Golden<br>28-08-2024</td><td style="padding:8px;">This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress.</td></tr>
+</table><br>77. The word may in Stormy’s post is used to express a ....`,
+    options: [
+        "Possibility",
+        "Permission",
+        "Wish",
+        "Suggestion",
+        "Request"
+    ],
+    answer: null,
+    doubt: false,
+    correctAnswer: 0,
+    score: 35,
+    difficulty: "Easy"
+},
 
-        // BAGIAN 3: NANOGENERATORS (Soal 15-20)
-        {
-            text: `<b>Text 3</b><br>Scientists have made a new type of nanogenerator. These devices are very energy-efficient and flexible.It can increase power density 140 times more than regular ones. They think this could make small devices as good as today’s solar panel. The new nanogenerator can turn small movements, like walking or opening a door, into a lot of electricity. For example, if a regular nanogenerator makes 10 milliwatts, this one can make over 1,000 milliwatts.<br><br>
-            The nanogenerator works like a relay race. Instead of one part passing energy atoms, each part collects and adds energy before passing it on. This boosts the total energy collected. This process is called the charge regeneration effect. The lead researcher said they wanted to capture energy from everyday movements, like running, walking, or waves. Their device uses 34 tiny energy collectors, improved with a laser technique, which can be made in large numbers.<br><br>
-            This type of nanogenerator is called a triboelectric nanogenerator (TENS). It turns simple movements into electricity by using special materials. These special materials get electrically charged when they touch and seperate, line how a balloon sticks to hair. The researchers said they would start a company to make healthcare sensors using this technology.<br><br>
-            It is also said that with more technology, soon there would be over 50 billion devices needing power. Local green energy solutions are important to ensure sustainable future. This technology can use mechanical movements to power small devices. It could be used in smart homes, security systems, and healthcare to help patients.<br><br>
-            <b>Text 4</b><br>The triboelectric effect happens when two materials touch and then separate. It is like when you rub a balloon on your hair and it sticks because of static electricity. When two different things touch, electrons move from one to the other. This makes one thing positively charged and the other negatively charged. This effect builds up these charges.<br><br>
-            Triboelectric devices, also called triboelectric nanogenerator (TENG), use this effect to make energy. They use the static charge made when materials touch and then separate. TENG can change mechanical energy from movement or vibration into electrical energy. These devices are made of pairs of materials with opposite triboelectric properties. When they touch and then separate, they create voltage and current, which can be used to make energy.<br><br>
-            Triboelectric devices have many uses. They can turn energy from everyday activities, like walking, into power for small gadgets. TENG can also change body movements into electricity for small usable devices. By using energy from wind or water, they can help sensors monitor the movements.<br><br>
-            This technology can run gadgets that power themselves. The use of TENG in various devices can reduce or even replace the use of conventional batteries. Furthermore, this means reducing the waste from conventional battery products.<br><br>
-            According to Text 3, a triboelectric nanogenerator (TENG) generates electricity when the nanogenerator materials …`,
-            options: ["Produce electrical power from sensors like a balloon sticks to hair", "Work like an open door and collect energy using laser technique", "Are driven by regular daily movements", "Come into contact and separate", "Use the laser technique"],
-            answer: null, doubt: false, correctAnswer: 3, score: 40, difficulty: "Medium"
-        },
-        {
-            text: `<b>Text 3</b><br>Scientists have made a new type of nanogenerator. These devices are very energy-efficient and flexible.It can increase power density 140 times more than regular ones. They think this could make small devices as good as today’s solar panel. The new nanogenerator can turn small movements, like walking or opening a door, into a lot of electricity. For example, if a regular nanogenerator makes 10 milliwatts, this one can make over 1,000 milliwatts.<br><br>
-            The nanogenerator works like a relay race. Instead of one part passing energy atoms, each part collects and adds energy before passing it on. This boosts the total energy collected. This process is called the charge regeneration effect. The lead researcher said they wanted to capture energy from everyday movements, like running, walking, or waves. Their device uses 34 tiny energy collectors, improved with a laser technique, which can be made in large numbers.<br><br>
-            This type of nanogenerator is called a triboelectric nanogenerator (TENS). It turns simple movements into electricity by using special materials. These special materials get electrically charged when they touch and seperate, line how a balloon sticks to hair. The researchers said they would start a company to make healthcare sensors using this technology.<br><br>
-            It is also said that with more technology, soon there would be over 50 billion devices needing power. Local green energy solutions are important to ensure sustainable future. This technology can use mechanical movements to power small devices. It could be used in smart homes, security systems, and healthcare to help patients.<br><br>
-            <b>Text 4</b><br>The triboelectric effect happens when two materials touch and then separate. It is like when you rub a balloon on your hair and it sticks because of static electricity. When two different things touch, electrons move from one to the other. This makes one thing positively charged and the other negatively charged. This effect builds up these charges.<br><br>
-            Triboelectric devices, also called triboelectric nanogenerator (TENG), use this effect to make energy. They use the static charge made when materials touch and then separate. TENG can change mechanical energy from movement or vibration into electrical energy. These devices are made of pairs of materials with opposite triboelectric properties. When they touch and then separate, they create voltage and current, which can be used to make energy.<br><br>
-            Triboelectric devices have many uses. They can turn energy from everyday activities, like walking, into power for small gadgets. TENG can also change body movements into electricity for small usable devices. By using energy from wind or water, they can help sensors monitor the movements.<br><br>
-            This technology can run gadgets that power themselves. The use of TENG in various devices can reduce or even replace the use of conventional batteries. Furthermore, this means reducing the waste from conventional battery products.<br><br>The word <b>They</b> in Text 4 Paragraph 3 refers to …`,
-            options: ["Small wearable devices", "Triboelectrical devices", "Everyday activities", "Body movements", "Small gadgets"],
-            answer: null, doubt: false, correctAnswer: 1, score: 30, difficulty: "Easy"
-        },
-        {
-            text: `<b>Text 3</b><br>Scientists have made a new type of nanogenerator. These devices are very energy-efficient and flexible.It can increase power density 140 times more than regular ones. They think this could make small devices as good as today’s solar panel. The new nanogenerator can turn small movements, like walking or opening a door, into a lot of electricity. For example, if a regular nanogenerator makes 10 milliwatts, this one can make over 1,000 milliwatts.<br><br>
-            The nanogenerator works like a relay race. Instead of one part passing energy atoms, each part collects and adds energy before passing it on. This boosts the total energy collected. This process is called the charge regeneration effect. The lead researcher said they wanted to capture energy from everyday movements, like running, walking, or waves. Their device uses 34 tiny energy collectors, improved with a laser technique, which can be made in large numbers.<br><br>
-            This type of nanogenerator is called a triboelectric nanogenerator (TENS). It turns simple movements into electricity by using special materials. These special materials get electrically charged when they touch and seperate, line how a balloon sticks to hair. The researchers said they would start a company to make healthcare sensors using this technology.<br><br>
-            It is also said that with more technology, soon there would be over 50 billion devices needing power. Local green energy solutions are important to ensure sustainable future. This technology can use mechanical movements to power small devices. It could be used in smart homes, security systems, and healthcare to help patients.<br><br>
-            <b>Text 4</b><br>The triboelectric effect happens when two materials touch and then separate. It is like when you rub a balloon on your hair and it sticks because of static electricity. When two different things touch, electrons move from one to the other. This makes one thing positively charged and the other negatively charged. This effect builds up these charges.<br><br>
-            Triboelectric devices, also called triboelectric nanogenerator (TENG), use this effect to make energy. They use the static charge made when materials touch and then separate. TENG can change mechanical energy from movement or vibration into electrical energy. These devices are made of pairs of materials with opposite triboelectric properties. When they touch and then separate, they create voltage and current, which can be used to make energy.<br><br>
-            Triboelectric devices have many uses. They can turn energy from everyday activities, like walking, into power for small gadgets. TENG can also change body movements into electricity for small usable devices. By using energy from wind or water, they can help sensors monitor the movements.<br><br>
-            This technology can run gadgets that power themselves. The use of TENG in various devices can reduce or even replace the use of conventional batteries. Furthermore, this means reducing the waste from conventional battery products.<br><br>Information about how the triboelectric nanogenerator can produce electricity can be found in …`,
-            options: ["Text 3 Paragraph 1 and Text 4 Paragraph 1", "Text 3 Paragraph 1 and Text 4 Paragraph 2", "Text 3 Paragraph 2 and Text 4 Paragraph 4", "Text 3 Paragraph 3 and Text 4 Paragraph 1", "Text 3 Paragraph 3 and Text 4 Paragraph 4"],
-            answer: null, doubt: false, correctAnswer: 3, score: 60, difficulty: "Hard"
-        },
-        {
-            text: `<b>Text 3</b><br>Scientists have made a new type of nanogenerator. These devices are very energy-efficient and flexible.It can increase power density 140 times more than regular ones. They think this could make small devices as good as today’s solar panel. The new nanogenerator can turn small movements, like walking or opening a door, into a lot of electricity. For example, if a regular nanogenerator makes 10 milliwatts, this one can make over 1,000 milliwatts.<br><br>
-            The nanogenerator works like a relay race. Instead of one part passing energy atoms, each part collects and adds energy before passing it on. This boosts the total energy collected. This process is called the charge regeneration effect. The lead researcher said they wanted to capture energy from everyday movements, like running, walking, or waves. Their device uses 34 tiny energy collectors, improved with a laser technique, which can be made in large numbers.<br><br>
-            This type of nanogenerator is called a triboelectric nanogenerator (TENS). It turns simple movements into electricity by using special materials. These special materials get electrically charged when they touch and seperate, line how a balloon sticks to hair. The researchers said they would start a company to make healthcare sensors using this technology.<br><br>
-            It is also said that with more technology, soon there would be over 50 billion devices needing power. Local green energy solutions are important to ensure sustainable future. This technology can use mechanical movements to power small devices. It could be used in smart homes, security systems, and healthcare to help patients.<br><br>
-            <b>Text 4</b><br>The triboelectric effect happens when two materials touch and then separate. It is like when you rub a balloon on your hair and it sticks because of static electricity. When two different things touch, electrons move from one to the other. This makes one thing positively charged and the other negatively charged. This effect builds up these charges.<br><br>
-            Triboelectric devices, also called triboelectric nanogenerator (TENG), use this effect to make energy. They use the static charge made when materials touch and then separate. TENG can change mechanical energy from movement or vibration into electrical energy. These devices are made of pairs of materials with opposite triboelectric properties. When they touch and then separate, they create voltage and current, which can be used to make energy.<br><br>
-            Triboelectric devices have many uses. They can turn energy from everyday activities, like walking, into power for small gadgets. TENG can also change body movements into electricity for small usable devices. By using energy from wind or water, they can help sensors monitor the movements.<br><br>
-            This technology can run gadgets that power themselves. The use of TENG in various devices can reduce or even replace the use of conventional batteries. Furthermore, this means reducing the waste from conventional battery products.<br><br>What is the relationship between Text 3 and Text 4?`,
-            options: ["Text 3 explains development of energy source, energy generation described in Text 4", "Text 3 illustrates daily activities while Text 4 elaborates triboelectric effect", "Text 3 describes potential use while Text 4 discusses development process", "Both texts predict the success of electronically generated materials", "Both texts explain development of electrical instruments"],
-            answer: null, doubt: false, correctAnswer: 0, score: 70, difficulty: "Hard"
-        },
-        {
-            text: `<b>Text 3</b><br>Scientists have made a new type of nanogenerator. These devices are very energy-efficient and flexible.It can increase power density 140 times more than regular ones. They think this could make small devices as good as today’s solar panel. The new nanogenerator can turn small movements, like walking or opening a door, into a lot of electricity. For example, if a regular nanogenerator makes 10 milliwatts, this one can make over 1,000 milliwatts.<br><br>
-            The nanogenerator works like a relay race. Instead of one part passing energy atoms, each part collects and adds energy before passing it on. This boosts the total energy collected. This process is called the charge regeneration effect. The lead researcher said they wanted to capture energy from everyday movements, like running, walking, or waves. Their device uses 34 tiny energy collectors, improved with a laser technique, which can be made in large numbers.<br><br>
-            This type of nanogenerator is called a triboelectric nanogenerator (TENS). It turns simple movements into electricity by using special materials. These special materials get electrically charged when they touch and seperate, line how a balloon sticks to hair. The researchers said they would start a company to make healthcare sensors using this technology.<br><br>
-            It is also said that with more technology, soon there would be over 50 billion devices needing power. Local green energy solutions are important to ensure sustainable future. This technology can use mechanical movements to power small devices. It could be used in smart homes, security systems, and healthcare to help patients.<br><br>
-            <b>Text 4</b><br>The triboelectric effect happens when two materials touch and then separate. It is like when you rub a balloon on your hair and it sticks because of static electricity. When two different things touch, electrons move from one to the other. This makes one thing positively charged and the other negatively charged. This effect builds up these charges.<br><br>
-            Triboelectric devices, also called triboelectric nanogenerator (TENG), use this effect to make energy. They use the static charge made when materials touch and then separate. TENG can change mechanical energy from movement or vibration into electrical energy. These devices are made of pairs of materials with opposite triboelectric properties. When they touch and then separate, they create voltage and current, which can be used to make energy.<br><br>
-            Triboelectric devices have many uses. They can turn energy from everyday activities, like walking, into power for small gadgets. TENG can also change body movements into electricity for small usable devices. By using energy from wind or water, they can help sensors monitor the movements.<br><br>
-            This technology can run gadgets that power themselves. The use of TENG in various devices can reduce or even replace the use of conventional batteries. Furthermore, this means reducing the waste from conventional battery products.<br><br>Based on the two texts, which of the following will most likely happen in the future? Scientists will …`,
-            options: ["find a cheaper triboelectric effect mechanism", "be able to explain the mechanism of generating energy", "develop solar panels that work as environmentally friendly", "produce conventional batteries that use greater electrical power", "be able to develop a TENG that produces greater electrical power for a variety of devices"],
-            answer: null, doubt: false, correctAnswer: 4, score: 70, difficulty: "Hard"
-        },
-        {
-            text: `<b>Text 3</b><br>Scientists have made a new type of nanogenerator. These devices are very energy-efficient and flexible.It can increase power density 140 times more than regular ones. They think this could make small devices as good as today’s solar panel. The new nanogenerator can turn small movements, like walking or opening a door, into a lot of electricity. For example, if a regular nanogenerator makes 10 milliwatts, this one can make over 1,000 milliwatts.<br><br>
-            The nanogenerator works like a relay race. Instead of one part passing energy atoms, each part collects and adds energy before passing it on. This boosts the total energy collected. This process is called the charge regeneration effect. The lead researcher said they wanted to capture energy from everyday movements, like running, walking, or waves. Their device uses 34 tiny energy collectors, improved with a laser technique, which can be made in large numbers.<br><br>
-            This type of nanogenerator is called a triboelectric nanogenerator (TENS). It turns simple movements into electricity by using special materials. These special materials get electrically charged when they touch and seperate, line how a balloon sticks to hair. The researchers said they would start a company to make healthcare sensors using this technology.<br><br>
-            It is also said that with more technology, soon there would be over 50 billion devices needing power. Local green energy solutions are important to ensure sustainable future. This technology can use mechanical movements to power small devices. It could be used in smart homes, security systems, and healthcare to help patients.<br><br>
-            <b>Text 4</b><br>The triboelectric effect happens when two materials touch and then separate. It is like when you rub a balloon on your hair and it sticks because of static electricity. When two different things touch, electrons move from one to the other. This makes one thing positively charged and the other negatively charged. This effect builds up these charges.<br><br>
-            Triboelectric devices, also called triboelectric nanogenerator (TENG), use this effect to make energy. They use the static charge made when materials touch and then separate. TENG can change mechanical energy from movement or vibration into electrical energy. These devices are made of pairs of materials with opposite triboelectric properties. When they touch and then separate, they create voltage and current, which can be used to make energy.<br><br>
-            Triboelectric devices have many uses. They can turn energy from everyday activities, like walking, into power for small gadgets. TENG can also change body movements into electricity for small usable devices. By using energy from wind or water, they can help sensors monitor the movements.<br><br>
-            This technology can run gadgets that power themselves. The use of TENG in various devices can reduce or even replace the use of conventional batteries. Furthermore, this means reducing the waste from conventional battery products.<br><br>Based on Text 3 and Text 4, which of the following recommendations is appropriate to be implemented?`,
-            options: ["TENG should operate by limiting mechanical energy", "Small electronic devices must utilize traditional batteries", "Electronic devices using triboelectric effect should be developed for green energy", "The TENG in small devices should use solar panels", "Small wearable devices should convert electrical energy into mechanical"],
-            answer: null, doubt: false, correctAnswer: 2, score: 70, difficulty: "Hard"
-        }
-    ]
+// ==========================================
+// SOAL 78
+// ==========================================
+{
+    text: `<table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; margin-bottom: 10px;">
+  <tr><td style="padding:8px; font-weight:bold; width:25%;">Stormy<br>04-08-2024</td><td style="padding:8px;">Social media can be a tempting distraction. It’s a pretty common experience to want to pick up your phone whenever you can’t focus or need a quick break. But you <b>may</b> find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Dewgong<br>05-08-2024</td><td style="padding:8px;">This is a great question! I’m going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Lightning<br>07-08-2024</td><td style="padding:8px;">I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I’m not bombarded with information.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Infinity<br>16-08-2024</td><td style="padding:8px;">For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Ironman<br>20-08-2024</td><td style="padding:8px;">Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven’t found time for myself during the day. It definitely has had impacts on my sleep schedule and I’m not proud of it, but I have been able to reduce the use of social media in the past few months.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Golden<br>28-08-2024</td><td style="padding:8px;">This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress.</td></tr>
+</table><br>78. Which of the following issues is stated at the beginning of the thread?`,
+    options: [
+        "Talking about experiences on handling distractions",
+        "Asking for a suggestion to focus on work",
+        "Finding a solution for not comparing oneself to others",
+        "Sharing tips on limiting the use of social media",
+        "Discussing issues related to the use of social media"
+    ],
+    answer: null,
+    doubt: false,
+    correctAnswer: 4,
+    score: 35,
+    difficulty: "Easy"
+},
+
+// ==========================================
+// SOAL 79
+// ==========================================
+{
+    text: `<table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; margin-bottom: 10px;">
+  <tr><td style="padding:8px; font-weight:bold; width:25%;">Stormy<br>04-08-2024</td><td style="padding:8px;">Social media can be a tempting distraction. It’s a pretty common experience to want to pick up your phone whenever you can’t focus or need a quick break. But you <b>may</b> find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Dewgong<br>05-08-2024</td><td style="padding:8px;">This is a great question! I’m going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Lightning<br>07-08-2024</td><td style="padding:8px;">I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I’m not bombarded with information.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Infinity<br>16-08-2024</td><td style="padding:8px;">For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Ironman<br>20-08-2024</td><td style="padding:8px;">Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven’t found time for myself during the day. It definitely has had impacts on my sleep schedule and I’m not proud of it, but I have been able to reduce the use of social media in the past few months.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Golden<br>28-08-2024</td><td style="padding:8px;">This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress.</td></tr>
+</table><br>79. Who shared the positive impact of disconnecting from social media by giving evidence?`,
+    options: [
+        "Dewgong",
+        "Lightning",
+        "Infinity",
+        "Ironman",
+        "Golden"
+    ],
+    answer: null,
+    doubt: false,
+    correctAnswer: 1,
+    score: 35,
+    difficulty: "Easy"
+},
+
+// ==========================================
+// SOAL 80
+// ==========================================
+{
+    text: `<table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; margin-bottom: 10px;">
+  <tr><td style="padding:8px; font-weight:bold; width:25%;">Stormy<br>04-08-2024</td><td style="padding:8px;">Social media can be a tempting distraction. It’s a pretty common experience to want to pick up your phone whenever you can’t focus or need a quick break. But you <b>may</b> find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Dewgong<br>05-08-2024</td><td style="padding:8px;">This is a great question! I’m going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Lightning<br>07-08-2024</td><td style="padding:8px;">I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I’m not bombarded with information.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Infinity<br>16-08-2024</td><td style="padding:8px;">For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Ironman<br>20-08-2024</td><td style="padding:8px;">Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven’t found time for myself during the day. It definitely has had impacts on my sleep schedule and I’m not proud of it, but I have been able to reduce the use of social media in the past few months.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Golden<br>28-08-2024</td><td style="padding:8px;">This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress.</td></tr>
+</table><br>80. The aim of Golden’s response to Stormy’s post is to ....`,
+    options: [
+        "Find other solutions to disconnect from social media",
+        "Talk about his/her experience in using social media",
+        "Share one effective way to limit social media use",
+        "Introduce an app to maximize social media use",
+        "Show how to create a social media apps"
+    ],
+    answer: null,
+    doubt: false,
+    correctAnswer: 0,
+    score: 50,
+    difficulty: "Medium"
+},
+
+// ==========================================
+// SOAL 81
+// ==========================================
+{
+    text: `<table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; margin-bottom: 10px;">
+  <tr><td style="padding:8px; font-weight:bold; width:25%;">Stormy<br>04-08-2024</td><td style="padding:8px;">Social media can be a tempting distraction. It’s a pretty common experience to want to pick up your phone whenever you can’t focus or need a quick break. But you <b>may</b> find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Dewgong<br>05-08-2024</td><td style="padding:8px;">This is a great question! I’m going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Lightning<br>07-08-2024</td><td style="padding:8px;">I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I’m not bombarded with information.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Infinity<br>16-08-2024</td><td style="padding:8px;">For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Ironman<br>20-08-2024</td><td style="padding:8px;">Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven’t found time for myself during the day. It definitely has had impacts on my sleep schedule and I’m not proud of it, but I have been able to reduce the use of social media in the past few months.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Golden<br>28-08-2024</td><td style="padding:8px;">This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress.</td></tr>
+</table><br>81. Who posted the most relevant answer to Stormy’s question?`,
+    options: [
+        "Dewgong and Lightning",
+        "Dewgong and Infinity",
+        "Lightning and Golden",
+        "Infinity and Ironman",
+        "Ironman and Golden"
+    ],
+    answer: null,
+    doubt: false,
+    correctAnswer: 3,
+    score: 50,
+    difficulty: "Medium"
+},
+
+// ==========================================
+// SOAL 82
+// ==========================================
+{
+    text: `<table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 14px; margin-bottom: 10px;">
+  <tr><td style="padding:8px; font-weight:bold; width:25%;">Stormy<br>04-08-2024</td><td style="padding:8px;">Social media can be a tempting distraction. It’s a pretty common experience to want to pick up your phone whenever you can’t focus or need a quick break. But you <b>may</b> find yourself struggling with endless doomscrolling, waiting for messages or comparing yourself to others. How do you disconnect from social media?</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Dewgong<br>05-08-2024</td><td style="padding:8px;">This is a great question! I’m going to be honest here and admit that I often fail at disconnecting from social media (predominantly just TikTok). But I am trying harder to set boundaries and give myself a break!</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Lightning<br>07-08-2024</td><td style="padding:8px;">I deleted Instagram a few weeks ago and have found a profound impact on my mental health. Since deleting it, I am not constantly comparing myself to others anymore. I can appreciate little things more as I’m not bombarded with information.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Infinity<br>16-08-2024</td><td style="padding:8px;">For me, I am not active on social media but yes, as you said sometimes we keep scrolling and watching. I noticed I was spending hours of my time scrolling through reels to wind down, only to realize I had wasted my time.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Ironman<br>20-08-2024</td><td style="padding:8px;">Thanks for posting about this! I often find myself doomscrolling social media during the night when I feel like I haven’t found time for myself during the day. It definitely has had impacts on my sleep schedule and I’m not proud of it, but I have been able to reduce the use of social media in the past few months.</td></tr>
+  <tr><td style="padding:8px; font-weight:bold;">Golden<br>28-08-2024</td><td style="padding:8px;">This is a really good post. I am curious to hear what others have to say on the topic. I definitely could use less social media by installing Flora app that helps you stay off your phone, but this is still a work in progress.</td></tr>
+</table><br>82. What is the tone of the thread?`,
+    options: [
+        "Professional",
+        "Emotional",
+        "Sarcastic",
+        "Provocative",
+        "Introspective"
+    ],
+    answer: null,
+    doubt: false,
+    correctAnswer: 4,
+    score: 50,
+    difficulty: "Medium"
+},
+
+// ==========================================
+// SOAL 83
+// ==========================================
+{
+    text: `The Power of Scent Marketing: Branding and Atmosphere
+
+You have heard of scent marketing. You might have even heard some of the hype surrounding it-so many major brands use scent marketing. However, you may be wondering how a plug-in could improve your business. Sure, there is nothing wrong with using a simple air freshener to thread and banish unwanted smells, but scent marketing is so much more than air freshening.
+
+Scent marketing is the use of a strategically chosen fragrance diffused at customer touchpoints. The right fragrance and strategy will communicate a clear, likable brand identity. Scent marketing increases sales and brand loyalty by creating unique customer experiences. There are two main types of scent marketing strategies, scent branding and ambient scenting.
+
+The first scent marketing strategy is scent branding. What if you could make your brand instantly recognizable without needing to display your logo? The world’s most powerful brands lie in the minds of consumers. However, while visual recognition is powerful, factory recognition is much more powerful. Memories related to scent are resistant to time and more easily recalled. Our sense of smell is the only sense that reaches us at a deep, instinctual level by tapping directly to the pleasure center of the brain-and the emotions, memories, and creativity that live there. A scent marketing system allows you to access an under-used touchpoint with customers. It is a unique way to make your brand stand out in a crowded marketplace.
+
+The second scent marketing strategy is known as ambient scenting strategy. For some businesses, setting the tone for your business is more than branding. It is a powerful tool to manage customer touchpoints and create a pleasant atmosphere that builds trust and makes customers want to return. There have been many studies on the power of scent to affect mood. Ambient scenting with a scent marketing system allows you to direct customers in a gentle yet impactful way. By putting customers in the right mind-set, you can enhance customer experience and help to mitigate stress and anxiety during tough customer interactions. For example, gyms and fitness facilities often incorporate bright, invigorating scents which inspire action and make members feel more prepared to tackle their workout.
+
+83. According to the text, memories related to scent ....`,
+    options: [
+        "Prof direct customers in a gentle yet impactful way",
+        "put customers in the right mind-set",
+        "can enhance customer experience",
+        "are long lasting and easy to remember",
+        "are the most powerful brand in the minds of consumers"
+    ],
+    answer: null,
+    doubt: false,
+    correctAnswer: 3,
+    score: 35,
+    difficulty: "Easy"
+},
+
+// ==========================================
+// SOAL 84
+// ==========================================
+{
+    text: `The Power of Scent Marketing: Branding and Atmosphere
+
+You have heard of scent marketing. You might have even heard some of the hype surrounding it-so many major brands use scent marketing. However, you may be wondering how a plug-in could improve your business. Sure, there is nothing wrong with using a simple air freshener to thread and banish unwanted smells, but scent marketing is so much more than air freshening.
+
+Scent marketing is the use of a strategically chosen fragrance diffused at customer touchpoints. The right fragrance and strategy will communicate a clear, likable brand identity. Scent marketing increases sales and brand loyalty by creating unique customer experiences. There are two main types of scent marketing strategies, scent branding and ambient scenting.
+
+The first scent marketing strategy is scent branding. What if you could make your brand instantly recognizable without needing to display your logo? The world’s most powerful brands lie in the minds of consumers. However, while visual recognition is powerful, factory recognition is much more powerful. Memories related to scent are resistant to time and more easily recalled. Our sense of smell is the only sense that reaches us at a deep, instinctual level by tapping directly to the pleasure center of the brain-and the emotions, memories, and creativity that live there. A scent marketing system allows you to access an under-used touchpoint with customers. It is a unique way to make your brand stand out in a crowded marketplace.
+
+The second scent marketing strategy is known as ambient scenting strategy. For some businesses, setting the tone for your business is more than branding. It is a powerful tool to manage customer touchpoints and create a pleasant atmosphere that builds trust and makes customers want to return. There have been many studies on the power of scent to affect mood. Ambient scenting with a scent marketing system allows you to direct customers in a gentle yet impactful way. By putting customers in the right mind-set, you can enhance customer experience and help to mitigate stress and anxiety during tough customer interactions. For example, gyms and fitness facilities often incorporate bright, invigorating scents which inspire action and make members feel more prepared to tackle their workout.
+
+84. The phrase “a pleasant atmosphere” in paragraph 4 is closest in meaning to ....`,
+    options: [
+        "a safe situation",
+        "a quiet moment",
+        "a calm surrounding",
+        "a festive environment",
+        "a delightful ambience"
+    ],
+    answer: null,
+    doubt: false,
+    correctAnswer: 4,
+    score: 35,
+    difficulty: "Easy"
+},
+
+// ==========================================
+// SOAL 85
+// ==========================================
+{
+    text: `The Power of Scent Marketing: Branding and Atmosphere
+
+You have heard of scent marketing. You might have even heard some of the hype surrounding it-so many major brands use scent marketing. However, you may be wondering how a plug-in could improve your business. Sure, there is nothing wrong with using a simple air freshener to thread and banish unwanted smells, but scent marketing is so much more than air freshening.
+
+Scent marketing is the use of a strategically chosen fragrance diffused at customer touchpoints. The right fragrance and strategy will communicate a clear, likable brand identity. Scent marketing increases sales and brand loyalty by creating unique customer experiences. There are two main types of scent marketing strategies, scent branding and ambient scenting.
+
+The first scent marketing strategy is scent branding. What if you could make your brand instantly recognizable without needing to display your logo? The world’s most powerful brands lie in the minds of consumers. However, while visual recognition is powerful, factory recognition is much more powerful. Memories related to scent are resistant to time and more easily recalled. Our sense of smell is the only sense that reaches us at a deep, instinctual level by tapping directly to the pleasure center of the brain-and the emotions, memories, and creativity that live there. A scent marketing system allows you to access an under-used touchpoint with customers. It is a unique way to make your brand stand out in a crowded marketplace.
+
+The second scent marketing strategy is known as ambient scenting strategy. For some businesses, setting the tone for your business is more than branding. It is a powerful tool to manage customer touchpoints and create a pleasant atmosphere that builds trust and makes customers want to return. There have been many studies on the power of scent to affect mood. Ambient scenting with a scent marketing system allows you to direct customers in a gentle yet impactful way. By putting customers in the right mind-set, you can enhance customer experience and help to mitigate stress and anxiety during tough customer interactions. For example, gyms and fitness facilities often incorporate bright, invigorating scents which inspire action and make members feel more prepared to tackle their workout.
+
+85. Which of the following best describes the main idea of text?`,
+    options: [
+        "Scent marketing is a field that is under study",
+        "Good smells help reducing customer’s anxiety",
+        "Scent modification may be used to attract consumers",
+        "Scent and sight last longer in customers’ minds and memories",
+        "It is possible to earn profit from a business even with an unusual smell"
+    ],
+    answer: null,
+    doubt: false,
+    correctAnswer: 2,
+    score: 50,
+    difficulty: "Medium"
+},
+
+// ==========================================
+// SOAL 86
+// ==========================================
+{
+    text: `TEXT 1
+Indonesia's economic landscape, while certainly influenced by persistent global headwinds, remains robust and demonstrates remarkable resilience. From the government's perspective, the nation's economic fundamentals are strong, evidenced by a stable growth trajectory and controlled inflation. Despite global economic slowdowns, geopolitical tensions, and fluctuating commodity prices, Indonesia has managed to maintain positive growth, with Q1 2025 seeing GDP growth of 4.87% year-on-year. This performance is a testament to sound macroeconomic policies, including disciplined fiscal management and responsive monetary policies by Bank Indonesia, which have helped keep inflation within target ranges (e.g., 1.57% year-on-year in December 2024).
+
+The government's strategic focus on domestic consumption, which contributes over 56% of GDP, has been a key driver of this stability. Policies designed to boost purchasing power, such as holiday allowances and the 13th-month salary for civil servants, have supported household consumption. Furthermore, significant investments in infrastructure and the digital economy are laying the groundwork for future growth. The digital economy, projected to reach $146 billion by 2025, is a burgeoning sector attracting substantial foreign direct investment (FDI). The Job Creation Law has also played a crucial role in enhancing the investment climate, simplifying regulations, and improving labor market flexibility, which in turn boosts Indonesia's competitiveness on the global stage.
+
+Challenges, though acknowledged, are being actively addressed. While global trade contractions and deindustrialization trends exist, the government is committed to export diversification and promoting sustainable industrial transformation. The unemployment rate, while a concern, is also being tackled through synergistic efforts between the Ministry of Higher Education, Science, and Technology, the Ministry of Manpower, and various industries to improve job absorption for graduates and address the impact of deindustrialization. Overall, the government views Indonesia's economic future with optimism, confident that ongoing structural reforms and strategic investments will pave the way for sustained, inclusive growth and position Indonesia as a leader in regional economic development.
+
+TEXT 2
+While official reports may paint a picture of economic resilience, for many Indonesian citizens, the reality on the ground feels far more challenging. Despite positive GDP growth figures, the benefits of this growth often do not trickle down effectively, leading to persistent issues of inequality and a squeezed middle class. The declining size of Indonesia's middle class, coupled with sluggish real wage growth, indicates that everyday Indonesians are grappling with rising living costs and limited improvements in their economic well-being.
+
+Inflation, even when seemingly controlled at a macroeconomic level, can significantly impact household budgets, particularly for lower-income families where a large portion of income is spent on basic necessities like food. Furthermore, the issue of unemployment remains a pressing concern, especially for the youth and in less developed regions. While the government cites efforts to link graduates with industries, many still face difficulties finding stable and well-paying jobs, leading to underemployment and job insecurity. Layoffs in various industries, including the textile and technology sectors, further compound these anxieties.
+
+Beyond direct economic indicators, systemic issues like corruption and bureaucratic inefficiencies continue to erode public trust and hinder genuine economic progress. Reports of significant state budget leakage due to corruption mean that public funds intended for welfare and development often do not reach their intended recipients, further exacerbating the plight of vulnerable communities. The relaxation of import policies has also led to concerns among domestic industries, with some sectors like textiles facing collapse due to increased competition, resulting in job losses for thousands. For the average Indonesian citizen, the focus shifts from grand economic targets to the daily struggle of making ends meet, securing stable employment, and experiencing a tangible improvement in their quality of life amidst these ongoing economic pressures and perceived inequalities.
+
+86. Which of the following best describes the fundamental difference in perspective between Text 1 and Text 2?`,
+    options: [
+        "Text 1 focuses on export growth, while Text 2 focuses on domestic consumption.",
+        "Text 1 highlights the role of foreign investment, while Text 2 emphasizes local businesses.",
+        "Text 1 presents an optimistic, top-down view of the economy, while Text 2 offers a more pessimistic, ground-level view.",
+        "Text 1 discusses government policy successes, while Text 2 critiques the effectiveness of those policies.",
+        "Text 1 emphasizes infrastructure development, while Text 2 focuses on agricultural output."
+    ],
+    answer: null,
+    doubt: false,
+    correctAnswer: 2,
+    score: 50,
+    difficulty: "Medium"
+},
+
+// ==========================================
+// SOAL 87
+// ==========================================
+{
+    text: `TEXT 1
+Indonesia's economic landscape, while certainly influenced by persistent global headwinds, remains robust and demonstrates remarkable resilience. From the government's perspective, the nation's economic fundamentals are strong, evidenced by a stable growth trajectory and controlled inflation. Despite global economic slowdowns, geopolitical tensions, and fluctuating commodity prices, Indonesia has managed to maintain positive growth, with Q1 2025 seeing GDP growth of 4.87% year-on-year. This performance is a testament to sound macroeconomic policies, including disciplined fiscal management and responsive monetary policies by Bank Indonesia, which have helped keep inflation within target ranges (e.g., 1.57% year-on-year in December 2024).
+
+The government's strategic focus on domestic consumption, which contributes over 56% of GDP, has been a key driver of this stability. Policies designed to boost purchasing power, such as holiday allowances and the 13th-month salary for civil servants, have supported household consumption. Furthermore, significant investments in infrastructure and the digital economy are laying the groundwork for future growth. The digital economy, projected to reach $146 billion by 2025, is a burgeoning sector attracting substantial foreign direct investment (FDI). The Job Creation Law has also played a crucial role in enhancing the investment climate, simplifying regulations, and improving labor market flexibility, which in turn boosts Indonesia's competitiveness on the global stage.
+
+Challenges, though acknowledged, are being actively addressed. While global trade contractions and deindustrialization trends exist, the government is committed to export diversification and promoting sustainable industrial transformation. The unemployment rate, while a concern, is also being tackled through synergistic efforts between the Ministry of Higher Education, Science, and Technology, the Ministry of Manpower, and various industries to improve job absorption for graduates and address the impact of deindustrialization. Overall, the government views Indonesia's economic future with optimism, confident that ongoing structural reforms and strategic investments will pave the way for sustained, inclusive growth and position Indonesia as a leader in regional economic development.
+
+TEXT 2
+While official reports may paint a picture of economic resilience, for many Indonesian citizens, the reality on the ground feels far more challenging. Despite positive GDP growth figures, the benefits of this growth often do not trickle down effectively, leading to persistent issues of inequality and a squeezed middle class. The declining size of Indonesia's middle class, coupled with sluggish real wage growth, indicates that everyday Indonesians are grappling with rising living costs and limited improvements in their economic well-being.
+
+Inflation, even when seemingly controlled at a macroeconomic level, can significantly impact household budgets, particularly for lower-income families where a large portion of income is spent on basic necessities like food. Furthermore, the issue of unemployment remains a pressing concern, especially for the youth and in less developed regions. While the government cites efforts to link graduates with industries, many still face difficulties finding stable and well-paying jobs, leading to underemployment and job insecurity. Layoffs in various industries, including the textile and technology sectors, further compound these anxieties.
+
+Beyond direct economic indicators, systemic issues like corruption and bureaucratic inefficiencies continue to erode public trust and hinder genuine economic progress. Reports of significant state budget leakage due to corruption mean that public funds intended for welfare and development often do not reach their intended recipients, further exacerbating the plight of vulnerable communities. The relaxation of import policies has also led to concerns among domestic industries, with some sectors like textiles facing collapse due to increased competition, resulting in job losses for thousands. For the average Indonesian citizen, the focus shifts from grand economic targets to the daily struggle of making ends meet, securing stable employment, and experiencing a tangible improvement in their quality of life amidst these ongoing economic pressures and perceived inequalities.
+
+87. Regarding inflation, how do the two texts differ in their portrayal?`,
+    options: [
+        "Text 1 claims inflation is completely eradicated, while Text 2 states it's soaring.",
+        "Both texts agree that inflation is a major problem for all Indonesians.",
+        "Text 1 presents inflation as controlled and within target ranges, while Text 2 highlights its significant impact on household budgets despite macro figures.",
+        "Text 1 attributes inflation solely to global factors, while Text 2 blames government spending.",
+        "Text 1 ignores inflation, while Text 2 makes it the central theme."
+    ],
+    answer: null,
+    doubt: false,
+    correctAnswer: 2,
+    score: 35,
+    difficulty: "Easy"
+},
+
+// ==========================================
+// SOAL 88
+// ==========================================
+{
+    text: `TEXT 1
+Indonesia's economic landscape, while certainly influenced by persistent global headwinds, remains robust and demonstrates remarkable resilience. From the government's perspective, the nation's economic fundamentals are strong, evidenced by a stable growth trajectory and controlled inflation. Despite global economic slowdowns, geopolitical tensions, and fluctuating commodity prices, Indonesia has managed to maintain positive growth, with Q1 2025 seeing GDP growth of 4.87% year-on-year. This performance is a testament to sound macroeconomic policies, including disciplined fiscal management and responsive monetary policies by Bank Indonesia, which have helped keep inflation within target ranges (e.g., 1.57% year-on-year in December 2024).
+
+The government's strategic focus on domestic consumption, which contributes over 56% of GDP, has been a key driver of this stability. Policies designed to boost purchasing power, such as holiday allowances and the 13th-month salary for civil servants, have supported household consumption. Furthermore, significant investments in infrastructure and the digital economy are laying the groundwork for future growth. The digital economy, projected to reach $146 billion by 2025, is a burgeoning sector attracting substantial foreign direct investment (FDI). The Job Creation Law has also played a crucial role in enhancing the investment climate, simplifying regulations, and improving labor market flexibility, which in turn boosts Indonesia's competitiveness on the global stage.
+
+Challenges, though acknowledged, are being actively addressed. While global trade contractions and deindustrialization trends exist, the government is committed to export diversification and promoting sustainable industrial transformation. The unemployment rate, while a concern, is also being tackled through synergistic efforts between the Ministry of Higher Education, Science, and Technology, the Ministry of Manpower, and various industries to improve job absorption for graduates and address the impact of deindustrialization. Overall, the government views Indonesia's economic future with optimism, confident that ongoing structural reforms and strategic investments will pave the way for sustained, inclusive growth and position Indonesia as a leader in regional economic development.
+
+TEXT 2
+While official reports may paint a picture of economic resilience, for many Indonesian citizens, the reality on the ground feels far more challenging. Despite positive GDP growth figures, the benefits of this growth often do not trickle down effectively, leading to persistent issues of inequality and a squeezed middle class. The declining size of Indonesia's middle class, coupled with sluggish real wage growth, indicates that everyday Indonesians are grappling with rising living costs and limited improvements in their economic well-being.
+
+Inflation, even when seemingly controlled at a macroeconomic level, can significantly impact household budgets, particularly for lower-income families where a large portion of income is spent on basic necessities like food. Furthermore, the issue of unemployment remains a pressing concern, especially for the youth and in less developed regions. While the government cites efforts to link graduates with industries, many still face difficulties finding stable and well-paying jobs, leading to underemployment and job insecurity. Layoffs in various industries, including the textile and technology sectors, further compound these anxieties.
+
+Beyond direct economic indicators, systemic issues like corruption and bureaucratic inefficiencies continue to erode public trust and hinder genuine economic progress. Reports of significant state budget leakage due to corruption mean that public funds intended for welfare and development often do not reach their intended recipients, further exacerbating the plight of vulnerable communities. The relaxation of import policies has also led to concerns among domestic industries, with some sectors like textiles facing collapse due to increased competition, resulting in job losses for thousands. For the average Indonesian citizen, the focus shifts from grand economic targets to the daily struggle of making ends meet, securing stable employment, and experiencing a tangible improvement in their quality of life amidst these ongoing economic pressures and perceived inequalities.
+
+88. What is a key difference in how the texts address the issue of employment/unemployment?`,
+    options: [
+        "Text 1 denies the existence of unemployment, while Text 2 claims everyone is unemployed.",
+        "Both texts present unemployment as a minor issue that is quickly being resolved.",
+        "Text 1 emphasizes government efforts to improve job absorption and labor market flexibility, while Text 2 points to persistent difficulties in finding stable jobs and recent layoffs.",
+        "Text 1 focuses on job creation in the digital sector, while Text 2 concentrates on job losses in traditional industries.",
+        "Text 1 argues for more foreign workers, while Text 2 advocates for fewer."
+    ],
+    answer: null,
+    doubt: false,
+    correctAnswer: 2,
+    score: 50,
+    difficulty: "Medium"
+},
+
+// ==========================================
+// SOAL 89
+// ==========================================
+{
+    text: `TEXT 1
+Indonesia's economic landscape, while certainly influenced by persistent global headwinds, remains robust and demonstrates remarkable resilience. From the government's perspective, the nation's economic fundamentals are strong, evidenced by a stable growth trajectory and controlled inflation. Despite global economic slowdowns, geopolitical tensions, and fluctuating commodity prices, Indonesia has managed to maintain positive growth, with Q1 2025 seeing GDP growth of 4.87% year-on-year. This performance is a testament to sound macroeconomic policies, including disciplined fiscal management and responsive monetary policies by Bank Indonesia, which have helped keep inflation within target ranges (e.g., 1.57% year-on-year in December 2024).
+
+The government's strategic focus on domestic consumption, which contributes over 56% of GDP, has been a key driver of this stability. Policies designed to boost purchasing power, such as holiday allowances and the 13th-month salary for civil servants, have supported household consumption. Furthermore, significant investments in infrastructure and the digital economy are laying the groundwork for future growth. The digital economy, projected to reach $146 billion by 2025, is a burgeoning sector attracting substantial foreign direct investment (FDI). The Job Creation Law has also played a crucial role in enhancing the investment climate, simplifying regulations, and improving labor market flexibility, which in turn boosts Indonesia's competitiveness on the global stage.
+
+Challenges, though acknowledged, are being actively addressed. While global trade contractions and deindustrialization trends exist, the government is committed to export diversification and promoting sustainable industrial transformation. The unemployment rate, while a concern, is also being tackled through synergistic efforts between the Ministry of Higher Education, Science, and Technology, the Ministry of Manpower, and various industries to improve job absorption for graduates and address the impact of deindustrialization. Overall, the government views Indonesia's economic future with optimism, confident that ongoing structural reforms and strategic investments will pave the way for sustained, inclusive growth and position Indonesia as a leader in regional economic development.
+
+TEXT 2
+While official reports may paint a picture of economic resilience, for many Indonesian citizens, the reality on the ground feels far more challenging. Despite positive GDP growth figures, the benefits of this growth often do not trickle down effectively, leading to persistent issues of inequality and a squeezed middle class. The declining size of Indonesia's middle class, coupled with sluggish real wage growth, indicates that everyday Indonesians are grappling with rising living costs and limited improvements in their economic well-being.
+
+Inflation, even when seemingly controlled at a macroeconomic level, can significantly impact household budgets, particularly for lower-income families where a large portion of income is spent on basic necessities like food. Furthermore, the issue of unemployment remains a pressing concern, especially for the youth and in less developed regions. While the government cites efforts to link graduates with industries, many still face difficulties finding stable and well-paying jobs, leading to underemployment and job insecurity. Layoffs in various industries, including the textile and technology sectors, further compound these anxieties.
+
+Beyond direct economic indicators, systemic issues like corruption and bureaucratic inefficiencies continue to erode public trust and hinder genuine economic progress. Reports of significant state budget leakage due to corruption mean that public funds intended for welfare and development often do not reach their intended recipients, further exacerbating the plight of vulnerable communities. The relaxation of import policies has also led to concerns among domestic industries, with some sectors like textiles facing collapse due to increased competition, resulting in job losses for thousands. For the average Indonesian citizen, the focus shifts from grand economic targets to the daily struggle of making ends meet, securing stable employment, and experiencing a tangible improvement in their quality of life amidst these ongoing economic pressures and perceived inequalities.
+
+89. Which statement accurately reflects how the two texts discuss the "Job Creation Law" or similar government initiatives?`,
+    options: [
+        "Both texts praise the Job Creation Law as a universal success.",
+        "Text 1 highlights the Job Creation Law as improving the investment climate and competitiveness, while Text 2 implicitly suggests such laws may not translate to improved citizen welfare.",
+        "Text 1 expresses concern over the Job Creation Law's impact, while Text 2 fully supports it.",
+        "Neither text mentions any specific government laws or initiatives.",
+        "Text 1 blames the Job Creation Law for economic problems, while Text 2 credits it with all positive developments."
+    ],
+    answer: null,
+    doubt: false,
+    correctAnswer: 1,
+    score: 50,
+    difficulty: "Medium"
+},
+
+// ==========================================
+// SOAL 90
+// ==========================================
+{
+    text: `TEXT 1
+Indonesia's economic landscape, while certainly influenced by persistent global headwinds, remains robust and demonstrates remarkable resilience. From the government's perspective, the nation's economic fundamentals are strong, evidenced by a stable growth trajectory and controlled inflation. Despite global economic slowdowns, geopolitical tensions, and fluctuating commodity prices, Indonesia has managed to maintain positive growth, with Q1 2025 seeing GDP growth of 4.87% year-on-year. This performance is a testament to sound macroeconomic policies, including disciplined fiscal management and responsive monetary policies by Bank Indonesia, which have helped keep inflation within target ranges (e.g., 1.57% year-on-year in December 2024).
+
+The government's strategic focus on domestic consumption, which contributes over 56% of GDP, has been a key driver of this stability. Policies designed to boost purchasing power, such as holiday allowances and the 13th-month salary for civil servants, have supported household consumption. Furthermore, significant investments in infrastructure and the digital economy are laying the groundwork for future growth. The digital economy, projected to reach $146 billion by 2025, is a burgeoning sector attracting substantial foreign direct investment (FDI). The Job Creation Law has also played a crucial role in enhancing the investment climate, simplifying regulations, and improving labor market flexibility, which in turn boosts Indonesia's competitiveness on the global stage.
+
+Challenges, though acknowledged, are being actively addressed. While global trade contractions and deindustrialization trends exist, the government is committed to export diversification and promoting sustainable industrial transformation. The unemployment rate, while a concern, is also being tackled through synergistic efforts between the Ministry of Higher Education, Science, and Technology, the Ministry of Manpower, and various industries to improve job absorption for graduates and address the impact of deindustrialization. Overall, the government views Indonesia's economic future with optimism, confident that ongoing structural reforms and strategic investments will pave the way for sustained, inclusive growth and position Indonesia as a leader in regional economic development.
+
+TEXT 2
+While official reports may paint a picture of economic resilience, for many Indonesian citizens, the reality on the ground feels far more challenging. Despite positive GDP growth figures, the benefits of this growth often do not trickle down effectively, leading to persistent issues of inequality and a squeezed middle class. The declining size of Indonesia's middle class, coupled with sluggish real wage growth, indicates that everyday Indonesians are grappling with rising living costs and limited improvements in their economic well-being.
+
+Inflation, even when seemingly controlled at a macroeconomic level, can significantly impact household budgets, particularly for lower-income families where a large portion of income is spent on basic necessities like food. Furthermore, the issue of unemployment remains a pressing concern, especially for the youth and in less developed regions. While the government cites efforts to link graduates with industries, many still face difficulties finding stable and well-paying jobs, leading to underemployment and job insecurity. Layoffs in various industries, including the textile and technology sectors, further compound these anxieties.
+
+Beyond direct economic indicators, systemic issues like corruption and bureaucratic inefficiencies continue to erode public trust and hinder genuine economic progress. Reports of significant state budget leakage due to corruption mean that public funds intended for welfare and development often do not reach their intended recipients, further exacerbating the plight of vulnerable communities. The relaxation of import policies has also led to concerns among domestic industries, with some sectors like textiles facing collapse due to increased competition, resulting in job losses for thousands. For the average Indonesian citizen, the focus shifts from grand economic targets to the daily struggle of making ends meet, securing stable employment, and experiencing a tangible improvement in their quality of life amidst these ongoing economic pressures and perceived inequalities.
+
+90. Based on the two texts, which of the following is most likely to be a point of contention between the "government's optimistic outlook" and the "citizen's perspective"?`,
+    options: [
+        "The importance of global trade for Indonesia's economy.",
+        "The role of Bank Indonesia in maintaining monetary stability.",
+        "Whether economic growth figures accurately reflect the lived experiences and well-being of the majority of the population.",
+        "The necessity of infrastructure development for long-term growth.",
+        "The impact of natural disasters on the Indonesian economy."
+    ],
+    answer: null,
+    doubt: false,
+    correctAnswer: 2,
+    score: 50,
+    difficulty: "Medium"
+}
+    ],
 },
 
 "pm": {
