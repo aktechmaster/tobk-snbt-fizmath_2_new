@@ -846,33 +846,6 @@ window.addEventListener('load', function() {
     }
 };
 
-function backToLogin() {
-    document.getElementById('sopOverlay').style.display = 'none';
-    document.getElementById('loginCard').style.display = 'flex';
-    document.getElementById('loginCard').style.opacity = '1';
-    
-    // Aktifkan kembali tombol submit jika dibuka ulang
-    const submitBtn = document.querySelector('#loginCard button[type="submit"]');
-    if (submitBtn) submitBtn.disabled = false;
-}
-
-    currentSubtest = data.currentSubtest || 'pu';
-    currentQIndex = data.currentQIndex || 0;
-    timeLeft = data.timeLeft;
-    
-    // PENTING: Set examStarted true agar sensor aktif
-    examStarted = true; 
-    if (typeof setData === 'function') setData('examStarted', 'true');
-
-    document.getElementById('loginCard').style.display = 'none';
-    document.getElementById('examInterface').style.display = 'flex';
-    document.getElementById('sideName').innerText = userData.name;
-    document.getElementById('sideNomor').innerText = userData.id;
-    
-    loadQuestion(currentQIndex);
-    startTimer(true); 
-    updateView();
-}
 
 function handleLogin(e) {
     e.preventDefault();
