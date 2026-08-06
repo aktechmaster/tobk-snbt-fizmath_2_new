@@ -870,7 +870,7 @@ function backToLogin() {
     document.getElementById('sideNomor').innerText = userData.id;
     
     loadQuestion(currentQIndex);
-    startTimer(); 
+    startTimer(true); 
     updateView();
 }
 
@@ -971,7 +971,6 @@ function handleLogin(e) {
 // 2. MULAI UJIAN (START) - DIPERBAIKI
 // ==========================================
 function startExamReal() {
-    // Request Fullscreen
     if (document.documentElement.requestFullscreen) {
         document.documentElement.requestFullscreen().catch(()=>{});
     }
@@ -979,21 +978,17 @@ function startExamReal() {
     document.getElementById('sopOverlay').style.display = 'none';
     document.getElementById('examInterface').style.display = 'flex';
 
-    // Render Sidebar Info
     document.getElementById('sideName').innerText = userData.name;
     document.getElementById('sideNomor').innerText = userData.id;
 
-    // [PENTING] Aktifkan Sensor Keamanan HANYA DI SINI
     examStarted = true;
     setData('examStarted', 'true');
-    console.log("Sistem Keamanan Aktif!");
 
-    // Load & Save Initial State
     loadQuestion(0);
-    saveProgress(); // Simpan data agar aman kalau refresh
+    saveProgress();
     
-    // 🛑 PERBAIKAN UTAMA: Tambahkan 'true' agar paksa reset waktu ke 30 menit penuh!
-    startTimer(true); 
+    // 🛑 PAKSA BUAT WAKTU BARU 30 MENIT (false = Bukan Resume)
+    startTimer(false); 
 }
     // ==========================================
     // 3. ENGINE UJIAN (SOAL & TIMER)
@@ -1218,44 +1213,43 @@ function nextSubtest() {
 }
 
 // ==========================================
-// FUNGSI TIMER BARU (ANTI-TIMER HANTU)
+// FUNGSI TIMER BARU (ANTI-JEBAKAN WAKTU LAMA)
 // ==========================================
-function startTimer(forceReset = false) {
-    // 1. Wajib bunuh interval lama yang sedang berjalan di background
+function startTimer(isResume = false) {
+    // 1. Matikan interval lama jika sedang berjalan
     if (window.timerInterval) {
         clearInterval(window.timerInterval);
         window.timerInterval = null;
     }
 
-    // 2. Jika forceReset = true (Login Baru), PAKSA hapus target waktu lama
-    if (forceReset) {
-        localStorage.removeItem('subtest_end_time');
+    let endTime;
+
+    // 2. JIKA RESUME (Refresh Halaman): Gunakan sisa waktu tersimpan
+    if (isResume) {
+        endTime = localStorage.getItem('subtest_end_time');
     }
 
-    // 3. Hitung target waktu selesai
-    let endTime = localStorage.getItem('subtest_end_time');
-    
-    // Jika tidak ada endTime (karena login baru) ATAU waktu lama sudah lewat
-    if (!endTime || parseInt(endTime) <= Date.now()) {
-        const durationInSeconds = examData[currentSubtest].duration; // Ambil durasi subtes (misal 1800 detik)
+    // 3. JIKA UJIAN BARU / PINDAH SUBTES (Bukan Resume):
+    // PAKSA buat target waktu baru 30 menit penuh dari DETIK INI!
+    if (!isResume || !endTime) {
+        const durationInSeconds = examData[currentSubtest].duration; // 1800 detik
         endTime = Date.now() + (durationInSeconds * 1000);
-        localStorage.setItem('subtest_end_time', endTime);
+        localStorage.setItem('subtest_end_time', endTime); // Timpa memori lama
     }
 
     const el = document.getElementById('timerDisplay');
 
-    // 4. Jalankan interval timer yang BARU & BERSIH
+    // 4. Jalankan Hitung Mundur
     window.timerInterval = setInterval(() => {
         let now = Date.now();
         let distance = endTime - now;
 
-        // Jika waktu benar-benar habis
         if (distance <= 0) {
             clearInterval(window.timerInterval);
             window.timerInterval = null;
             localStorage.removeItem('subtest_end_time'); 
             if (el) el.innerText = "00:00";
-            nextSubtest(); // Otomatis pindah subtes
+            nextSubtest();
             return;
         }
 
