@@ -2,7 +2,7 @@
 const examData = {
 "pu": {
         name: "Penalaran Umum",
-        duration: 30 * 60, // 30 Menit
+        duration: 20 * 60, // 20 Menit
         questions: [
 
 // ==========================================
@@ -587,7 +587,7 @@ const examData = {
         
     pbm: {
     name: "Pemahaman Bacaan & Menulis",
-    duration: 25 * 60, // 25 Menit 
+    duration: 20 * 60, // 20 Menit 
     questions: [
     // ==========================================
 // SOAL 31
@@ -1167,7 +1167,7 @@ pk: {
 
 "bi": {
     name: "Literasi Bahasa Indonesia",
-    duration: 45 * 60,
+    duration: 25 * 60,
     questions: [
         // ==========================================
 // SOAL 61
