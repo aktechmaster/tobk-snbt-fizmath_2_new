@@ -889,6 +889,16 @@ function restoreSession(data) {
 
 function handleLogin(e) {
     e.preventDefault();
+
+    // 🛡️ PENGAMAN 1: Cek apakah data soal PU benar-benar sudah siap di-load
+    if (!examData || !examData['pu'] || !examData['pu'].questions || examData['pu'].questions.length === 0) {
+        alert("Data soal belum selesai dimuat. Harap tunggu 2 detik dan coba lagi!");
+        return; // Hentikan proses jika soal belum siap
+    }
+
+    // 🛡️ PENGAMAN 2: Matikan tombol login agar tidak bisa di-double click
+    const submitBtn = e.target.querySelector('button[type="submit"]');
+    if (submitBtn) submitBtn.disabled = true;
     
     // FIX BUG: Paksa posisi kembali ke Penalaran Umum (pu) & soal nomor 1 saat login baru
     currentSubtest = 'pu';
