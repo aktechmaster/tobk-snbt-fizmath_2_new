@@ -899,15 +899,20 @@ function handleLogin(e) {
     // 🛡️ PENGAMAN 2: Matikan tombol login agar tidak bisa di-double click
     const submitBtn = e.target.querySelector('button[type="submit"]');
     if (submitBtn) submitBtn.disabled = true;
-    
+
+    // 🔄 RESET TOTAL CACHE & TIMER (Perbaikan agar waktu kembali full 30 menit)
+    localStorage.clear(); 
+    if (typeof startTime !== 'undefined') {
+        startTime = Date.now(); // Reset jam mulai baru
+    }
+
     // FIX BUG: Paksa posisi kembali ke Penalaran Umum (pu) & soal nomor 1 saat login baru
     currentSubtest = 'pu';
     currentQIndex = 0;
     if (examData && examData['pu']) {
-        timeLeft = examData['pu'].duration;
+        timeLeft = examData['pu'].duration; // Paksa balik ke 30 menit (1800 detik)
     }
-    localStorage.removeItem('snbt_progress'); // Kosongkan cache lama
-    
+
     // Ambil semua nilai dari formulir
     const n = document.getElementById('fullname').value.toUpperCase();
     const id = document.getElementById('participantId').value;
@@ -919,7 +924,7 @@ function handleLogin(e) {
     const j1 = document.getElementById('jurusan-1').value.trim();
     const u2 = document.getElementById('univ-2').value.toUpperCase().trim();
     const j2 = document.getElementById('jurusan-2').value.trim();
-
+    
     // ======================================================
     // ✅ BAGIAN PENGECEKAN & PESAN ERROR TANPA ALERT
     // ======================================================
