@@ -1900,158 +1900,290 @@ Beyond direct economic indicators, systemic issues like corruption and bureaucra
     name: "Penalaran Matematika",
     duration: 30 * 60,
     questions: [
-        // TEKS 1: PERTEMUAN KELUARGA (1-4)
-        {
-            text: `<b>Teks 1 untuk soal nomor 1-4</b><br>Pertemuan keluarga RT IX dihadiri oleh 15 laki-laki dan 10 perempuan. Pada pertemuan ini setiap keluarga diwakili satu orang. Salah satu agenda pertemuan tersebut adalah memilih pengurus RT baru yang terdiri atas ketua, bendahara, dan sekretaris. Para calon diambil di antara yang hadir. Pemilihan dilakukan secara acak.<br><br>
-            Banyak cara terpilihnya pengurus dengan sekretaris perempuan adalah.....`,
-            options: ["5.400", "5.520", "5.750", "5.760", "6.000"],
-            answer: null, doubt: false, correctAnswer: 1, score: 40, difficulty: "Medium"
-        },
-        {
-            text: `<b>Teks 1 untuk soal nomor 1-4</b><br>Pertemuan keluarga RT IX dihadiri oleh 15 laki-laki dan 10 perempuan. Pada pertemuan ini setiap keluarga diwakili satu orang. Salah satu agenda pertemuan tersebut adalah memilih pengurus RT baru yang terdiri atas ketua, bendahara, dan sekretaris. Para calon diambil di antara yang hadir. Pemilihan dilakukan secara acak.<br><br>
-            Untuk memeriahkan suasana pertemuan, dipilih empat orang untuk menyanyi. Peluang yang terpilih keempatnya perempuan adalah.....`,
-            options: ["$\\frac{2}{115}$", "$\\frac{3}{115}$", "$\\frac{4}{115}$", "$\\frac{5}{115}$", "$\\frac{6}{115}$"],
-            answer: null, doubt: false, correctAnswer: 0, score: 50, difficulty: "Hard"
-        },
-        {
-            text: `<b>Teks 1 untuk soal nomor 1-4</b><br>Pertemuan keluarga RT IX dihadiri oleh 15 laki-laki dan 10 perempuan. Pada pertemuan ini setiap keluarga diwakili satu orang. Salah satu agenda pertemuan tersebut adalah memilih pengurus RT baru yang terdiri atas ketua, bendahara, dan sekretaris. Para calon diambil di antara yang hadir. Pemilihan dilakukan secara acak.<br><br>
-            Pada pertemuan tersebut juga dipilih tiga orang untuk mewakili RT dalam suatu kegiatan pada tingkat RW. Peluang terpilihnya satu laki-laki dua perempuan atau dua laki-laki satu perempuan adalah.....`,
-            options: ["$\\frac{135}{230}$", "$\\frac{145}{230}$", "$\\frac{155}{230}$", "$\\frac{165}{230}$", "$\\frac{175}{230}$"],
-            answer: null, doubt: false, correctAnswer: 3, score: 60, difficulty: "Hard"
-        },
-        {
-            text: `<b>Teks 1 untuk soal nomor 1-4</b><br>Pertemuan keluarga RT IX dihadiri oleh 15 laki-laki dan 10 perempuan. Pada pertemuan ini setiap keluarga diwakili satu orang. Salah satu agenda pertemuan tersebut adalah memilih pengurus RT baru yang terdiri atas ketua, bendahara, dan sekretaris. Para calon diambil di antara yang hadir. Pemilihan dilakukan secara acak.<br><br>Peluang terpilihnya sekretaris perempuan dengan ketua dan bendahara berjenis kelamin berbeda adalah.....`,
-            options: ["$\\frac{1}{115}$", "$\\frac{2}{23}$", "$\\frac{3}{23}$", "$\\frac{5}{46}$", "$\\frac{15}{46}$"],
-            answer: null, doubt: false, correctAnswer: 4, score: 60, difficulty: "Hard"
-        },
+        // ==========================================
+// SOAL 91
+// ==========================================
+{ 
+    text: "Tito bekerja sebagai karyawan tetap di suatu perusahaan komputer di kota J. Tito memperoleh gaji pokok setiap tanggal 1. Selain gaji pokok, Tito juga mendapatkan tunjangan kesehatan dan keluarga dengan aturan sebagai berikut:\na) Besarnya tunjangan kesehatan = $\\frac{3}{10} \\times \\text{tunjangan keluarga}$\nb) Besarnya tunjangan keluarga = $\\text{Rp } 100.000 + \\frac{1}{5} \\times \\text{gaji pokok}$\n\nJika gaji pokok Tito di perusahaan itu adalah Rp 4.000.000,- maka besarnya tunjangan keluarga yang diperoleh Tito adalah ….", 
+    options: [
+        "Rp 900.000,-", 
+        "Rp 950.000,-", 
+        "Rp 1.000.000,-", 
+        "Rp 1.050.000,-", 
+        "Rp 1.100.000,-"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 35, 
+    difficulty: "Easy" 
+},
 
-        // TEKS 2: KERTAS BERPETAK (5-8)
-        {
-            text: `<b>Teks 2</b><br>Kertas berpetak memiliki ukuran petak 8x8. Baris pertama: petak 1 = $2^0$, petak 2 = $2^1$, petak 3 = $2^2$, ..., petak 8 = $2^7$. Baris kedua dimulai dengan $256$ ($2^8$) sampai petak kedelapan baris kedua, dan seterusnya sampai baris ke-8.<br><br>
-            Jika $f(n)$ menyatakan bilangan pada petak pertama baris ke-$n$, maka $f(n)$ adalah.....`,
-            options: ["$2^{n}$", "$2^{8n}$", "$2^{8(n-1)}$", "$2^{8n-1}$", "$2^{n-8}$"],
-            answer: null, doubt: false, correctAnswer: 2, score: 40, difficulty: "Medium"
-        },
-        {
-            
-            
-            text: `<b>Teks 2</b><br>Kertas berpetak memiliki ukuran petak 8x8. Baris pertama: petak 1 = $2^0$, petak 2 = $2^1$, petak 3 = $2^2$, ..., petak 8 = $2^7$. Baris kedua dimulai dengan $256$ ($2^8$) sampai petak kedelapan baris kedua, dan seterusnya sampai baris ke-8.<br><br>
-            [Teks 2: Kertas Berpetak]<br>Pilihlah jawaban pada kolom yang sesuai:<br>
-            <table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 13px;">
-                <tr style="background-color: #f2f2f2;"><th>Pernyataan</th><th style="width:15%;">Ya</th><th style="width:15%;">Tidak</th></tr>
-                <tr><td>Bilangan pada petak ke-3 baris ke-2 adalah 512.</td><td></td><td></td></tr>
-                <tr><td>Jumlah bilangan pada petak pertama sampai ke-5 baris pertama adalah 31.</td><td></td><td></td></tr>
-                <tr><td>Bilangan pada baris ke-8 petak ke-8 adalah $2^{63}$.</td><td></td><td></td></tr>
-            </table>`,
-            options: ["Ya, Ya, Ya", "Tidak, Ya, Ya", "Tidak, Tidak, Ya", "Ya, Tidak, Ya", "Ya, Ya, Tidak"],
-            answer: null, doubt: false, correctAnswer: 1, score: 50, difficulty: "Hard"
-        },
-        {
-            text: `<b>Teks 2</b><br>Kertas berpetak memiliki ukuran petak 8x8. Baris pertama: petak 1 = $2^0$, petak 2 = $2^1$, petak 3 = $2^2$, ..., petak 8 = $2^7$. Baris kedua dimulai dengan $256$ ($2^8$) sampai petak kedelapan baris kedua, dan seterusnya sampai baris ke-8.<br><br>
-            Hasil bagi bilangan pada petak pertama baris ketiga dengan bilangan pada petak kelima baris kedua adalah.....`,
-            options: ["4", "8", "16", "32", "64"],
-            answer: null, doubt: false, correctAnswer: 2, score: 40, difficulty: "Medium"
-        },
-        {
-            text: `<b>Teks 2</b><br>Kertas berpetak memiliki ukuran petak 8x8. Baris pertama: petak 1 = $2^0$, petak 2 = $2^1$, petak 3 = $2^2$, ..., petak 8 = $2^7$. Baris kedua dimulai dengan $256$ ($2^8$) sampai petak kedelapan baris kedua, dan seterusnya sampai baris ke-8.<br><br>
-            Jika bilangan pada petak ke-$n$ baris pertama dibagi dengan jumlah seluruh bilangan pada baris pertama adalah.....`,
-            options: ["$2^{n-1} / (2^8 - 1)$", "$2^{n} / 255$", "$2^{n-1} / 256$", "$2^n / 256$", "$2^{n-1} / 128$"],
-            answer: null, doubt: false, correctAnswer: 0, score: 60, difficulty: "Hard"
-        },
+// ==========================================
+// SOAL 92
+// ==========================================
+{ 
+    text: "Tito bekerja sebagai karyawan tetap di suatu perusahaan komputer di kota J. Tito memperoleh gaji pokok setiap tanggal 1. Selain gaji pokok, Tito juga mendapatkan tunjangan kesehatan dan keluarga dengan aturan sebagai berikut:\na) Besarnya tunjangan kesehatan = $\\frac{3}{10} \\times \\text{tunjangan keluarga}$\nb) Besarnya tunjangan keluarga = $\\text{Rp } 100.000 + \\frac{1}{5} \\times \\text{gaji pokok}$\n\nJika besarnya tunjangan kesehatan Tito adalah Rp 420.000,- maka besarnya gaji pokok Tito di perusahaan itu adalah ….", 
+    options: [
+        "Rp. 5.500.000,-", 
+        "Rp. 6.000.000,-", 
+        "Rp. 6.500.000,-", 
+        "Rp. 7.000.000,-", 
+        "Rp. 7.500.000,-"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 2, 
+    score: 50, 
+    difficulty: "Medium" 
+},
 
-        // TEKS 3: GEOMETRI LAMPU & BAYANGAN (9-12)
-        {
-            text: `<b>Teks 3</b><br>Lampu dipasang pada ketinggian 4 m. Meja segitiga ABC di bawah lampu dengan A dan C menempel dinding. Panjang $BC = 1$ m dan bayangannya $B'C' = 1,5$ m.<br><br>
-            Tinggi meja adalah..... m.`,
-            image: "9.png",
-            options: ["1", "1,4", "1,5", "1,33", "2.67"],
-            answer: null, doubt: false, correctAnswer: 3, score: 50, difficulty: "Hard"
-        },
-        {
-            text: `<b>Teks 3</b><br>Lampu dipasang pada ketinggian 4 m. Meja segitiga ABC di bawah lampu dengan A dan C menempel dinding. Panjang $BC = 1$ m dan bayangannya $B'C' = 1,5$ m.<br><br>
-            Jika luas meja adalah $L$, luas bayangan meja di lantai adalah.....`,
-            options: ["$1,50 L$", "$1,75 L$", "$2,25 L$", "$2,50 L$", "$3,00 L$"],
-            answer: null, doubt: false, correctAnswer: 2, score: 50, difficulty: "Hard"
-        },
-        {
-            text: `<b>Teks 3</b><br>Lampu dipasang pada ketinggian 4 m. Meja segitiga ABC di bawah lampu dengan A dan C menempel dinding. Panjang $BC = 1$ m dan bayangannya $B'C' = 1,5$ m.<br><br>
-            Seekor belalang terbang sejajar dinding dan lantai pada tinggi 2 m. Jika bayangan belalang di lantai menempuh 4 m dalam 10 detik, jarak sebenarnya belalang dalam 5 detik adalah..... m.`,
-            options: ["1,00", "1,25", "1,50", "1,75", "2,00"],
-            answer: null, doubt: false, correctAnswer: 0, score: 60, difficulty: "Hard"
-        },
-        {
-            text: `<b>Teks 3</b><br>Lampu dipasang pada ketinggian 4 m. Meja segitiga ABC di bawah lampu dengan A dan C menempel dinding. Panjang $BC = 1$ m dan bayangannya $B'C' = 1,5$ m.<br><br>
-            Alas patung tinggi 1 m berjarak 2 m dari dinding. Patung setinggi 1,5 m di atasnya. Panjang bayangan patung adalah..... m.`,
-            options: ["14/6", "15/6", "16/6", "17/6", "18/6"],
-            answer: null, doubt: false, correctAnswer: 1, score: 60, difficulty: "Hard"
-        },
+// ==========================================
+// SOAL 93
+// ==========================================
+{ 
+    text: "Tito bekerja sebagai karyawan tetap di suatu perusahaan komputer di kota J. Tito memperoleh gaji pokok setiap tanggal 1. Selain gaji pokok, Tito juga mendapatkan tunjangan kesehatan dan keluarga dengan aturan sebagai berikut:\na) Besarnya tunjangan kesehatan = $\\frac{3}{10} \\times \\text{tunjangan keluarga}$\nb) Besarnya tunjangan keluarga = $\\text{Rp } 100.000 + \\frac{1}{5} \\times \\text{gaji pokok}$\n\nJika gaji pokok yang diterima Tito adalah $\\frac{7}{5}X$ rupiah, maka besarnya tunjangan kesehatan yang diterima Tito dalam $X$ adalah …. rupiah.", 
+    options: [
+        "$\\frac{21}{25}X + 100.000$", 
+        "$\\frac{7}{25}X + 100.000$", 
+        "$\\frac{21}{250}X + 100.000$", 
+        "$\\frac{21}{250}X + 30.000$", 
+        "$\\frac{7}{25}X + 30.000$"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 50, 
+    difficulty: "Medium" 
+},
 
-        // TEKS 4: DIAGRAM GULA PASIR (13-16)
-        {
-            text: `<b>Teks 4</b><br>Di suatu grosir kelontong, dijual sembilan bahan pokok makanan. 
-            Salah satu barang yang dijual oleh pedagang grosir itu adalah gula pasir (dalam satuan kuintal). 
-            Data pasokan dan yang terjual tiap hari dalam satu minggu disajikan dalam diagram berikut. <br><br>
-            Dari diagram tersebut, stok gula yang terbanyak terjadi pada hari.....`,
-            image: "13.png",
-            options: ["Senin", "Selasa", "Rabu", "Sabtu", "Minggu"],
-            answer: null, doubt: false, correctAnswer: 1, score: 30, difficulty: "Easy"
-        },
-        {
-            text: `[Teks 4: Diagram Gula]<br>14. Pilihlah jawaban pada kolom yang sesuai:<br>
-            <table border="1" style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 13px;">
-                <tr style="background-color: #f2f2f2;"><th>Pernyataan</th><th style="width:15%;">Ya</th><th style="width:15%;">Tidak</th></tr>
-                <tr><td>Jumlah stok terbanyak dalam toko pada Minggu itu adalah 7 kuintal.</td><td></td><td></td></tr>
-                <tr><td>Stok gula dalam satu minggu sebanyak 6 kuintal terjadi pada hari Rabu dan Minggu.</td><td></td><td></td></tr>
-                <tr><td>Rata-rata stok gula per hari dalam waktu satu minggu adalah 4 kuintal.</td><td></td><td></td></tr>
-            </table>`,
-            options: ["Ya, Ya, Ya", "Ya, Tidak, Ya", "Tidak, Ya, Tidak", "Ya, Ya, Tidak", "Tidak, Tidak, Ya"],
-            answer: null, doubt: false, correctAnswer: 0, score: 50, difficulty: "Hard"
-        },
-        {
-            text: `<b>Teks 4</b><br>Di suatu grosir kelontong, dijual sembilan bahan pokok makanan. 
-            Salah satu barang yang dijual oleh pedagang grosir itu adalah gula pasir (dalam satuan kuintal). 
-            Data pasokan dan yang terjual tiap hari dalam satu minggu disajikan dalam diagram berikut. <br><br>
-            Jika biaya operasional tercukupi jika terjual 40% dalam minggu itu. Jika 1 kuintal dijual Rp 150.000,00, keuntungan pedagang adalah..... juta rupiah.`,
-            image: "13.png",
-            options: ["3,15", "4,20", "5,25", "6,30", "7,35"],
-            answer: null, doubt: false, correctAnswer: 2, score: 50, difficulty: "Hard"
-        },
-        {
-            text: `<b>Teks 4</b><br>Di suatu grosir kelontong, dijual sembilan bahan pokok makanan. 
-            Salah satu barang yang dijual oleh pedagang grosir itu adalah gula pasir (dalam satuan kuintal). 
-            Data pasokan dan yang terjual tiap hari dalam satu minggu disajikan dalam diagram berikut. <br><br>
-            Stok aman jika $> (rata-rata + simpangan baku)$. Pedagang merasa kurang aman pada hari.....`,
-            image: "13.png",
-            options: ["Senin, Selasa, Rabu", "Selasa, Rabu, Kamis", "Rabu, Kamis, Jumat", "Senin, Sabtu, Minggu", "Rabu, Jumat, Minggu"],
-            answer: null, doubt: false, correctAnswer: 4, score: 60, difficulty: "Hard"
-        },
+// ==========================================
+// SOAL 94
+// ==========================================
+{ 
+    text: "Tito bekerja sebagai karyawan tetap di suatu perusahaan komputer di kota J. Tito memperoleh gaji pokok setiap tanggal 1. Selain gaji pokok, Tito juga mendapatkan tunjangan kesehatan dan keluarga dengan aturan sebagai berikut:\na) Besarnya tunjangan kesehatan = $\\frac{3}{10} \\times \\text{tunjangan keluarga}$\nb) Besarnya tunjangan keluarga = $\\text{Rp } 100.000 + \\frac{1}{5} \\times \\text{gaji pokok}$\n\nJika Tito ada tanggungan di perusahaan dan mengangsur Rp 450.000 per bulan dan besar tunjangan kesehatan adalah Rp 344.400,- maka total pendapatan setiap bulan yang diterima Tito adalah ….", 
+    options: [
+        "Rp. 5.240.000,-", 
+        "Rp. 5.460.200,-", 
+        "Rp. 5.870.600,-", 
+        "Rp. 6.282.400,-", 
+        "Rp. 6.702.400"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 50, 
+    difficulty: "Medium" 
+},
 
-        // TEKS 5: SAWAH DAN PETAK (17-20)
-        {
-            text: `<b>Teks 5</b><br>Sepetak sawah terdiri atas $x$ petak kecil berukuran $6\text{ m} \times 8\text{ m}$.<br><br>
-            Jika $L(x)$ adalah fungsi luas sawah (dalam $\text{m}^2$), maka $L(x) = $ .....`,
-            options: ["$14x$", "$24x$", "$48x$", "$68x$", "$86x$"],
-            answer: null, doubt: false, correctAnswer: 2, score: 30, difficulty: "Easy"
-        },
-        {
-            text: `<b>Teks 5</b><br>Sepetak sawah terdiri atas $x$ petak kecil berukuran $6\text{ m} \times 8\text{ m}$.<br><br>
-            Jika jumlah petak kecil 36 petak dan panjang sisi depan sawah 12 m, panjang sisi samping sawah adalah..... m.`,
-            options: ["72", "78", "90", "96", "144"],
-            answer: null, doubt: false, correctAnswer: 4, score: 40, difficulty: "Medium"
-        },
-        {
-            text: `<b>Teks 5</b><br>Sepetak sawah terdiri atas $x$ petak kecil berukuran $6\text{ m} \times 8\text{ m}$.<br><br>
-            Sawah terdiri dari 2 baris petak (masing-masing 18 petak) dengan lebar parit 0,5 m di antara tiap petak. Luas sawah beserta parit adalah..... $\text{m}^2$.`,
-            options: ["1.728,5", "1.750,5", "1.780,0", "1.820,5", "1.850,5"],
-            answer: null, doubt: false, correctAnswer: 0, score: 60, difficulty: "Hard"
-        },
-        {
-            text: `<b>Teks 5</b><br>Sepetak sawah terdiri atas $x$ petak kecil berukuran $6\text{ m} \times 8\text{ m}$.<br><br>
-            Biaya pemeliharaan Rp 650.000,00 per petak. Jika total biaya Rp 26.000.000,00, luas sawah yang ditanami padi adalah..... $\text{m}^2$.`,
-            options: ["1.340", "1.440", "1.460", "1.540", "1.920"],
-            answer: null, doubt: false, correctAnswer: 4, score: 40, difficulty: "Medium"
+            // ==========================================
+// SOAL 95
+// ==========================================
+{ 
+    text: "Dalam rangka memperingati hari kemerdekaan Indonesia ke 80, RT 18 akan membentuk panitia yang terdiri dari laki-laki dan perempuan dewasa. Pada hari ini diadakan rapat untuk membentuk panitia inti yang terdiri dari ketua, sekretaris dan bendahara panitia 17-an RT 18. Pengurus lain akan dibentuk setelah pengurus inti terpilih. Rapat tersebut dihadiri oleh 15 laki-laki dan 20 perempuan dewasa warga RT 18. Pengurus inti panitia dipilih dari peserta rapat yang hadir.\n\nBanyak cara terpilihnya pengurus inti panitia 17-an dengan bendahara laki-laki adalah …. cara.", 
+    options: [
+        "14.380", 
+        "14.840", 
+        "15.670", 
+        "16.140", 
+        "16.830"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 4, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 96
+// ==========================================
+{ 
+    text: "Dalam rangka memperingati hari kemerdekaan Indonesia ke 80, RT 18 akan membentuk panitia yang terdiri dari laki-laki dan perempuan dewasa. Pada hari ini diadakan rapat untuk membentuk panitia inti yang terdiri dari ketua, sekretaris dan bendahara panitia 17-an RT 18. Pengurus lain akan dibentuk setelah pengurus inti terpilih. Rapat tersebut dihadiri oleh 15 laki-laki dan 20 perempuan dewasa warga RT 18. Pengurus inti panitia dipilih dari peserta rapat yang hadir.\n\nDalam rapat tersebut dipilih 3 orang untuk mengambil konsumsi di rumah Bu Dewi. Peluang terpilihnya ketiganya laki-laki adalah ….", 
+    options: [
+        "11 : 187", 
+        "13 : 187", 
+        "445 : 6.545", 
+        "455 : 6.055", 
+        "455 : 6.455"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 1, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 97
+// ==========================================
+{ 
+    text: "Dalam rangka memperingati hari kemerdekaan Indonesia ke 80, RT 18 akan membentuk panitia yang terdiri dari laki-laki dan perempuan dewasa. Pada hari ini diadakan rapat untuk membentuk panitia inti yang terdiri dari ketua, sekretaris dan bendahara panitia 17-an RT 18. Pengurus lain akan dibentuk setelah pengurus inti terpilih. Rapat tersebut dihadiri oleh 15 laki-laki dan 20 perempuan dewasa warga RT 18. Pengurus inti panitia dipilih dari peserta rapat yang hadir.\n\nPada rapat tersebut juga akan dipilih 4 orang untuk berbelanja semua kebutuhan acara 17 agustusan di RT tersebut. Peluang terpilihnya 1 laki-laki 3 perempuan atau 1 perempuan 3 laki-laki untuk berbelanja adalah ….", 
+    options: [
+        "$\\frac{329}{662}$", 
+        "$\\frac{327}{660}$", 
+        "$\\frac{330}{666}$", 
+        "$\\frac{36}{73}$", 
+        "$\\frac{35}{77}$"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 65, 
+    difficulty: "Hard" 
+},
+
+// ==========================================
+// SOAL 98
+// ==========================================
+{ 
+    text: "Dalam rangka memperingati hari kemerdekaan Indonesia ke 80, RT 18 akan membentuk panitia yang terdiri dari laki-laki dan perempuan dewasa. Pada hari ini diadakan rapat untuk membentuk panitia inti yang terdiri dari ketua, sekretaris dan bendahara panitia 17-an RT 18. Pengurus lain akan dibentuk setelah pengurus inti terpilih. Rapat tersebut dihadiri oleh 15 laki-laki dan 20 perempuan dewasa warga RT 18. Pengurus inti panitia dipilih dari peserta rapat yang hadir.\n\nPeluang terpilihnya ketua panitia laki-laki dengan sekretaris dan bendahara berbeda jenis kelamin adalah ….", 
+    options: [
+        "$\\frac{40}{187}$", 
+        "$\\frac{80}{392}$", 
+        "$\\frac{125}{594}$", 
+        "$\\frac{364}{1.382}$", 
+        "$\\frac{569}{1.777}$"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 99
+// ==========================================
+{ 
+    text: "<img src=\"99-102.png\" style=\"max-width:100%; height:auto; margin-bottom: 10px;\" /><br>\nRadjaa adalah seorang penggembala sapi. Suatu hari ia menggembalakan sapi di sebuah lapangan berbentuk persegi panjang yang penuh dengan rumput segar. Jika pojok-pojok lapangan diberikan titik JKLM maka akan membentuk persegi panjang JKLM seperti pada gambar dengan panjang JK adalah 24 meter dan panjang KL adalah 18 meter.\n\nSapi Radjaa ditambatkan pada sisi JM dengan panjang tali a meter. Pangkal tali ditambatkan di titik B dengan x meter dari sudut L.\n\nDaerah merumput sapi akan maksimal dengan luas daerah adalah ….", 
+    options: [
+        "$\\frac{41}{4} \\pi$", 
+        "$\\frac{51}{4} \\pi$", 
+        "$\\frac{61}{4} \\pi$", 
+        "$\\frac{71}{4} \\pi$", 
+        "$\\frac{81}{4} \\pi$"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 4, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 100
+// ==========================================
+{ 
+    text: "<img src=\"99-102.png\" style=\"max-width:100%; height:auto; margin-bottom: 10px;\" /><br>\nRadjaa adalah seorang penggembala sapi. Suatu hari ia menggembalakan sapi di sebuah lapangan berbentuk persegi panjang yang penuh dengan rumput segar. Jika pojok-pojok lapangan diberikan titik JKLM maka akan membentuk persegi panjang JKLM seperti pada gambar dengan panjang JK adalah 24 meter dan panjang KL adalah 18 meter.\n\nSapi Radjaa ditambatkan pada sisi JM dengan panjang tali a meter. Pangkal tali ditambatkan di titik B dengan x meter dari sudut L.\n\nJika diketahui bahwa panjang tali lebih dari 0 meter tetapi kurang dari 12 meter, maka daerah merumput sapi akan maksimal jika ….", 
+    options: [
+        "$\\frac{a}{2} \\leq x \\leq 12 + \\frac{a}{2}$", 
+        "$12 - a \\leq x \\leq 24 - a$", 
+        "$\\frac{a}{2} \\leq x \\leq 12 + a$", 
+        "$a \\leq x \\leq 12 + a$", 
+        "$a \\leq x \\leq 24 - a$"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 4, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 101
+// ==========================================
+{ 
+    text: "<img src=\"99-102.png\" style=\"max-width:100%; height:auto; margin-bottom: 10px;\" /><br>\nRadjaa adalah seorang penggembala sapi. Suatu hari ia menggembalakan sapi di sebuah lapangan berbentuk persegi panjang yang penuh dengan rumput segar. Jika pojok-pojok lapangan diberikan titik JKLM maka akan membentuk persegi panjang JKLM seperti pada gambar dengan panjang JK adalah 24 meter dan panjang KL adalah 18 meter.\n\nPada hari ini Radjaa menggembalakan 2 sapi. Misalkan $BL = x = 6$ meter dan panjang tali sapi pertama adalah $a$ meter dengan $a \\leq 18$ meter. Sapi kedua ditempatkan di titik C pada sisi JM. Panjang CM adalah 12 meter. Supaya kedua sapi tidak bertemu dan berebut rumput, maka panjang tali kedua tidak boleh lebih dari …. meter.", 
+    options: [
+        "$\\sqrt{466} + a$", 
+        "$2\\sqrt{233} + a$", 
+        "$4\\sqrt{29} - a$", 
+        "$6\\sqrt{19} - a$", 
+        "$8\\sqrt{11} + 2a$"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 2, 
+    score: 65, 
+    difficulty: "Hard" 
+},
+
+// ==========================================
+// SOAL 102
+// ==========================================
+{ 
+    text: "<img src=\"99-102.png\" style=\"max-width:100%; height:auto; margin-bottom: 10px;\" /><br>\nRadjaa adalah seorang penggembala sapi. Suatu hari ia menggembalakan sapi di sebuah lapangan berbentuk persegi panjang yang penuh dengan rumput segar. Jika pojok-pojok lapangan diberikan titik JKLM maka akan membentuk persegi panjang JKLM seperti pada gambar dengan panjang JK adalah 24 meter dan panjang KL adalah 18 meter.\n\nPada hari ini Radjaa menggembalakan 2 sapi. Sapi pertama ditambatkan di sudut L dengan panjang tali $12 \\leq a \\leq 18$ dan sapi kedua ditambatkan di sudut J. Jika panjang tali sapi kedua adalah maksimal sehingga kedua kambing tidak berebut rumput, jumlah luas daerah merumput kedua sapi akan mencapai nilai minimum untuk panjang tali sapi pertama adalah ….", 
+    options: [
+        "7,5 m", 
+        "10 m", 
+        "12,5 m", 
+        "15 m", 
+        "17,5 m"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 50, 
+    difficulty: "Medium" 
+},
+
+// ==========================================
+// SOAL 103
+// ==========================================
+{ 
+    text: "Biaya administrasi untuk penukaran mata uang Euro ke Ringgit Malaysia adalah 3 Euro, sedangkan biaya administrasi untuk penukaran Ringgit Malaysia ke Rupiah Indonesia adalah 5 Ringgit Malaysia. Besar nilai tukar antara ketiga mata uang tersebut adalah sebagai berikut:\n1 EUR = 5 Ringgit Malaysia\n1 RM = 3.850 Rupiah Indonesia\n\nLiam seorang turis asal Italia akan berkunjung ke Malaysia dan membawa uang sebanyak $n$ EUR. Persamaan fungsi penukaran nilai mata uang dalam Ringgit Malaysia jika uang Liam ditukarkan semua adalah ….", 
+    options: [
+        "$5n - 15$", 
+        "$5n - 5$", 
+        "$3n - 25$", 
+        "$3n - 15$", 
+        "$3n + 5$"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 0, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 104
+// ==========================================
+{ 
+    text: "Biaya administrasi untuk penukaran mata uang Euro ke Ringgit Malaysia adalah 3 Euro, sedangkan biaya administrasi untuk penukaran Ringgit Malaysia ke Rupiah Indonesia adalah 5 Ringgit Malaysia. Besar nilai tukar antara ketiga mata uang tersebut adalah sebagai berikut:\n1 EUR = 5 Ringgit Malaysia\n1 RM = 3.850 Rupiah Indonesia\n\nLiam seorang turis asal Italia akan berkunjung ke Malaysia dan menukar uang sebanyak 3.000 EUR. Pada saat di Malaysia Liam berbelanja sebanyak 9.485 RM. Sisa uang yang sudah di tukar Liam adalah ….", 
+    options: [
+        "5.000 RM", 
+        "5.500 RM", 
+        "6.000 RM", 
+        "6.500 RM", 
+        "7.000 RM"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 1, 
+    score: 35, 
+    difficulty: "Easy" 
+},
+
+// ==========================================
+// SOAL 105
+// ==========================================
+{ 
+    text: "Biaya administrasi untuk penukaran mata uang Euro ke Ringgit Malaysia adalah 3 Euro, sedangkan biaya administrasi untuk penukaran Ringgit Malaysia ke Rupiah Indonesia adalah 5 Ringgit Malaysia. Besar nilai tukar antara ketiga mata uang tersebut adalah sebagai berikut:\n1 EUR = 5 Ringgit Malaysia\n1 RM = 3.850 Rupiah Indonesia\n\nRooney seorang turis dari Swiss akan berlibur ke Indonesia dengan menggunakan pesawat yang akan transit di Malaysia. Saat akan berangkat dari Swiss, Rooney menukarkan $x$ EUR ke Ringgit Malaysia dan saat di Malaysia menukarkan kembali uang ringgitnya menjadi $y$ Rupiah Indonesia. Persamaan yang menyatakan $y$ adalah fungsi dari $x$ adalah ….", 
+    options: [
+        "$y = 19.200x - 75.000$", 
+        "$y = 19.225x - 76.000$", 
+        "$y = 19.235x - 76.500$", 
+        "$y = 19.250x - 77.000$", 
+        "$y = 19.300x - 77.500$"
+    ], 
+    answer: null, 
+    doubt: false, 
+    correctAnswer: 3, 
+    score: 50, 
+    difficulty: "Medium" 
         }
-    ]
+]
 }
-    
 };
