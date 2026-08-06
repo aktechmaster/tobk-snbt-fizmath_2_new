@@ -1186,112 +1186,121 @@ renderMathInElement(document.getElementById("examInterface"), {
     }
 
     // ==========================================
-    // PASANG SENSOR (DIPERKUAT KHUSUS HP)
-    // ==========================================
-    window.addEventListener('blur', function() {
-        // ✅ HANYA JALAN JIKA UJIAN SUDAH DIMULAI
-        if (examStarted && !isBlocked && !isWarningModalOpen) {
-            processViolation();
-        }
-    });
-
-    document.addEventListener('visibilitychange', function() {
-        // ✅ ATURAN PALING KETAT UNTUK HP:
-        // Hanya hitung jika: 
-        // 1. Halaman disembunyikan (pindah aplikasi/minimize)
-        // 2. Ujian SUDAH dimulai
-        // 3. TIDAK sedang diblokir
-        // 4. TIDAK sedang ada pesan peringatan muncul
-        if (document.hidden && examStarted && !isBlocked && !isWarningModalOpen) {
-            processViolation();
-        }
-    });
-
-    // KEYBOARD SHORTCUTS
-    document.addEventListener('keydown', function(e) {
-        // Reset: Ctrl + Shift + 9
-        if (e.ctrlKey && e.shiftKey && e.keyCode === 57) {
-            e.preventDefault();
-            setTimeout(() => {
-                let pass = prompt("PASSWORD RESET:");
-                if (pass === PASSWORD_RESET) {
-                    clearData();
-                    alert("Sistem Reset. Reloading...");
-                    location.reload(); 
-                } else if(pass) {
-                    alert("Password Salah!");
-                }
-            }, 100);
-            return false;
-        }
-        // Block Inspect
-        if (e.keyCode == 123 || (e.ctrlKey && e.shiftKey && (e.keyCode == 73 || e.keyCode == 74 || e.keyCode == 67 || e.keyCode == 85))) {
-            e.preventDefault(); return false;
-        }
-    });
-
-  
-
-    function nextQuestion() {
-        const activeQuestions = examData[currentSubtest].questions;
-        if(currentQIndex < activeQuestions.length - 1) {
-            loadQuestion(currentQIndex + 1);
-        } else {
-            showConfirmationModal('subtest');
-        }
+// PASANG SENSOR (DIPERKUAT KHUSUS HP)
+// ==========================================
+window.addEventListener('blur', function() {
+    // ✅ HANYA JALAN JIKA UJIAN SUDAH DIMULAI
+    if (typeof examStarted !== 'undefined' && examStarted && !isBlocked && !isWarningModalOpen) {
+        processViolation();
     }
-    
-    function prevQuestion() {
-        if(currentQIndex > 0) loadQuestion(currentQIndex - 1);
+});
+
+document.addEventListener('visibilitychange', function() {
+    // ✅ ATURAN PALING KETAT UNTUK HP:
+    if (document.hidden && typeof examStarted !== 'undefined' && examStarted && !isBlocked && !isWarningModalOpen) {
+        processViolation();
     }
+});
 
-    function nextSubtest() {
-        let currentIndex = subtestOrder.indexOf(currentSubtest);
-        if (currentIndex < subtestOrder.length - 1) {
-            currentSubtest = subtestOrder[currentIndex + 1];
-            localStorage.removeItem('subtest_end_time'); 
-            currentQIndex = 0;
-            loadQuestion(0);
-            startTimer(); 
-        } else {
-            showConfirmationModal('final'); 
-        }
-    }
-
-    function startTimer() {
-        let endTime = localStorage.getItem('subtest_end_time');
-        if (!endTime) {
-            endTime = Date.now() + (examData[currentSubtest].duration * 1000);
-            localStorage.setItem('subtest_end_time', endTime);
-        }
-
-        const el = document.getElementById('timerDisplay');
-        if (window.timerInterval) clearInterval(window.timerInterval);
-
-        window.timerInterval = setInterval(() => {
-            let now = Date.now();
-            let distance = endTime - now;
-            let m = Math.floor(distance / (1000 * 60));
-            let s = Math.floor((distance % (1000 * 60)) / 1000);
-
-            el.innerText = `${m}:${s < 10 ? '0' : ''}${s}`;
-
-            if (distance <= 0) {
-                clearInterval(window.timerInterval);
-                localStorage.removeItem('subtest_end_time'); 
-                nextSubtest();
+// KEYBOARD SHORTCUTS
+document.addEventListener('keydown', function(e) {
+    // Reset: Ctrl + Shift + 9
+    if (e.ctrlKey && e.shiftKey && e.keyCode === 57) {
+        e.preventDefault();
+        setTimeout(() => {
+            let pass = prompt("PASSWORD RESET:");
+            if (pass === PASSWORD_RESET) {
+                clearData();
+                alert("Sistem Reset. Reloading...");
+                location.reload(); 
+            } else if(pass) {
+                alert("Password Salah!");
             }
-        }, 1000);
+        }, 100);
+        return false;
+    }
+    // Block Inspect
+    if (e.keyCode == 123 || (e.ctrlKey && e.shiftKey && (e.keyCode == 73 || e.keyCode == 74 || e.keyCode == 67 || e.keyCode == 85))) {
+        e.preventDefault(); return false;
+    }
+});
+
+function nextQuestion() {
+    const activeQuestions = examData[currentSubtest].questions;
+    if(currentQIndex < activeQuestions.length - 1) {
+        loadQuestion(currentQIndex + 1);
+    } else {
+        showConfirmationModal('subtest');
+    }
+}
+
+function prevQuestion() {
+    if(currentQIndex > 0) loadQuestion(currentQIndex - 1);
+}
+
+function nextSubtest() {
+    let currentIndex = subtestOrder.indexOf(currentSubtest);
+    if (currentIndex < subtestOrder.length - 1) {
+        currentSubtest = subtestOrder[currentIndex + 1];
+        localStorage.removeItem('subtest_end_time'); // Hapus patokan waktu subtes lama
+        currentQIndex = 0;
+        loadQuestion(0);
+        startTimer(false); // Parameter false = Mulai waktu baru penuh
+    } else {
+        showConfirmationModal('final'); 
+    }
+}
+
+// 🔄 REVISI TIMER: Ditambahkan parameter isRestore (default: false)
+function startTimer(isRestore = false) {
+    // Jika BUKAN restore session (alias login baru / pindah subtes), PAKSA hapus target waktu lama
+    if (!isRestore) {
+        localStorage.removeItem('subtest_end_time');
     }
 
-    function finishExam() {
-        let currentIndex = subtestOrder.indexOf(currentSubtest);
-        if (currentIndex < subtestOrder.length - 1) {
-            showConfirmationModal('subtest');
-        } else {
-            showConfirmationModal('final');
-        }
+    let endTime = localStorage.getItem('subtest_end_time');
+    
+    // Jika waktu belum ada ATAU target waktu ternyata sudah kedaluwarsa/lewat jamnya
+    if (!endTime || parseInt(endTime) <= Date.now()) {
+        endTime = Date.now() + (examData[currentSubtest].duration * 1000);
+        localStorage.setItem('subtest_end_time', endTime);
     }
+
+    const el = document.getElementById('timerDisplay');
+    
+    // Matikan interval lama agar timer tidak bentrok/menumpuk
+    if (window.timerInterval) clearInterval(window.timerInterval);
+
+    window.timerInterval = setInterval(() => {
+        let now = Date.now();
+        let distance = endTime - now;
+
+        // Jika waktu habis
+        if (distance <= 0) {
+            clearInterval(window.timerInterval);
+            localStorage.removeItem('subtest_end_time'); 
+            if (el) el.innerText = "00:00";
+            nextSubtest(); // Otomatis pindah subtes saat waktu benar-benar habis
+            return;
+        }
+
+        let m = Math.floor(distance / (1000 * 60));
+        let s = Math.floor((distance % (1000 * 60)) / 1000);
+
+        if (el) {
+            el.innerText = `${m}:${s < 10 ? '0' : ''}${s}`;
+        }
+    }, 1000);
+}
+
+function finishExam() {
+    let currentIndex = subtestOrder.indexOf(currentSubtest);
+    if (currentIndex < subtestOrder.length - 1) {
+        showConfirmationModal('subtest');
+    } else {
+        showConfirmationModal('final');
+    }
+}
 
     // ==========================================
     // 4. MODALS (FINISH & CONFIRM)
