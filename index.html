@@ -822,22 +822,16 @@ window.addEventListener('load', function() {
         document.cookie = "examStarted=; path=/; max-age=0";
     }
 
-    // ==========================================
-// 1. INITIAL LOAD & LOGIN
-// ==========================================
-window.onload = function() {
-    // Cek apakah sudah diblokir
+    window.onload = function() {
     if (typeof isBlocked !== 'undefined' && isBlocked) {
         updateView();
         return;
     }
 
-    // Cek progres
     const saved = localStorage.getItem('snbt_progress');
     if (saved) {
         try {
             const data = JSON.parse(saved);
-            // Validasi sederhana & pastikan waktu tersisa masih ada (> 0)
             if (data.userData && data.userData.name && data.timeLeft > 0) {
                 if (confirm("Ditemukan progres ujian sebelumnya. Ingin melanjutkan?")) {
                     restoreSession(data);
@@ -847,27 +841,20 @@ window.onload = function() {
         } catch (e) {
             console.error("Error reading cache", e);
         }
-        // Jika pilih Cancel / Batal atau cache habis, hapus cache
-        localStorage.removeItem('snbt_progress');
+        // Jika pilih Cancel / Batal, sapu bersih seluruh cache waktu!
+        clearData(); 
     }
 };
 
-function restoreSession(data) {
-    userData = data.userData;
+function backToLogin() {
+    document.getElementById('sopOverlay').style.display = 'none';
+    document.getElementById('loginCard').style.display = 'flex';
+    document.getElementById('loginCard').style.opacity = '1';
     
-    // BUKAN Object.assign total (biar soal baru di soal.js tidak tertimpa cache lama)
-    if (data.examData) {
-        Object.keys(data.examData).forEach(key => {
-            if (examData[key] && data.examData[key].questions) {
-                data.examData[key].questions.forEach((q, idx) => {
-                    if (examData[key].questions[idx]) {
-                        examData[key].questions[idx].answer = q.answer;
-                        examData[key].questions[idx].doubt = q.doubt;
-                    }
-                });
-            }
-        });
-    }
+    // Aktifkan kembali tombol submit jika dibuka ulang
+    const submitBtn = document.querySelector('#loginCard button[type="submit"]');
+    if (submitBtn) submitBtn.disabled = false;
+}
 
     currentSubtest = data.currentSubtest || 'pu';
     currentQIndex = data.currentQIndex || 0;
@@ -890,39 +877,14 @@ function restoreSession(data) {
 function handleLogin(e) {
     e.preventDefault();
 
-    // 🛡️ PENGAMAN 1: Cek apakah data soal PU benar-benar sudah siap di-load
+    // 🛡️ PENGAMAN 1: Cek apakah data soal PU benar-benar sudah siap
     if (!examData || !examData['pu'] || !examData['pu'].questions || examData['pu'].questions.length === 0) {
         alert("Data soal belum selesai dimuat. Harap tunggu 2 detik dan coba lagi!");
-        return; // Hentikan proses jika soal belum siap
+        return; 
     }
 
-    // 🛡️ PENGAMAN 2: Matikan tombol login agar tidak bisa di-double click
+    // Ambil tombol submit
     const submitBtn = e.target.querySelector('button[type="submit"]');
-    if (submitBtn) submitBtn.disabled = true;
-
-    // 🛑 BUNUH TIMER HANTU LAMA (Hentikan interval di memori browser)
-    if (window.timerInterval) {
-        clearInterval(window.timerInterval);
-        window.timerInterval = null;
-    }
-
-    // 🔄 RESET TOTAL CACHE BROWSER
-    localStorage.clear(); 
-    localStorage.removeItem('subtest_end_time'); // Hapus patokan waktu selesai lama
-
-    if (typeof startTime !== 'undefined') {
-        startTime = Date.now(); // Reset jam mulai baru
-    }
-
-    // 📌 FIX BUG: Paksa posisi kembali ke Penalaran Umum ('pu') & soal nomor 1
-    currentSubtest = 'pu';
-    currentQIndex = 0;
-    if (typeof examStarted !== 'undefined') examStarted = true;
-    if (typeof setData === 'function') setData('examStarted', 'true');
-
-    if (examData && examData['pu']) {
-        timeLeft = examData['pu'].duration; // Reset durasi penuh (misal 30 menit)
-    }
 
     // Ambil semua nilai dari formulir
     const n = document.getElementById('fullname').value.toUpperCase();
@@ -937,16 +899,13 @@ function handleLogin(e) {
     const j2 = document.getElementById('jurusan-2').value.trim();
     
     // ======================================================
-    // ✅ BAGIAN PENGECEKAN & PESAN ERROR TANPA ALERT
+    // ✅ PENGECEKAN FORMULIR
     // ======================================================
-    
-    // Cari elemen pesan error (kita buat dinamis)
     let errorBox = document.getElementById('errorNotification');
-    // Jika belum ada, buat kotak pesannya di bawah tombol
     if (!errorBox) {
         errorBox = document.createElement('div');
         errorBox.id = 'errorNotification';
-        errorBox.style.color = '#dc3545'; // Warna Merah
+        errorBox.style.color = '#dc3545';
         errorBox.style.fontWeight = 'bold';
         errorBox.style.textAlign = 'center';
         errorBox.style.padding = '10px';
@@ -954,51 +913,46 @@ function handleLogin(e) {
         errorBox.style.border = '1px solid #dc3545';
         errorBox.style.borderRadius = '5px';
         errorBox.style.backgroundColor = '#f8d7da';
-        // Tempelkan di paling bawah form
         document.querySelector('.form-group:last-child').after(errorBox);
     }
 
     let pesanKesalahan = "";
+    if (u1 === "" || j1 === "") pesanKesalahan += "❌ Pilihan Universitas & Jurusan 1 WAJIB diisi lengkap!<br>";
+    if (u2 === "" || j2 === "") pesanKesalahan += "❌ Pilihan Universitas & Jurusan 2 WAJIB diisi lengkap!<br>";
 
-    // Cek Pilihan 1
-    if (u1 === "" || j1 === "") {
-        pesanKesalahan += "❌ Pilihan Universitas & Jurusan 1 WAJIB diisi lengkap!<br>";
-    }
-
-    // Cek Pilihan 2
-    if (u2 === "" || j2 === "") {
-        pesanKesalahan += "❌ Pilihan Universitas & Jurusan 2 WAJIB diisi lengkap!<br>";
-    }
-
-    // Jika ada yang kosong
     if (pesanKesalahan !== "") {
-        // Tampilkan pesan di halaman, TIDAK PAKAI ALERT
         errorBox.innerHTML = pesanKesalahan + "<small style='color:#990000;'>Lengkapi data sebelum lanjut.</small>";
-        // Gulirkan layar ke atas agar terlihat pesannya
         window.scrollTo({top: 0, behavior: 'smooth'});
-        return; // STOP, tidak lanjut
+        return; // STOP! Tombol tidak dimatikan jika form belum lengkap
     } else {
-        // Jika benar semua, hilangkan pesan error
         errorBox.remove();
     }
-    // ======================================================
-    // ✅ SELESAI: TIDAK ADA POPUP, AMAN DARI PELANGGARAN
-    // ======================================================
 
-    // Simpan ke variabel global 'userData'
+    // 🛡️ PENGAMAN 2: Matikan tombol HANYA JIKA form sudah valid
+    if (submitBtn) submitBtn.disabled = true;
+
+    // 🛑 BUNUH TIMER HANTU & BERSIHKAN CACHE LAMA TOTAL
+    if (window.timerInterval) {
+        clearInterval(window.timerInterval);
+        window.timerInterval = null;
+    }
+    clearData(); // Sapu bersih cookie & localStorage lama!
+
+    // Reset State
+    currentSubtest = 'pu';
+    currentQIndex = 0;
+    if (examData && examData['pu']) {
+        timeLeft = examData['pu'].duration;
+    }
+
+    // Simpan ke 'userData'
     userData = { 
-        name: n, 
-        id: id, 
-        school: sch, 
-        birthDate: tgl,
+        name: n, id: id, school: sch, birthDate: tgl,
         email: document.getElementById('email').value.trim(),
-        univ1: u1,
-        jurusan1: j1,
-        univ2: u2,
-        jurusan2: j2
+        univ1: u1, jurusan1: j1, univ2: u2, jurusan2: j2
     };
 
-    // Transisi ke Lobby (Hanya jalan jika semua data lengkap)
+    // Transisi ke Lobby
     document.getElementById('loginCard').style.opacity = '0';
     setTimeout(() => {
         document.getElementById('loginCard').style.display = 'none';
@@ -1014,32 +968,33 @@ function handleLogin(e) {
     }, 500);
 }
     // ==========================================
-    // 2. MULAI UJIAN (START)
-    // ==========================================
-    function startExamReal() {
-        // Request Fullscreen
-        if (document.documentElement.requestFullscreen) {
-            document.documentElement.requestFullscreen().catch(()=>{});
-        }
-
-        document.getElementById('sopOverlay').style.display = 'none';
-        document.getElementById('examInterface').style.display = 'flex';
-
-        // Render Sidebar Info
-        document.getElementById('sideName').innerText = userData.name;
-        document.getElementById('sideNomor').innerText = userData.id;
-
-        // [PENTING] Aktifkan Sensor Keamanan HANYA DI SINI
-        examStarted = true;
-        setData('examStarted', 'true');
-        console.log("Sistem Keamanan Aktif!");
-
-        // Load & Save Initial State
-        loadQuestion(0);
-        saveProgress(); // Simpan data agar aman kalau refresh
-        startTimer();
+// 2. MULAI UJIAN (START) - DIPERBAIKI
+// ==========================================
+function startExamReal() {
+    // Request Fullscreen
+    if (document.documentElement.requestFullscreen) {
+        document.documentElement.requestFullscreen().catch(()=>{});
     }
 
+    document.getElementById('sopOverlay').style.display = 'none';
+    document.getElementById('examInterface').style.display = 'flex';
+
+    // Render Sidebar Info
+    document.getElementById('sideName').innerText = userData.name;
+    document.getElementById('sideNomor').innerText = userData.id;
+
+    // [PENTING] Aktifkan Sensor Keamanan HANYA DI SINI
+    examStarted = true;
+    setData('examStarted', 'true');
+    console.log("Sistem Keamanan Aktif!");
+
+    // Load & Save Initial State
+    loadQuestion(0);
+    saveProgress(); // Simpan data agar aman kalau refresh
+    
+    // 🛑 PERBAIKAN UTAMA: Tambahkan 'true' agar paksa reset waktu ke 30 menit penuh!
+    startTimer(true); 
+}
     // ==========================================
     // 3. ENGINE UJIAN (SOAL & TIMER)
     // ==========================================
