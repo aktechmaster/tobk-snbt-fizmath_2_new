@@ -823,53 +823,80 @@ window.addEventListener('load', function() {
     }
 
     // ==========================================
-    // 1. INITIAL LOAD & LOGIN
-    // ==========================================
-    window.onload = function() {
-        // Cek apakah sudah diblokir
-        if (isBlocked) {
-            updateView();
-            return;
-        }
-
-        // Cek progres
-        const saved = localStorage.getItem('snbt_progress');
-        if (saved) {
-            const data = JSON.parse(saved);
-            // Validasi sederhana
-            if (data.userData && data.userData.name) {
-                if (confirm("Ditemukan progres ujian sebelumnya. Ingin melanjutkan?")) {
-                    restoreSession(data);
-                } else {
-                    localStorage.removeItem('snbt_progress');
-                }
-            }
-        }
-    };
-
-    function restoreSession(data) {
-        userData = data.userData;
-        Object.assign(examData, data.examData); 
-        currentSubtest = data.currentSubtest;
-        currentQIndex = data.currentQIndex;
-        timeLeft = data.timeLeft;
-        
-        // PENTING: Set examStarted true agar sensor aktif
-        examStarted = true; 
-        setData('examStarted', 'true');
-
-        document.getElementById('loginCard').style.display = 'none';
-        document.getElementById('examInterface').style.display = 'flex';
-        document.getElementById('sideName').innerText = userData.name;
-        document.getElementById('sideNomor').innerText = userData.id;
-        
-        loadQuestion(currentQIndex);
-        startTimer(); 
+// 1. INITIAL LOAD & LOGIN
+// ==========================================
+window.onload = function() {
+    // Cek apakah sudah diblokir
+    if (typeof isBlocked !== 'undefined' && isBlocked) {
         updateView();
+        return;
     }
 
-    function handleLogin(e) {
+    // Cek progres
+    const saved = localStorage.getItem('snbt_progress');
+    if (saved) {
+        try {
+            const data = JSON.parse(saved);
+            // Validasi sederhana & pastikan waktu tersisa masih ada (> 0)
+            if (data.userData && data.userData.name && data.timeLeft > 0) {
+                if (confirm("Ditemukan progres ujian sebelumnya. Ingin melanjutkan?")) {
+                    restoreSession(data);
+                    return;
+                }
+            }
+        } catch (e) {
+            console.error("Error reading cache", e);
+        }
+        // Jika pilih Cancel / Batal atau cache habis, hapus cache
+        localStorage.removeItem('snbt_progress');
+    }
+};
+
+function restoreSession(data) {
+    userData = data.userData;
+    
+    // BUKAN Object.assign total (biar soal baru di soal.js tidak tertimpa cache lama)
+    if (data.examData) {
+        Object.keys(data.examData).forEach(key => {
+            if (examData[key] && data.examData[key].questions) {
+                data.examData[key].questions.forEach((q, idx) => {
+                    if (examData[key].questions[idx]) {
+                        examData[key].questions[idx].answer = q.answer;
+                        examData[key].questions[idx].doubt = q.doubt;
+                    }
+                });
+            }
+        });
+    }
+
+    currentSubtest = data.currentSubtest || 'pu';
+    currentQIndex = data.currentQIndex || 0;
+    timeLeft = data.timeLeft;
+    
+    // PENTING: Set examStarted true agar sensor aktif
+    examStarted = true; 
+    if (typeof setData === 'function') setData('examStarted', 'true');
+
+    document.getElementById('loginCard').style.display = 'none';
+    document.getElementById('examInterface').style.display = 'flex';
+    document.getElementById('sideName').innerText = userData.name;
+    document.getElementById('sideNomor').innerText = userData.id;
+    
+    loadQuestion(currentQIndex);
+    startTimer(); 
+    updateView();
+}
+
+function handleLogin(e) {
     e.preventDefault();
+    
+    // FIX BUG: Paksa posisi kembali ke Penalaran Umum (pu) & soal nomor 1 saat login baru
+    currentSubtest = 'pu';
+    currentQIndex = 0;
+    if (examData && examData['pu']) {
+        timeLeft = examData['pu'].duration;
+    }
+    localStorage.removeItem('snbt_progress'); // Kosongkan cache lama
     
     // Ambil semua nilai dari formulir
     const n = document.getElementById('fullname').value.toUpperCase();
