@@ -652,13 +652,13 @@ window.addEventListener('load', function() {
                         <tr><th width="5%">No</th><th>Komponen Ujian</th><th>Jumlah Soal</th><th>Alokasi Waktu</th></tr>
                     </thead>
                     <tbody>
-                        <tr><td>1</td><td>Penalaran Umum</td><td>15 Soal</td><td><span class="badge-time">20 Menit</span></td></tr>
-                        <tr><td>2</td><td>Pengetahuan & Pemahaman Umum</td><td>15 Soal</td><td><span class="badge-time">15 Menit</span></td></tr>
-                        <tr><td>3</td><td>Pemahaman Bacaan & Menulis</td><td>15 Soal</td><td><span class="badge-time">20 Menit</span></td></tr>
-                        <tr><td>4</td><td>Pengetahuan Kuantitatif</td><td>15 Soal</td><td><span class="badge-time">20 Menit</span></td></tr>
-                        <tr><td>5</td><td>Literasi Bahasa Indonesia</td><td>15 Soal</td><td><span class="badge-time">25 Menit</span></td></tr>
-                        <tr><td>6</td><td>Literasi Bahasa Inggris</td><td>15 Soal</td><td><span class="badge-time">30 Menit</span></td></tr>
-                        <tr><td>7</td><td>Penalaran Matematika</td><td>15 Soal</td><td><span class="badge-time">30 Menit</span></td></tr>
+                        <tr><td>1</td><td>Penalaran Umum</td><td>30 Soal</td><td><span class="badge-time">30 Menit</span></td></tr>
+                        <tr><td>2</td><td>Pengetahuan & Pemahaman Umum</td><td>20 Soal</td><td><span class="badge-time">15 Menit</span></td></tr>
+                        <tr><td>3</td><td>Pemahaman Bacaan & Menulis</td><td>20 Soal</td><td><span class="badge-time">25 Menit</span></td></tr>
+                        <tr><td>4</td><td>Pengetahuan Kuantitatif</td><td>20 Soal</td><td><span class="badge-time">20 Menit</span></td></tr>
+                        <tr><td>5</td><td>Literasi Bahasa Indonesia</td><td>30 Soal</td><td><span class="badge-time">45 Menit</span></td></tr>
+                        <tr><td>6</td><td>Literasi Bahasa Inggris</td><td>20 Soal</td><td><span class="badge-time">30 Menit</span></td></tr>
+                        <tr><td>7</td><td>Penalaran Matematika</td><td>20 Soal</td><td><span class="badge-time">42.5 Menit</span></td></tr>
                     </tbody>
                 </table>
             </div>
@@ -846,6 +846,33 @@ window.addEventListener('load', function() {
     }
 };
 
+function backToLogin() {
+    document.getElementById('sopOverlay').style.display = 'none';
+    document.getElementById('loginCard').style.display = 'flex';
+    document.getElementById('loginCard').style.opacity = '1';
+    
+    // Aktifkan kembali tombol submit jika dibuka ulang
+    const submitBtn = document.querySelector('#loginCard button[type="submit"]');
+    if (submitBtn) submitBtn.disabled = false;
+}
+
+    currentSubtest = data.currentSubtest || 'pu';
+    currentQIndex = data.currentQIndex || 0;
+    timeLeft = data.timeLeft;
+    
+    // PENTING: Set examStarted true agar sensor aktif
+    examStarted = true; 
+    if (typeof setData === 'function') setData('examStarted', 'true');
+
+    document.getElementById('loginCard').style.display = 'none';
+    document.getElementById('examInterface').style.display = 'flex';
+    document.getElementById('sideName').innerText = userData.name;
+    document.getElementById('sideNomor').innerText = userData.id;
+    
+    loadQuestion(currentQIndex);
+    startTimer(true); 
+    updateView();
+}
 
 function handleLogin(e) {
     e.preventDefault();
