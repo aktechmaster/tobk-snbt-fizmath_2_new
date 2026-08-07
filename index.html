@@ -1263,7 +1263,7 @@ function nextSubtest() {
 }
 
 // ==========================================
-// FUNGSI TIMER BARU (ANTI-TIMER HANTU)
+// FUNGSI TIMER (ANTI-TIMER HANTU)
 // ==========================================
 function startTimer(forceReset = false) {
     // 1. Wajib bunuh interval lama yang sedang berjalan di background
@@ -1282,7 +1282,7 @@ function startTimer(forceReset = false) {
     
     // Jika tidak ada endTime (karena login baru) ATAU waktu lama sudah lewat
     if (!endTime || parseInt(endTime) <= Date.now()) {
-        const durationInSeconds = examData[currentSubtest].duration; // Ambil durasi subtes (misal 1800 detik)
+        const durationInSeconds = examData[currentSubtest].duration; // Ambil durasi subtes
         endTime = Date.now() + (durationInSeconds * 1000);
         localStorage.setItem('subtest_end_time', endTime);
     }
@@ -1323,49 +1323,77 @@ function finishExam() {
 }
 
     // ==========================================
-    // 4. MODALS (FINISH & CONFIRM)
-    // ==========================================
-    function showConfirmationModal(type) {
-        const activeQuestions = examData[currentSubtest].questions;
-        let answered = 0;
-        activeQuestions.forEach(q => { if (q.answer !== null) answered++; });
+// 4. MODALS (FINISH & CONFIRM) - DIPERBAIKI
+// ==========================================
+function showConfirmationModal(type) {
+    const activeQuestions = examData[currentSubtest].questions;
+    let answered = 0;
+    activeQuestions.forEach(q => { if (q.answer !== null) answered++; });
 
-        document.getElementById('statAnswered').innerText = answered;
-        document.getElementById('statUnanswered').innerText = activeQuestions.length - answered;
+    document.getElementById('statAnswered').innerText = answered;
+    document.getElementById('statUnanswered').innerText = activeQuestions.length - answered;
 
-        const header = document.getElementById('modalHeader');
-        const msg = document.getElementById('modalMessage');
-        const warn = document.getElementById('timeWarning');
-        const btn = document.getElementById('confirmBtn');
+    const header = document.getElementById('modalHeader');
+    const msg = document.getElementById('modalMessage');
+    const warn = document.getElementById('timeWarning');
+    const btn = document.getElementById('confirmBtn');
 
-        if (type === 'subtest') {
-            header.innerText = "KONFIRMASI PINDAH SUBTES";
-            header.style.background = "#2c7be5"; 
-            msg.innerText = `Anda akan mengakhiri subtes ${examData[currentSubtest].name}.`;
-            warn.innerText = `Jika lanjut, sisa waktu akan hangus!`;
-            btn.innerText = "YAKIN & LANJUT";
-            btn.onclick = () => { processNextSubtest(); }; 
-        } else {
-            header.innerText = "KONFIRMASI AKHIR UJIAN";
-            header.style.background = "#d9534f"; 
-            msg.innerText = "Anda akan mengakhiri seluruh rangkaian ujian.";
-            warn.innerText = "Jawaban tidak dapat diubah setelah ini!";
-            btn.innerText = "SELESAI UJIAN";
-            btn.onclick = () => { processFinalFinish(); };
-        }
-        document.getElementById('finishModal').style.display = 'flex';
+    if (type === 'subtest') {
+        header.innerText = "KONFIRMASI PINDAH SUBTES";
+        header.style.background = "#2c7be5"; 
+        msg.innerText = `Anda akan mengakhiri subtes ${examData[currentSubtest].name}.`;
+        warn.innerText = `Jika lanjut, sisa waktu akan hangus!`;
+        btn.innerText = "YAKIN & LANJUT";
+        btn.onclick = () => { processNextSubtest(); }; 
+    } else {
+        header.innerText = "KONFIRMASI AKHIR UJIAN";
+        header.style.background = "#d9534f"; 
+        msg.innerText = "Anda akan mengakhiri seluruh rangkaian ujian.";
+        warn.innerText = "Jawaban tidak dapat diubah setelah ini!";
+        btn.innerText = "SELESAI UJIAN";
+        btn.onclick = () => { processFinalFinish(); };
     }
+    document.getElementById('finishModal').style.display = 'flex';
+}
 
-    function processNextSubtest() {
-        closeFinishModal();
-        nextSubtest();
-    }
+function processNextSubtest() {
+    closeFinishModal();
+    nextSubtest();
+}
 
 function processFinalFinish() {
     isExamFinished = true;
     
-    // Matikan timer agar tidak berjalan di balik layar
+    // 1. Matikan timer agar tidak berjalan di balik layar
     if (typeof window.timerInterval !== 'undefined') clearInterval(window.timerInterval);
+
+    // 2. Tutup modal konfirmasi
+    if (typeof closeFinishModal === 'function') closeFinishModal();
+
+    // 3. Bersihkan data progress pengerjaan agar tidak bisa kembali
+    localStorage.removeItem('snbt_progress');
+    localStorage.removeItem('subtest_end_time');
+
+    // 4. Sembunyikan antarmuka ujian & tampilkan modal sertifikat
+    const examUI = document.getElementById('examInterface');
+    if (examUI) examUI.style.display = 'none';
+
+    const certModal = document.getElementById('certificateModal');
+    if (certModal) certModal.style.display = 'flex';
+
+    // 5. Generate sertifikat jika fungsi tersedia
+    if (typeof generateCertificate === 'function') generateCertificate();
+}
+
+// 🛑 FUNGSI BARU: Penanganan khusus tombol Selesai (Aman untuk HP & PC)
+function resetToLogin() {
+    if (typeof clearData === 'function') clearData();
+    localStorage.clear();
+    sessionStorage.clear();
+
+    // Redirect bersih tanpa terhalang cache/overlay HP
+    window.location.href = window.location.origin + window.location.pathname;
+}
 
     // ==========================================
 // 1. HITUNG SKOR & JUMLAH BENAR (DIPERBAIKI UTBK STYLE)
@@ -1871,14 +1899,15 @@ function backToLogin() {
             <div class="cert-right">
                 <table class="cert-score-table">
                     <tbody id="cert-score-body">
-                        </tbody>
+                    </tbody>
                 </table>
             </div>
         </div>
 
-        <div class="cert-buttons">
+        <!-- TOMBOL DIPERBAIKI: Menggunakan resetToLogin() dan z-index tinggi agar responsif di HP -->
+        <div class="cert-buttons" style="position: relative; z-index: 9999;">
             <button class="btn-print" onclick="window.print()">Cetak Sertifikat</button>
-            <button class="btn-close" onclick="location.reload()">Selesai</button>
+            <button class="btn-close" onclick="resetToLogin()">Selesai</button>
         </div>
     </div>
 </div>
