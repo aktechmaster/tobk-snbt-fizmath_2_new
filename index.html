@@ -890,13 +890,39 @@ function restoreSession(data) {
 function handleLogin(e) {
     e.preventDefault();
 
-    // 🛡️ PENGAMAN 1: Cek apakah data soal PU benar-benar sudah siap
+    // 🛡️ PENGAMAN 1: Cek apakah data soal PU benar-benar sudah siap di-load
     if (!examData || !examData['pu'] || !examData['pu'].questions || examData['pu'].questions.length === 0) {
         alert("Data soal belum selesai dimuat. Harap tunggu 2 detik dan coba lagi!");
-        return;
+        return; // Hentikan proses jika soal belum siap
     }
 
+    // 🛡️ PENGAMAN 2: Matikan tombol login agar tidak bisa di-double click
     const submitBtn = e.target.querySelector('button[type="submit"]');
+    if (submitBtn) submitBtn.disabled = true;
+
+    // 🛑 BUNUH TIMER HANTU LAMA (Hentikan interval di memori browser)
+    if (window.timerInterval) {
+        clearInterval(window.timerInterval);
+        window.timerInterval = null;
+    }
+
+    // 🔄 RESET TOTAL CACHE BROWSER
+    localStorage.clear(); 
+    localStorage.removeItem('subtest_end_time'); // Hapus patokan waktu selesai lama
+
+    if (typeof startTime !== 'undefined') {
+        startTime = Date.now(); // Reset jam mulai baru
+    }
+
+    // 📌 FIX BUG: Paksa posisi kembali ke Penalaran Umum ('pu') & soal nomor 1
+    currentSubtest = 'pu';
+    currentQIndex = 0;
+    if (typeof examStarted !== 'undefined') examStarted = true;
+    if (typeof setData === 'function') setData('examStarted', 'true');
+
+    if (examData && examData['pu']) {
+        timeLeft = examData['pu'].duration; // Reset durasi penuh (misal 30 menit)
+    }
 
     // Ambil semua nilai dari formulir
     const n = document.getElementById('fullname').value.toUpperCase();
@@ -905,19 +931,22 @@ function handleLogin(e) {
     const tgl = document.getElementById('dob').value; 
 
     // --- AMBIL DATA KAMPUS PILIHAN ---
-    const u1 = document.getElementById('univ-1') ? document.getElementById('univ-1').value.toUpperCase().trim() : "";
-    const j1 = document.getElementById('jurusan-1') ? document.getElementById('jurusan-1').value.trim() : "";
-    const u2 = document.getElementById('univ-2') ? document.getElementById('univ-2').value.toUpperCase().trim() : "";
-    const j2 = document.getElementById('jurusan-2') ? document.getElementById('jurusan-2').value.trim() : "";
-
+    const u1 = document.getElementById('univ-1').value.toUpperCase().trim();
+    const j1 = document.getElementById('jurusan-1').value.trim();
+    const u2 = document.getElementById('univ-2').value.toUpperCase().trim();
+    const j2 = document.getElementById('jurusan-2').value.trim();
+    
     // ======================================================
-    // ✅ BAGIAN PENGECEKAN & PESAN ERROR TANPA ALERT (KODE ANDA)
+    // ✅ BAGIAN PENGECEKAN & PESAN ERROR TANPA ALERT
     // ======================================================
+    
+    // Cari elemen pesan error (kita buat dinamis)
     let errorBox = document.getElementById('errorNotification');
+    // Jika belum ada, buat kotak pesannya di bawah tombol
     if (!errorBox) {
         errorBox = document.createElement('div');
         errorBox.id = 'errorNotification';
-        errorBox.style.color = '#dc3545';
+        errorBox.style.color = '#dc3545'; // Warna Merah
         errorBox.style.fontWeight = 'bold';
         errorBox.style.textAlign = 'center';
         errorBox.style.padding = '10px';
@@ -925,9 +954,8 @@ function handleLogin(e) {
         errorBox.style.border = '1px solid #dc3545';
         errorBox.style.borderRadius = '5px';
         errorBox.style.backgroundColor = '#f8d7da';
-        
-        const targetContainer = document.querySelector('.form-group:last-child') || e.target;
-        targetContainer.after(errorBox);
+        // Tempelkan di paling bawah form
+        document.querySelector('.form-group:last-child').after(errorBox);
     }
 
     let pesanKesalahan = "";
@@ -944,60 +972,15 @@ function handleLogin(e) {
 
     // Jika ada yang kosong
     if (pesanKesalahan !== "") {
+        // Tampilkan pesan di halaman, TIDAK PAKAI ALERT
         errorBox.innerHTML = pesanKesalahan + "<small style='color:#990000;'>Lengkapi data sebelum lanjut.</small>";
+        // Gulirkan layar ke atas agar terlihat pesannya
         window.scrollTo({top: 0, behavior: 'smooth'});
-        if (submitBtn) submitBtn.disabled = false; // Aktifkan tombol lagi agar bisa diklik ulang
         return; // STOP, tidak lanjut
     } else {
-        if (errorBox) errorBox.remove();
+        // Jika benar semua, hilangkan pesan error
+        errorBox.remove();
     }
-
-    // 🛡️ PENGAMAN 2: Matikan tombol login jika data sudah valid
-    if (submitBtn) submitBtn.disabled = true;
-
-    // 🛑 BUNUH TIMER HANTU LAMA
-    if (window.timerInterval) {
-        clearInterval(window.timerInterval);
-        window.timerInterval = null;
-    }
-
-    // 🔄 RESET TOTAL CACHE BROWSER
-    localStorage.clear(); 
-    localStorage.removeItem('subtest_end_time');
-
-    if (typeof startTime !== 'undefined') {
-        startTime = Date.now();
-    }
-
-    // 📌 Set Posisi Ujian ke Subtes Pertama (PU)
-    currentSubtest = 'pu';
-    currentQIndex = 0;
-    if (typeof examStarted !== 'undefined') examStarted = true;
-    if (typeof setData === 'function') setData('examStarted', 'true');
-
-    if (examData && examData['pu']) {
-        timeLeft = examData['pu'].duration;
-    }
-
-    // Simpan Data Peserta
-    userData = {
-        name: n,
-        id: id,
-        school: sch,
-        birthDate: tgl,
-        univ1: u1,
-        jur1: j1,
-        univ2: u2,
-        jur2: j2
-    };
-
-    // Backup ke localStorage agar tidak terhapus saat refresh
-    localStorage.setItem('user_data_backup', JSON.stringify(userData));
-
-    // Masuk ke antarmuka ujian
-    document.getElementById('loginCard').style.display = 'none';
-    document.getElementById('sopOverlay').style.display = 'flex';
-
     // ======================================================
     // ✅ SELESAI: TIDAK ADA POPUP, AMAN DARI PELANGGARAN
     // ======================================================
@@ -1280,7 +1263,7 @@ function nextSubtest() {
 }
 
 // ==========================================
-// FUNGSI TIMER (ANTI-TIMER HANTU)
+// FUNGSI TIMER BARU (ANTI-TIMER HANTU)
 // ==========================================
 function startTimer(forceReset = false) {
     // 1. Wajib bunuh interval lama yang sedang berjalan di background
@@ -1299,7 +1282,7 @@ function startTimer(forceReset = false) {
     
     // Jika tidak ada endTime (karena login baru) ATAU waktu lama sudah lewat
     if (!endTime || parseInt(endTime) <= Date.now()) {
-        const durationInSeconds = examData[currentSubtest].duration; // Ambil durasi subtes
+        const durationInSeconds = examData[currentSubtest].duration; // Ambil durasi subtes (misal 1800 detik)
         endTime = Date.now() + (durationInSeconds * 1000);
         localStorage.setItem('subtest_end_time', endTime);
     }
@@ -1340,77 +1323,49 @@ function finishExam() {
 }
 
     // ==========================================
-// 4. MODALS (FINISH & CONFIRM) - DIPERBAIKI
-// ==========================================
-function showConfirmationModal(type) {
-    const activeQuestions = examData[currentSubtest].questions;
-    let answered = 0;
-    activeQuestions.forEach(q => { if (q.answer !== null) answered++; });
+    // 4. MODALS (FINISH & CONFIRM)
+    // ==========================================
+    function showConfirmationModal(type) {
+        const activeQuestions = examData[currentSubtest].questions;
+        let answered = 0;
+        activeQuestions.forEach(q => { if (q.answer !== null) answered++; });
 
-    document.getElementById('statAnswered').innerText = answered;
-    document.getElementById('statUnanswered').innerText = activeQuestions.length - answered;
+        document.getElementById('statAnswered').innerText = answered;
+        document.getElementById('statUnanswered').innerText = activeQuestions.length - answered;
 
-    const header = document.getElementById('modalHeader');
-    const msg = document.getElementById('modalMessage');
-    const warn = document.getElementById('timeWarning');
-    const btn = document.getElementById('confirmBtn');
+        const header = document.getElementById('modalHeader');
+        const msg = document.getElementById('modalMessage');
+        const warn = document.getElementById('timeWarning');
+        const btn = document.getElementById('confirmBtn');
 
-    if (type === 'subtest') {
-        header.innerText = "KONFIRMASI PINDAH SUBTES";
-        header.style.background = "#2c7be5"; 
-        msg.innerText = `Anda akan mengakhiri subtes ${examData[currentSubtest].name}.`;
-        warn.innerText = `Jika lanjut, sisa waktu akan hangus!`;
-        btn.innerText = "YAKIN & LANJUT";
-        btn.onclick = () => { processNextSubtest(); }; 
-    } else {
-        header.innerText = "KONFIRMASI AKHIR UJIAN";
-        header.style.background = "#d9534f"; 
-        msg.innerText = "Anda akan mengakhiri seluruh rangkaian ujian.";
-        warn.innerText = "Jawaban tidak dapat diubah setelah ini!";
-        btn.innerText = "SELESAI UJIAN";
-        btn.onclick = () => { processFinalFinish(); };
+        if (type === 'subtest') {
+            header.innerText = "KONFIRMASI PINDAH SUBTES";
+            header.style.background = "#2c7be5"; 
+            msg.innerText = `Anda akan mengakhiri subtes ${examData[currentSubtest].name}.`;
+            warn.innerText = `Jika lanjut, sisa waktu akan hangus!`;
+            btn.innerText = "YAKIN & LANJUT";
+            btn.onclick = () => { processNextSubtest(); }; 
+        } else {
+            header.innerText = "KONFIRMASI AKHIR UJIAN";
+            header.style.background = "#d9534f"; 
+            msg.innerText = "Anda akan mengakhiri seluruh rangkaian ujian.";
+            warn.innerText = "Jawaban tidak dapat diubah setelah ini!";
+            btn.innerText = "SELESAI UJIAN";
+            btn.onclick = () => { processFinalFinish(); };
+        }
+        document.getElementById('finishModal').style.display = 'flex';
     }
-    document.getElementById('finishModal').style.display = 'flex';
-}
 
-function processNextSubtest() {
-    closeFinishModal();
-    nextSubtest();
-}
+    function processNextSubtest() {
+        closeFinishModal();
+        nextSubtest();
+    }
 
 function processFinalFinish() {
     isExamFinished = true;
     
-    // 1. Matikan timer agar tidak berjalan di balik layar
+    // Matikan timer agar tidak berjalan di balik layar
     if (typeof window.timerInterval !== 'undefined') clearInterval(window.timerInterval);
-
-    // 2. Tutup modal konfirmasi
-    if (typeof closeFinishModal === 'function') closeFinishModal();
-
-    // 3. Bersihkan data progress pengerjaan agar tidak bisa kembali
-    localStorage.removeItem('snbt_progress');
-    localStorage.removeItem('subtest_end_time');
-
-    // 4. Sembunyikan antarmuka ujian & tampilkan modal sertifikat
-    const examUI = document.getElementById('examInterface');
-    if (examUI) examUI.style.display = 'none';
-
-    const certModal = document.getElementById('certificateModal');
-    if (certModal) certModal.style.display = 'flex';
-
-    // 5. Generate sertifikat jika fungsi tersedia
-    if (typeof generateCertificate === 'function') generateCertificate();
-}
-
-// 🛑 FUNGSI BARU: Penanganan khusus tombol Selesai (Aman untuk HP & PC)
-function resetToLogin() {
-    if (typeof clearData === 'function') clearData();
-    localStorage.clear();
-    sessionStorage.clear();
-
-    // Redirect bersih tanpa terhalang cache/overlay HP
-    window.location.href = window.location.origin + window.location.pathname;
-}
 
     // ==========================================
 // 1. HITUNG SKOR & JUMLAH BENAR (DIPERBAIKI UTBK STYLE)
@@ -1506,56 +1461,52 @@ for (let key in examData) {
     }).catch(e => console.log("Gagal lapor spreadsheet:", e));
 
     // ==========================================
-// FUNGSI TAMPILKAN SERTIFIKAT (ANTI-KOSONG)
-// ==========================================
-function showCertificate(s) {
-    // 1. Ambil data peserta (Gunakan userData ATAU ambil dari memori tersimpan)
-    let user = window.userData || JSON.parse(localStorage.getItem('user_data_backup') || '{}');
-
-    // 2. Jika parameter skor 's' kosong, coba hitung atau set default 0.00
-    if (!s) s = window.finalScores || {};
-
-    // 3. Susun Tabel Nilai Ujian
-    let htmlScores = `
-        <tr class="group-title"><td colspan="2" style="font-weight:bold; background:#f0f0f0;">Tes Potensi Skolastik (TPS)</td></tr>
-        <tr><td>Penalaran Umum</td><td align="right"><b>${s['pu'] !== undefined ? s['pu'] : '0.00'}</b></td></tr>
-        <tr><td>Pengetahuan & Pemahaman Umum</td><td align="right"><b>${s['ppu'] !== undefined ? s['ppu'] : '0.00'}</b></td></tr>
-        <tr><td>Memahami Bacaan & Menulis</td><td align="right"><b>${s['pbm'] !== undefined ? s['pbm'] : '0.00'}</b></td></tr>
-        <tr><td>Pengetahuan Kuantitatif</td><td align="right"><b>${s['pk'] !== undefined ? s['pk'] : '0.00'}</b></td></tr>
+    // 3. TAMPILKAN SERTIFIKAT (FORMAT LAMA ANDA)
+    // ==========================================
+    let html = `
+        <tr class="group-title"><td colspan="2">Tes Potensi Skolastik (TPS)</td></tr>
+        <tr><td>Penalaran Umum</td><td align="right">${s['pu'] || '0.00'}</td></tr>
+        <tr><td>Pengetahuan & Pemahaman Umum</td><td align="right">${s['ppu'] || '0.00'}</td></tr>
+        <tr><td>Memahami Bacaan & Menulis</td><td align="right">${s['pbm'] || '0.00'}</td></tr>
+        <tr><td>Pengetahuan Kuantitatif</td><td align="right">${s['pk'] || '0.00'}</td></tr>
         
-        <tr class="group-title"><td colspan="2" style="font-weight:bold; background:#f0f0f0;">Tes Literasi Bahasa</td></tr>
-        <tr><td>Literasi Bahasa Indonesia</td><td align="right"><b>${s['bi'] !== undefined ? s['bi'] : '0.00'}</b></td></tr>
-        <tr><td>Literasi Bahasa Inggris</td><td align="right"><b>${s['en'] !== undefined ? s['en'] : '0.00'}</b></td></tr>
+        <tr class="group-title"><td colspan="2">Tes Literasi Bahasa</td></tr>
+        <tr><td>Literasi Bahasa Indonesia</td><td align="right">${s['bi'] || '0.00'}</td></tr>
+        <tr><td>Literasi Bahasa Inggris</td><td align="right">${s['en'] || '0.00'}</td></tr>
         
-        <tr class="group-title"><td colspan="2" style="font-weight:bold; background:#f0f0f0;">Tes Penalaran Matematika</td></tr>
-        <tr><td>Penalaran Matematika</td><td align="right"><b>${s['pm'] !== undefined ? s['pm'] : '0.00'}</b></td></tr>
+        <tr class="group-title"><td colspan="2">Tes Penalaran Matematika</td></tr>
+        <tr><td>Penalaran Matematika</td><td align="right">${s['pm'] || '0.00'}</td></tr>
     `;
 
-    // 4. Masukkan Data ke Elemen HTML
-    if (document.getElementById('cert-name')) document.getElementById('cert-name').innerText = user.name || "-";
-    if (document.getElementById('cert-id')) document.getElementById('cert-id').innerText = user.id || "-";
-    if (document.getElementById('cert-school')) document.getElementById('cert-school').innerText = user.school || "-";
-    
-    // Tanggal
-    const today = new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
-    if (document.getElementById('cert-date')) document.getElementById('cert-date').innerText = today;
+    document.getElementById('cert-name').innerText = userData.name || "-";
+    document.getElementById('cert-id').innerText = userData.id || "-";
+    document.getElementById('cert-school').innerText = userData.school || "-";
+    document.getElementById('cert-date').innerText = new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
+    document.getElementById('cert-score-body').innerHTML = html;
 
-    // TTL
+    // Bagian TTL
+    let rawTgl = userData.birthDate;
     let tglCantik = '-';
-    if (user.birthDate) {
-        tglCantik = new Date(user.birthDate).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
+    if (rawTgl) {
+        tglCantik = new Date(rawTgl).toLocaleDateString('id-ID', { 
+            day: 'numeric', month: 'long', year: 'numeric' 
+        });
     }
-    if (document.getElementById('cert-ttl')) document.getElementById('cert-ttl').innerText = tglCantik;
+    document.getElementById('cert-ttl').innerText = tglCantik;
 
-    // Masukkan Tabel Nilai
-    if (document.getElementById('cert-score-body')) {
-        document.getElementById('cert-score-body').innerHTML = htmlScores;
-    }
-
-    // 5. Tampilkan Modal Sertifikat
+    // Sembunyikan ujian, tampilkan modal sertifikat
     document.getElementById('examInterface').style.display = 'none';
     document.getElementById('certificateModal').style.display = 'flex';
+    
+    // Hapus data progres agar tidak resume ujian yang sudah selesai
+    localStorage.removeItem('snbt_progress');
+    localStorage.removeItem('subtest_end_time');
+    localStorage.removeItem('examStarted');
 }
+
+    function closeFinishModal() {
+        document.getElementById('finishModal').style.display = 'none';
+    }
 
     // ==========================================
     // 5. SECURITY LOGIC (UPDATED WITH MODAL)
@@ -1920,15 +1871,14 @@ function backToLogin() {
             <div class="cert-right">
                 <table class="cert-score-table">
                     <tbody id="cert-score-body">
-                    </tbody>
+                        </tbody>
                 </table>
             </div>
         </div>
 
-        <!-- TOMBOL DIPERBAIKI: Menggunakan resetToLogin() dan z-index tinggi agar responsif di HP -->
-        <div class="cert-buttons" style="position: relative; z-index: 9999;">
+        <div class="cert-buttons">
             <button class="btn-print" onclick="window.print()">Cetak Sertifikat</button>
-            <button class="btn-close" onclick="resetToLogin()">Selesai</button>
+            <button class="btn-close" onclick="location.reload()">Selesai</button>
         </div>
     </div>
 </div>
