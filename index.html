@@ -890,39 +890,13 @@ function restoreSession(data) {
 function handleLogin(e) {
     e.preventDefault();
 
-    // 🛡️ PENGAMAN 1: Cek apakah data soal PU benar-benar sudah siap di-load
+    // 🛡️ PENGAMAN 1: Cek apakah data soal PU benar-benar sudah siap
     if (!examData || !examData['pu'] || !examData['pu'].questions || examData['pu'].questions.length === 0) {
         alert("Data soal belum selesai dimuat. Harap tunggu 2 detik dan coba lagi!");
-        return; // Hentikan proses jika soal belum siap
+        return;
     }
 
-    // 🛡️ PENGAMAN 2: Matikan tombol login agar tidak bisa di-double click
     const submitBtn = e.target.querySelector('button[type="submit"]');
-    if (submitBtn) submitBtn.disabled = true;
-
-    // 🛑 BUNUH TIMER HANTU LAMA (Hentikan interval di memori browser)
-    if (window.timerInterval) {
-        clearInterval(window.timerInterval);
-        window.timerInterval = null;
-    }
-
-    // 🔄 RESET TOTAL CACHE BROWSER
-    localStorage.clear(); 
-    localStorage.removeItem('subtest_end_time'); // Hapus patokan waktu selesai lama
-
-    if (typeof startTime !== 'undefined') {
-        startTime = Date.now(); // Reset jam mulai baru
-    }
-
-    // 📌 FIX BUG: Paksa posisi kembali ke Penalaran Umum ('pu') & soal nomor 1
-    currentSubtest = 'pu';
-    currentQIndex = 0;
-    if (typeof examStarted !== 'undefined') examStarted = true;
-    if (typeof setData === 'function') setData('examStarted', 'true');
-
-    if (examData && examData['pu']) {
-        timeLeft = examData['pu'].duration; // Reset durasi penuh (misal 30 menit)
-    }
 
     // Ambil semua nilai dari formulir
     const n = document.getElementById('fullname').value.toUpperCase();
@@ -931,41 +905,19 @@ function handleLogin(e) {
     const tgl = document.getElementById('dob').value; 
 
     // --- AMBIL DATA KAMPUS PILIHAN ---
-    const u1 = document.getElementById('univ-1').value.toUpperCase().trim();
-    const j1 = document.getElementById('jurusan-1').value.trim();
-    const u2 = document.getElementById('univ-2').value.toUpperCase().trim();
-    const j2 = document.getElementById('jurusan-2').value.trim();
+    const u1 = document.getElementById('univ-1') ? document.getElementById('univ-1').value.toUpperCase().trim() : "";
+    const j1 = document.getElementById('jurusan-1') ? document.getElementById('jurusan-1').value.trim() : "";
+    const u2 = document.getElementById('univ-2') ? document.getElementById('univ-2').value.toUpperCase().trim() : "";
+    const j2 = document.getElementById('jurusan-2') ? document.getElementById('jurusan-2').value.trim() : "";
 
-    // --- SIMPAN DATA PESERTA ---
-    userData = {
-        name: n,
-        id: id,
-        school: sch,
-        birthDate: tgl,
-        univ1: u1,
-        jur1: j1,
-        univ2: u2,
-        jur2: j2
-    };
-
-    // 🛑 TAMBAHAN 1 BARIS INI: Simpan backup data ke localStorage agar tidak hilang saat refresh
-    localStorage.setItem('user_data_backup', JSON.stringify(userData));
-
-    // Masuk ke antarmuka ujian
-    document.getElementById('loginCard').style.display = 'none';
-    document.getElementById('sopOverlay').style.display = 'flex';
-}
     // ======================================================
-    // ✅ BAGIAN PENGECEKAN & PESAN ERROR TANPA ALERT
+    // ✅ BAGIAN PENGECEKAN & PESAN ERROR TANPA ALERT (KODE ANDA)
     // ======================================================
-    
-    // Cari elemen pesan error (kita buat dinamis)
     let errorBox = document.getElementById('errorNotification');
-    // Jika belum ada, buat kotak pesannya di bawah tombol
     if (!errorBox) {
         errorBox = document.createElement('div');
         errorBox.id = 'errorNotification';
-        errorBox.style.color = '#dc3545'; // Warna Merah
+        errorBox.style.color = '#dc3545';
         errorBox.style.fontWeight = 'bold';
         errorBox.style.textAlign = 'center';
         errorBox.style.padding = '10px';
@@ -973,8 +925,9 @@ function handleLogin(e) {
         errorBox.style.border = '1px solid #dc3545';
         errorBox.style.borderRadius = '5px';
         errorBox.style.backgroundColor = '#f8d7da';
-        // Tempelkan di paling bawah form
-        document.querySelector('.form-group:last-child').after(errorBox);
+        
+        const targetContainer = document.querySelector('.form-group:last-child') || e.target;
+        targetContainer.after(errorBox);
     }
 
     let pesanKesalahan = "";
@@ -991,15 +944,60 @@ function handleLogin(e) {
 
     // Jika ada yang kosong
     if (pesanKesalahan !== "") {
-        // Tampilkan pesan di halaman, TIDAK PAKAI ALERT
         errorBox.innerHTML = pesanKesalahan + "<small style='color:#990000;'>Lengkapi data sebelum lanjut.</small>";
-        // Gulirkan layar ke atas agar terlihat pesannya
         window.scrollTo({top: 0, behavior: 'smooth'});
+        if (submitBtn) submitBtn.disabled = false; // Aktifkan tombol lagi agar bisa diklik ulang
         return; // STOP, tidak lanjut
     } else {
-        // Jika benar semua, hilangkan pesan error
-        errorBox.remove();
+        if (errorBox) errorBox.remove();
     }
+
+    // 🛡️ PENGAMAN 2: Matikan tombol login jika data sudah valid
+    if (submitBtn) submitBtn.disabled = true;
+
+    // 🛑 BUNUH TIMER HANTU LAMA
+    if (window.timerInterval) {
+        clearInterval(window.timerInterval);
+        window.timerInterval = null;
+    }
+
+    // 🔄 RESET TOTAL CACHE BROWSER
+    localStorage.clear(); 
+    localStorage.removeItem('subtest_end_time');
+
+    if (typeof startTime !== 'undefined') {
+        startTime = Date.now();
+    }
+
+    // 📌 Set Posisi Ujian ke Subtes Pertama (PU)
+    currentSubtest = 'pu';
+    currentQIndex = 0;
+    if (typeof examStarted !== 'undefined') examStarted = true;
+    if (typeof setData === 'function') setData('examStarted', 'true');
+
+    if (examData && examData['pu']) {
+        timeLeft = examData['pu'].duration;
+    }
+
+    // Simpan Data Peserta
+    userData = {
+        name: n,
+        id: id,
+        school: sch,
+        birthDate: tgl,
+        univ1: u1,
+        jur1: j1,
+        univ2: u2,
+        jur2: j2
+    };
+
+    // Backup ke localStorage agar tidak terhapus saat refresh
+    localStorage.setItem('user_data_backup', JSON.stringify(userData));
+
+    // Masuk ke antarmuka ujian
+    document.getElementById('loginCard').style.display = 'none';
+    document.getElementById('sopOverlay').style.display = 'flex';
+}
     // ======================================================
     // ✅ SELESAI: TIDAK ADA POPUP, AMAN DARI PELANGGARAN
     // ======================================================
