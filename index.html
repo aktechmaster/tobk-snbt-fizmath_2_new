@@ -1489,8 +1489,9 @@ for (let key in examData) {
     }).catch(e => console.log("Gagal lapor spreadsheet:", e));
 
     // ==========================================
-    // 3. TAMPILKAN SERTIFIKAT (FORMAT LAMA ANDA)
-    // ==========================================
+// 3. TAMPILKAN SERTIFIKAT (DIPERBAIKI)
+// ==========================================
+function showCertificate(s = {}) {
     let html = `
         <tr class="group-title"><td colspan="2">Tes Potensi Skolastik (TPS)</td></tr>
         <tr><td>Penalaran Umum</td><td align="right">${s['pu'] || '0.00'}</td></tr>
@@ -1506,11 +1507,11 @@ for (let key in examData) {
         <tr><td>Penalaran Matematika</td><td align="right">${s['pm'] || '0.00'}</td></tr>
     `;
 
-    document.getElementById('cert-name').innerText = userData.name || "-";
-    document.getElementById('cert-id').innerText = userData.id || "-";
-    document.getElementById('cert-school').innerText = userData.school || "-";
-    document.getElementById('cert-date').innerText = new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
-    document.getElementById('cert-score-body').innerHTML = html;
+    if (document.getElementById('cert-name')) document.getElementById('cert-name').innerText = userData.name || "-";
+    if (document.getElementById('cert-id')) document.getElementById('cert-id').innerText = userData.id || "-";
+    if (document.getElementById('cert-school')) document.getElementById('cert-school').innerText = userData.school || "-";
+    if (document.getElementById('cert-date')) document.getElementById('cert-date').innerText = new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
+    if (document.getElementById('cert-score-body')) document.getElementById('cert-score-body').innerHTML = html;
 
     // Bagian TTL
     let rawTgl = userData.birthDate;
@@ -1520,20 +1521,26 @@ for (let key in examData) {
             day: 'numeric', month: 'long', year: 'numeric' 
         });
     }
-    document.getElementById('cert-ttl').innerText = tglCantik;
+    if (document.getElementById('cert-ttl')) document.getElementById('cert-ttl').innerText = tglCantik;
 
     // Sembunyikan ujian, tampilkan modal sertifikat
-    document.getElementById('examInterface').style.display = 'none';
-    document.getElementById('certificateModal').style.display = 'flex';
+    const examUI = document.getElementById('examInterface');
+    if (examUI) examUI.style.display = 'none';
+
+    const certModal = document.getElementById('certificateModal');
+    if (certModal) certModal.style.display = 'flex';
     
     // Hapus data progres agar tidak resume ujian yang sudah selesai
     localStorage.removeItem('snbt_progress');
     localStorage.removeItem('subtest_end_time');
     localStorage.removeItem('examStarted');
+}
 
-    function closeFinishModal() {
-        document.getElementById('finishModal').style.display = 'none';
-    }
+// FUNGSI MANDIRI TERPISAH
+function closeFinishModal() {
+    const finishMdl = document.getElementById('finishModal');
+    if (finishMdl) finishMdl.style.display = 'none';
+}
 
     // ==========================================
     // 5. SECURITY LOGIC (UPDATED WITH MODAL)
